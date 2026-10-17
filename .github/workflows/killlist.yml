@@ -22,7 +22,9 @@ jobs:
           python-version: "3.12"
       - name: Check followers
         env:
-          ANILIST_TOKEN: ${{ secrets.ANILIST_TOKEN }}   # set in Settings > Secrets > Actions
+          ANILIST_TOKEN: ${{ secrets.ANILIST_TOKEN }}       # set in Settings > Secrets > Actions
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}   # optional: Discord notifications
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}             # optional: phone notifications (ntfy app)
         run: python tools/killlist.py
       - name: Save changes
         run: |

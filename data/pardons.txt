@@ -1,0 +1,6 @@
+# Pardons: people you forgive after they were ELIMINATED.
+# Put one AniList username (or user id) per line, without the "#".
+# On the next scan they become PARDONED: off the blacklist, so you (or your
+# follow-back bot) can follow them again without the robot unfollowing them.
+# Example:
+# SomeUsername

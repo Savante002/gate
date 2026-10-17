@@ -10,110 +10,231 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
-  /* Video fills the screen; after the punchline a "target dossier" panel slides over it. */
+  /* Clip plays full screen; after the punchline a scrollable "target dossier" covers it:
+     ticker / header + rank / Most Wanted poster + stats + follower graph / targets / the choice. */
   :root {
     --bg: #050307;
     --panel: #0c0612;
+    --card: #140a1d;
     --line: #3a2448;
+    --grid: #26172f;
     --text: #efe8f5;
     --muted: #9c8aab;
     --red: #eb2832;
     --accent: #b03df9;
     --gold: #f5b83d;
+    --green: #4ee38a;
+    --paper: #e8d6ae;
+    --paper-dark: #cfb47f;
+    --ink: #3a2414;
     --display: "Anton", Impact, "Arial Narrow Bold", sans-serif;
     --mono: "JetBrains Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
     color-scheme: dark;
   }
   html, body { height: 100%; margin: 0; background: var(--bg); color: var(--text); }
-  body { display: grid; place-items: center; overflow: hidden; font-family: var(--mono); }
+  body { display: grid; place-items: center; overflow: hidden; font: 15px/1.5 var(--mono); }
   .stage {
     position: relative;
     width: min(100vw, calc(100vh * 640 / 590));
     width: min(100vw, calc(100dvh * 640 / 590));
     aspect-ratio: 640 / 590;
-    container-type: inline-size;
   }
   video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; background: var(--bg); }
+
+  /* ---------- dossier overlay ---------- */
   .dossier {
-    position: absolute; inset: 4cqw;
-    display: flex; flex-direction: column; gap: 2cqw;
-    padding: 3.4cqw 4cqw;
-    background: var(--panel);
-    border: 0.35cqw solid var(--red);
-    box-shadow: 0 0 6cqw rgba(235, 40, 50, 0.25), inset 0 0 0 0.2cqw rgba(176, 61, 249, 0.25);
-    opacity: 0; transform: scale(0.96); pointer-events: none;
-    transition: opacity 400ms ease, transform 400ms ease;
+    position: fixed; inset: 0; overflow-y: auto; overscroll-behavior: contain;
+    background: #08040c;
+    opacity: 0; visibility: hidden; transition: opacity 450ms ease, visibility 0s linear 450ms;
   }
-  .dossier.open { opacity: 1; transform: none; pointer-events: auto; }
-  .dossier { overflow-y: auto; }
-  .dossier.warning .stats, .dossier.warning .list { display: none; }
-  .dossier.warning .warn { flex: 1; }
-  .head { display: flex; justify-content: space-between; align-items: baseline; gap: 2cqw; flex-wrap: wrap; }
-  h1 {
-    margin: 0; font-family: var(--display); font-weight: 400; letter-spacing: 0.04em;
-    font-size: 7.4cqw; line-height: 1; text-wrap: balance;
+  .dossier.open { opacity: 1; visibility: visible; transition: opacity 450ms ease; }
+  .wrap {
+    max-width: 1040px; margin: 0 auto; display: flex; flex-direction: column; gap: 22px;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: 22px 40px;
   }
+  h1, h2 { margin: 0; font-family: var(--display); font-weight: 400; letter-spacing: 0.04em; line-height: 1; }
+  h1 { font-size: clamp(2.4rem, 7vw, 4.4rem); text-wrap: balance; }
   h1 span { color: var(--red); }
-  .classified { font-size: 2.1cqw; color: var(--red); letter-spacing: 0.25em; text-transform: uppercase; }
-  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.6cqw; }
-  .stat { border: 0.25cqw solid var(--line); padding: 1.6cqw 1cqw; text-align: center; }
-  .stat b { display: block; font-family: var(--display); font-weight: 400; font-size: 6cqw; line-height: 1.05;
-            color: var(--red); font-variant-numeric: tabular-nums; }
-  .stat small { font-size: 2cqw; color: var(--muted); letter-spacing: 0.15em; text-transform: uppercase; }
-  .list { flex: 1; min-height: 0; overflow-y: auto; margin: 0; padding: 0; list-style: none;
-          border-top: 0.25cqw solid var(--line); scrollbar-color: var(--line) transparent; }
-  .list li { display: grid; grid-template-columns: 4.4cqw 1fr auto; align-items: center; gap: 1.6cqw;
-             padding: 0.8cqw 0.4cqw; border-bottom: 0.2cqw dashed var(--line); }
-  .list img, .list .ph { width: 4.4cqw; height: 4.4cqw; border-radius: 0.6cqw; object-fit: cover;
-                         filter: grayscale(1) contrast(1.1); background: var(--line); }
-  .name { font-size: 2.9cqw; font-weight: 700; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
-          text-decoration: line-through; text-decoration-color: var(--red); text-decoration-thickness: 0.4cqw; }
-  .when { font-size: 2cqw; color: var(--muted); text-align: right; white-space: nowrap; }
-  .when em { display: inline; margin-right: 1.2cqw; font-style: normal; color: var(--red); letter-spacing: 0.12em; }
+  h2 { font-size: 1.6rem; }
+  h2 small { font: 400 0.8rem var(--mono); color: var(--muted); letter-spacing: 0.12em; margin-left: 8px; }
+  .classified { margin-top: 8px; font-size: 0.8rem; color: var(--red); letter-spacing: 0.3em; text-transform: uppercase; }
+
+  /* ticker */
+  .ticker {
+    position: sticky; top: 0; z-index: 5; display: flex; align-items: stretch;
+    background: var(--red); color: #fff; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.06em;
+    padding-top: env(safe-area-inset-top, 0px);
+  }
+  .breaking { flex: none; padding: 7px 14px; background: #fff; color: var(--red); letter-spacing: 0.2em;
+              padding-left: max(14px, env(safe-area-inset-left, 0px)); }
+  .track-wrap { flex: 1; min-width: 0; overflow: hidden; display: flex; align-items: center; }
+  .track { display: flex; white-space: nowrap; animation: ticker var(--ticker-time, 40s) linear infinite; }
+  .track span { padding: 0 18px; }
+  .track span.sep { padding: 0; opacity: 0.7; }
+  @keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+  /* header */
+  .head { display: flex; justify-content: space-between; align-items: flex-end; gap: 20px; flex-wrap: wrap; }
+  .score-card { min-width: 250px; display: grid; gap: 6px; text-align: right; }
+  .score-top { display: flex; justify-content: flex-end; align-items: center; gap: 12px; }
+  .score-top small { color: var(--muted); letter-spacing: 0.3em; font-size: 0.75rem; }
+  .score-card b { font-family: var(--display); font-weight: 400; font-size: clamp(2.6rem, 6vw, 3.6rem); line-height: 1;
+                  color: var(--gold); }
+  .score-card.neg b { color: var(--accent); }
+  .rank { font-weight: 700; letter-spacing: 0.12em; }
+  .bar { height: 6px; background: var(--grid); border-radius: 3px; overflow: hidden; }
+  .bar i { display: block; height: 100%; width: 0; background: var(--gold); border-radius: 3px; transition: width 600ms ease; }
+  .score-card.neg .bar i { background: var(--accent); }
+  .next { font-size: 0.75rem; color: var(--muted); }
+
+  /* top section */
+  .top { display: grid; grid-template-columns: minmax(0, 300px) minmax(0, 1fr); gap: 22px; align-items: start; }
+  .side { display: grid; gap: 16px; min-width: 0; }
+  .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+  .stat { background: var(--card); border: 1px solid var(--line); padding: 12px 8px; text-align: center; }
+  .stat b { display: block; font-family: var(--display); font-weight: 400; font-size: 2.4rem; line-height: 1.05; color: var(--red); }
+  .stat small { font-size: 0.68rem; color: var(--muted); letter-spacing: 0.15em; text-transform: uppercase; }
+
+  /* wanted poster */
+  .poster {
+    position: relative; margin: 0; padding: 18px 18px 20px; color: var(--ink); text-align: center;
+    background: radial-gradient(circle at 30% 20%, #f3e5c4 0%, var(--paper) 45%, var(--paper-dark) 100%);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.55), inset 0 0 40px rgba(110, 70, 30, 0.35);
+    transform: rotate(-1.2deg);
+  }
+  .poster .w { font-family: var(--display); font-size: 3.6rem; line-height: 0.95; letter-spacing: 0.08em; }
+  .poster .doa { font-weight: 700; letter-spacing: 0.35em; font-size: 0.75rem; border-block: 2px solid var(--ink);
+                 padding: 3px 0; margin: 6px 0 12px; }
+  .poster .photo { width: 150px; height: 150px; margin: 0 auto; border: 4px solid var(--ink); background: #b89c6a;
+                   display: grid; place-items: center; overflow: hidden; }
+  .poster .photo img { width: 100%; height: 100%; object-fit: cover; filter: sepia(0.85) contrast(1.15) brightness(0.95); }
+  .poster .photo span { font-family: var(--display); font-size: 4.5rem; color: var(--ink); opacity: 0.6; }
+  .poster .pname { font-family: var(--display); font-size: 1.9rem; margin-top: 10px; overflow-wrap: anywhere; line-height: 1.05; }
+  .poster .reward { font-size: 0.7rem; letter-spacing: 0.35em; margin-top: 8px; font-weight: 700; }
+  .poster .amount { font-family: var(--display); font-size: 2.3rem; line-height: 1; }
+  .poster .rep { margin-top: 6px; font-weight: 700; font-size: 0.75rem; letter-spacing: 0.1em; color: #8a1a12; }
+  .poster .stamp {
+    position: absolute; top: 46%; left: 50%; transform: translate(-50%, -50%) rotate(-16deg);
+    font-family: var(--display); font-size: 2.2rem; letter-spacing: 0.1em; padding: 2px 12px;
+    border: 4px solid currentColor; color: rgba(200, 25, 30, 0.88); mix-blend-mode: multiply; white-space: nowrap;
+  }
+  .poster .stamp.wanted { color: rgba(150, 90, 0, 0.85); }
+  .poster .stamp.mercy, .poster .stamp.pardoned { color: rgba(110, 30, 170, 0.85); }
+  .poster .stamp.open { color: rgba(58, 36, 20, 0.6); font-size: 1.6rem; }
+  .poster figcaption { margin-top: 10px; font-size: 0.65rem; letter-spacing: 0.25em; opacity: 0.75; }
+
+  /* chart */
+  .chart-card { background: var(--card); border: 1px solid var(--line); padding: 14px 14px 10px; min-width: 0; }
+  .chart-head { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-bottom: 6px; }
+  .chart-head h2 { font-size: 1.25rem; }
+  .legend { display: flex; align-items: center; gap: 6px; font-size: 0.75rem; color: var(--muted); }
+  .k-line { width: 16px; height: 2px; background: var(--accent); display: inline-block; }
+  .k-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--red); display: inline-block; margin-left: 10px; }
+  .range { margin-left: auto; display: flex; gap: 4px; }
+  .range button { font: 700 0.72rem var(--mono); color: var(--muted); background: transparent; border: 1px solid var(--line);
+                  padding: 4px 9px; cursor: pointer; letter-spacing: 0.08em; }
+  .range button[aria-pressed="true"] { color: var(--text); border-color: var(--accent); background: rgba(176, 61, 249, 0.15); }
+  .chart { position: relative; height: 190px; outline: none; }
+  .chart:focus-visible { box-shadow: 0 0 0 2px var(--accent); }
+  .chart svg { display: block; width: 100%; height: 190px; overflow: visible; }
+  .chart .grid { stroke: var(--grid); stroke-width: 1; }
+  .chart .tick { fill: var(--muted); font: 11px var(--mono); }
+  .chart .area { fill: var(--accent); fill-opacity: 0.1; }
+  .chart .ln { fill: none; stroke: var(--accent); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+  .chart .dot { fill: var(--red); stroke: var(--card); stroke-width: 2; }
+  .chart .cross { stroke: var(--muted); stroke-width: 1; }
+  .chart .focus { fill: var(--accent); stroke: var(--card); stroke-width: 2; }
+  .chart .msg { position: absolute; inset: 0; display: grid; place-items: center; text-align: center; color: var(--muted);
+                font-size: 0.85rem; padding: 0 20px; }
+  .tip { position: absolute; top: 6px; pointer-events: none; background: #1d1027; border: 1px solid var(--line);
+         padding: 6px 9px; font-size: 0.75rem; line-height: 1.45; white-space: nowrap; z-index: 2; }
+  .tip strong { font-size: 0.95rem; color: var(--text); }
+  .tip .d { color: var(--muted); }
+  .tip .k { display: inline-block; width: 12px; height: 2px; background: var(--accent); vertical-align: middle; margin-right: 6px; }
+  .table-view { margin-top: 6px; font-size: 0.75rem; color: var(--muted); }
+  .table-view summary { cursor: pointer; }
+  .table-view table { width: 100%; border-collapse: collapse; margin-top: 6px; font-variant-numeric: tabular-nums; }
+  .table-view th, .table-view td { text-align: left; padding: 3px 6px; border-bottom: 1px solid var(--grid); }
+  .table-view td:nth-child(n+2), .table-view th:nth-child(n+2) { text-align: right; }
+
+  /* targets */
+  .targets { display: grid; gap: 10px; }
+  .list { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
+  .list li { display: grid; grid-template-columns: 40px minmax(0, 1fr) auto; align-items: center; gap: 12px;
+             padding: 9px 4px; border-bottom: 1px solid var(--grid); }
+  .list img, .list .ph { width: 40px; height: 40px; border-radius: 4px; object-fit: cover; background: var(--line);
+                         filter: grayscale(1) contrast(1.1); }
+  .who { min-width: 0; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .name { font-size: 1.05rem; font-weight: 700; color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+          max-width: 100%; text-decoration: line-through; text-decoration-color: var(--red); text-decoration-thickness: 3px; }
+  .chip { font-size: 0.66rem; font-weight: 700; letter-spacing: 0.1em; padding: 1px 6px; border: 1px solid; white-space: nowrap; }
+  .chip.rep { color: var(--red); }
+  .chip.vet { color: var(--gold); }
+  .when { font-size: 0.8rem; color: var(--muted); text-align: right; white-space: nowrap; }
+  .when em { display: block; font-style: normal; font-weight: 700; letter-spacing: 0.1em; color: var(--red); }
+  .bounty { color: var(--gold); font-weight: 700; }
+  .timer { font-variant-numeric: tabular-nums; }
+  .wanted .name { text-decoration: none; color: var(--gold); }
+  .wanted img { filter: sepia(0.6); outline: 2px solid var(--gold); }
+  .wanted .when em { color: var(--gold); }
   .mercy .name { text-decoration: none; color: var(--accent); }
   .mercy img { filter: none; }
   .mercy .when em { color: var(--accent); }
-  .wanted .name { text-decoration: none; color: var(--gold); }
-  .wanted img { filter: sepia(0.6) contrast(1.1); outline: 0.3cqw solid var(--gold); }
-  .wanted .when em { color: var(--gold); display: block; margin: 0 0 0.3cqw; }
-  .wanted .bounty { color: var(--gold); font-weight: 700; }
-  .timer { font-variant-numeric: tabular-nums; }
-  .score { text-align: right; line-height: 1; }
-  .score small { display: block; font-size: 2cqw; color: var(--muted); letter-spacing: 0.25em; }
-  .score b { font-family: var(--display); font-weight: 400; font-size: 6.4cqw; color: var(--gold);
-             font-variant-numeric: tabular-nums; }
-  .score.neg b { color: var(--accent); }
-  .classified { font-size: 2.1cqw; color: var(--red); letter-spacing: 0.25em; text-transform: uppercase; }
-  .empty { padding: 5cqw 1cqw; text-align: center; color: var(--muted); font-size: 2.8cqw; line-height: 1.6; }
-  .verdict { display: flex; align-items: center; gap: 3cqw; border-top: 0.25cqw solid var(--line); padding-top: 2cqw; }
-  .alive { display: flex; align-items: center; gap: 1.4cqw; }
-  .alive b { font-family: var(--display); font-weight: 400; font-size: 7.5cqw; line-height: 1; color: #4ee38a;
-             font-variant-numeric: tabular-nums; }
-  .alive span { font-size: 1.8cqw; color: var(--muted); letter-spacing: 0.18em; line-height: 1.4; }
-  .choice { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 1.2cqw; align-items: flex-end; }
-  .ask { font-size: 2.1cqw; color: var(--text); letter-spacing: 0.08em; }
-  .btns { display: flex; gap: 1.2cqw; flex-wrap: wrap; justify-content: flex-end; }
-  .btn { font: 700 2.2cqw var(--mono); letter-spacing: 0.08em; text-transform: uppercase; text-decoration: none;
-         padding: 1.1cqw 2cqw; border: 0.25cqw solid; background: transparent; cursor: pointer; color: var(--text); }
+  .ghost .name { text-decoration: none; color: var(--muted); font-style: italic; }
+  .ghost .when em { color: var(--muted); }
+  .pardoned .name { text-decoration: none; color: var(--text); }
+  .pardoned .when em { color: var(--muted); }
+  .empty { padding: 28px 8px; text-align: center; color: var(--muted); }
+  .more { justify-self: center; }
+
+  /* verdict + warning */
+  .verdict { display: flex; align-items: center; gap: 24px; flex-wrap: wrap; border-top: 1px solid var(--line); padding-top: 18px; }
+  .alive { display: flex; align-items: center; gap: 12px; }
+  .alive b { font-family: var(--display); font-weight: 400; font-size: 3.6rem; line-height: 1; color: var(--green); }
+  .alive span { font-size: 0.72rem; color: var(--muted); letter-spacing: 0.2em; line-height: 1.5; }
+  .choice { flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 10px; align-items: flex-end; }
+  .ask { letter-spacing: 0.08em; }
+  .btns { display: flex; gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
+  .btn { font: 700 0.85rem var(--mono); letter-spacing: 0.08em; text-transform: uppercase; text-decoration: none;
+         padding: 10px 16px; border: 2px solid; background: transparent; cursor: pointer; color: var(--text); }
   .btn.stay { border-color: var(--accent); }
   .btn.stay:hover, .btn.stay:focus-visible { background: var(--accent); outline: none; }
   .btn.leave { border-color: var(--red); }
-  .btn.ghost { border-color: var(--line); color: var(--muted); }
-  .btn.ghost:hover, .btn.ghost:focus-visible { background: var(--line); color: var(--text); }
-  .warn { border: 0.25cqw solid var(--red); background: rgba(235, 40, 50, 0.08); padding: 1.6cqw 2.4cqw;
-          font-size: 2cqw; line-height: 1.5; }
+  .btn.leave:hover, .btn.leave:focus-visible, .btn.leave[aria-expanded="true"] { background: var(--red); outline: none; }
+  .btn.ghostly { border-color: var(--line); color: var(--muted); }
+  .btn.ghostly:hover, .btn.ghostly:focus-visible { background: var(--line); color: var(--text); outline: none; }
+  .warn { border: 2px solid var(--red); background: rgba(235, 40, 50, 0.08); padding: 16px 20px; line-height: 1.6; }
   .warn b { color: var(--red); letter-spacing: 0.12em; }
-  .warn ol { margin: 0.8cqw 0 0; padding-left: 3cqw; display: grid; gap: 0.4cqw; }
+  .warn ol { margin: 10px 0 0; padding-left: 22px; display: grid; gap: 6px; }
   .warn em { font-style: normal; font-weight: 700; }
-  .warn .final { margin: 1cqw 0 0; text-align: right; color: var(--red); font-weight: 700; letter-spacing: 0.2em;
-                 text-transform: uppercase; }
+  .warn .final { margin: 12px 0 0; text-align: right; color: var(--red); font-weight: 700; letter-spacing: 0.25em; text-transform: uppercase; }
   .warn .w { color: var(--gold); } .warn .r { color: var(--red); } .warn .m { color: var(--accent); }
-  button {
-    font: 700 2.4cqw var(--mono); color: var(--text); background: transparent; letter-spacing: 0.1em;
-    border: 0.25cqw solid var(--red); padding: 1.2cqw 2.4cqw; cursor: pointer; text-transform: uppercase;
+  .foot { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap;
+          font-size: 0.75rem; color: var(--muted); }
+  .icon-btn { font: 700 0.8rem var(--mono); background: transparent; border: 1px solid var(--line); color: var(--text);
+              padding: 3px 8px; cursor: pointer; letter-spacing: 0.08em; }
+  .icon-btn[aria-pressed="true"] { border-color: var(--gold); color: var(--gold); }
+
+  @media (max-width: 760px) {
+    .top { grid-template-columns: minmax(0, 1fr); }
+    .poster { max-width: 320px; width: 100%; justify-self: center; box-sizing: border-box; }
+    .score-card { text-align: left; min-width: 0; width: 100%; }
+    .score-top { justify-content: flex-start; }
+    .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .choice { align-items: stretch; }
+    .btns { justify-content: stretch; }
+    .btns .btn { flex: 1 1 auto; text-align: center; }
+    .list li { grid-template-columns: 36px minmax(0, 1fr); }
+    .list li .when { grid-column: 2; text-align: left; }
+    .list img, .list .ph { width: 36px; height: 36px; }
   }
-  button:hover, button:focus-visible { background: var(--red); outline: none; }
-  @media (prefers-reduced-motion: reduce) { .dossier { transition: none; } }
+  @media (prefers-reduced-motion: reduce) {
+    .dossier, .dossier.open { transition: none; }
+    .track { animation: none; flex-wrap: wrap; white-space: normal; }
+    .bar i { transition: none; }
+  }
 </style>
 </head>
 <body>
@@ -122,52 +243,125 @@
     <source src="hajime.webm" type="video/webm">
     <source src="hajime.mp4" type="video/mp4">
   </video>
+</div>
 
-  <section class="dossier" id="dossier" aria-live="polite">
-    <div class="head">
+<main class="dossier" id="dossier" aria-live="polite">
+  <div class="ticker" role="marquee" aria-label="Latest kill list news">
+    <span class="breaking">BREAKING</span>
+    <div class="track-wrap"><div class="track" id="ticker"></div></div>
+  </div>
+
+  <div class="wrap">
+    <header class="head">
       <div>
         <h1>HAJIME'S <span>KILL LIST</span></h1>
         <div class="classified">Classified · Unfollowers</div>
       </div>
-      <div class="score" id="score-box"><small>SCORE</small><b id="score">0</b></div>
-    </div>
-    <div class="stats">
-      <div class="stat"><b id="c-day">–</b><small>24 hours</small></div>
-      <div class="stat"><b id="c-week">–</b><small>7 days</small></div>
-      <div class="stat"><b id="c-month">–</b><small>30 days</small></div>
-      <div class="stat"><b id="c-year">–</b><small>1 year</small></div>
-    </div>
-    <ul class="list" id="list"><li class="empty">Loading targets…</li></ul>
-    <div class="verdict">
+      <div class="score-card" id="score-box">
+        <div class="score-top">
+          <button type="button" class="icon-btn" id="sound" aria-pressed="false">🔇 SOUND OFF</button>
+          <small>SCORE</small>
+        </div>
+        <b id="score">0</b>
+        <div class="rank" id="rank">🔰 ROOKIE HUNTER</div>
+        <div class="bar" aria-hidden="true"><i id="rank-bar"></i></div>
+        <div class="next" id="rank-next"></div>
+      </div>
+    </header>
+
+    <section class="top">
+      <figure class="poster" id="poster" aria-label="Most wanted">
+        <div class="w">WANTED</div>
+        <div class="doa">DEAD OR ALIVE</div>
+        <div class="photo" id="poster-photo"><span>?</span></div>
+        <div class="pname" id="poster-name">???</div>
+        <div class="reward">REWARD</div>
+        <div class="amount" id="poster-amount">¥ —</div>
+        <div class="rep" id="poster-rep" hidden></div>
+        <div class="stamp open" id="poster-stamp">POSITION OPEN</div>
+        <figcaption>MOST WANTED · BIGGEST BOUNTY EVER</figcaption>
+      </figure>
+
+      <div class="side">
+        <div class="stats" aria-label="Unfollowers">
+          <div class="stat"><b id="c-day">–</b><small>24 hours</small></div>
+          <div class="stat"><b id="c-week">–</b><small>7 days</small></div>
+          <div class="stat"><b id="c-month">–</b><small>30 days</small></div>
+          <div class="stat"><b id="c-year">–</b><small>1 year</small></div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-head">
+            <h2>FOLLOWERS</h2>
+            <div class="legend"><span class="k-line"></span>Followers<span class="k-dot"></span>Elimination</div>
+            <div class="range" role="group" aria-label="Time range">
+              <button type="button" data-range="7" aria-pressed="false">7D</button>
+              <button type="button" data-range="30" aria-pressed="true">30D</button>
+              <button type="button" data-range="0" aria-pressed="false">ALL</button>
+            </div>
+          </div>
+          <div class="chart" id="chart" tabindex="0" role="img" aria-label="Followers over time">
+            <svg id="chart-svg" xmlns="http://www.w3.org/2000/svg"></svg>
+            <div class="tip" id="tip" hidden></div>
+          </div>
+          <details class="table-view">
+            <summary>Show as table</summary>
+            <table><thead><tr><th>Day</th><th>Followers</th><th>Eliminated</th></tr></thead><tbody id="hist-rows"></tbody></table>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="targets">
+      <h2>TARGETS <small id="target-count"></small></h2>
+      <ul class="list" id="list"><li class="empty">Loading targets…</li></ul>
+      <button type="button" class="btn ghostly more" id="more" hidden>Show all</button>
+    </section>
+
+    <section class="verdict">
       <div class="alive"><b id="alive">–</b><span>FOLLOWERS<br>STILL ALIVE</span></div>
       <div class="choice">
         <div class="ask">This is your only warning.</div>
         <div class="btns">
           <a class="btn stay" href="https://anilist.co/user/ThePhantasmAl/" target="_blank" rel="noopener">💜 Stay alive</a>
           <button type="button" class="btn leave" id="leave" aria-expanded="false" aria-controls="warn">🔫 Unfollow…</button>
-          <button type="button" class="btn ghost" id="replay">▶ Replay</button>
         </div>
       </div>
-    </div>
+    </section>
     <div class="warn" id="warn" hidden>
       <b>⚠ READ BEFORE YOU UNFOLLOW. THERE IS NO UNDO.</b>
       <ol>
         <li>Your unfollow is detected within 15 minutes. You are marked <em class="w">🎯 WANTED</em> and your name is published on this list.</li>
-        <li>A countdown starts: from <em class="w">15 minutes</em> to <em class="w">24 hours</em>, depending on how long you followed.</li>
+        <li>A countdown starts: from <em class="w">15 minutes</em> to <em class="w">24 hours</em>, depending on how long you followed. Repeat offenders get their bounty doubled.</li>
         <li>At zero, you are <em class="r">🔫 ELIMINATED</em>. I unfollow you. <em class="r">Permanently.</em> No follow-back, no second chance, even if you follow again later.</li>
         <li>The only exception: follow again before the countdown ends. Your name stays on this list as <em class="m">🙏 BEGGED FOR MERCY</em>.</li>
       </ol>
       <p class="final">Eliminations are final.</p>
     </div>
-  </section>
-</div>
+
+    <footer class="foot">
+      <span id="meta">Scanning…</span>
+      <button type="button" class="btn ghostly" id="replay">▶ Replay</button>
+    </footer>
+  </div>
+</main>
 
 <script>
 (() => {
-  const SHOW_AT = 12.6;   // seconds into the clip: after "(the most brutal punishment on AniList)"
-  const video = document.getElementById("clip");
-  const dossier = document.getElementById("dossier");
+  const SHOW_AT = 12.6;          // seconds into the clip: after "(the most brutal punishment on AniList)"
+  const LIST_LIMIT = 30;
   const $ = id => document.getElementById(id);
+  const video = $("clip"), dossier = $("dossier");
+  const fmt = n => Number(n || 0).toLocaleString("en-US");
+  const el = (tag, cls, text) => {
+    const e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+  };
+  const DAY = 86400000;
+  let DATA = { events: [], history: [] };
+  let range = 30, showAll = false;
 
   function ago(iso) {
     const s = Math.max(0, (Date.now() - new Date(iso)) / 1000);
@@ -176,81 +370,385 @@
     if (s < 86400 * 45) { const d = Math.round(s / 86400); return d + (d === 1 ? " day ago" : " days ago"); }
     return Math.round(s / 86400 / 30) + " months ago";
   }
-
-  const fmt = n => Number(n || 0).toLocaleString("en-US");
-  function left(iso) {
+  function left(iso, short) {
     const s = Math.max(0, Math.round((new Date(iso) - Date.now()) / 1000));
-    if (s === 0) return "execution pending…";
+    if (s === 0) return short ? "execution pending" : "execution pending…";
     const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60), sec = s % 60;
+    if (short) return "execution in " + (h ? h + "h " : "") + m + "m";
     return "execution in " + (h ? h + "h " : "") + String(m).padStart(h ? 2 : 1, "0") + "m " + String(sec).padStart(2, "0") + "s";
   }
   const STATES = {
-    wanted: "🎯 WANTED",
-    eliminated: "🔫 ELIMINATED",
-    mercy: "🙏 BEGGED FOR MERCY",
+    wanted: "🎯 WANTED", eliminated: "🔫 ELIMINATED", mercy: "🙏 BEGGED FOR MERCY",
+    ghost: "👻 GHOST", pardoned: "🕊️ PARDONED",
   };
-  const status = e => e.status || (e.spared ? "mercy" : "eliminated");   // older entries had no status
+  const status = e => e.status || (e.spared ? "mercy" : "eliminated");     // older entries had no status
+  const isKill = e => ["wanted", "eliminated", "pardoned"].includes(status(e));
 
-  function render(data) {
-    const events = (data.events || []).slice().reverse();          // newest first
-    const score = data.score || 0;
+  /* ---------- score + rank ---------- */
+  const RANKS = [
+    { min: -Infinity, title: "🤡 PUSHOVER" },
+    { min: -4999, title: "🕊️ TOO NICE" },
+    { min: 0, title: "🔰 ROOKIE HUNTER" },
+    { min: 3000, title: "🎯 BOUNTY HUNTER" },
+    { min: 10000, title: "🔫 EXECUTIONER" },
+    { min: 30000, title: "👑 DEMON LORD" },
+  ];
+  function renderScore(score) {
     $("score").textContent = (score > 0 ? "+" : "") + fmt(score);
     $("score-box").classList.toggle("neg", score < 0);
-    const kills = events.filter(e => status(e) !== "mercy");
-    const within = days => kills.filter(e => Date.now() - new Date(e.at) <= days * 86400000).length;
+    let i = 0;
+    while (i + 1 < RANKS.length && score >= RANKS[i + 1].min) i++;
+    $("rank").textContent = RANKS[i].title;
+    const next = RANKS[i + 1];
+    if (!next) {
+      $("rank-bar").style.width = "100%";
+      $("rank-next").textContent = "Max rank reached. Fear him.";
+      return;
+    }
+    const from = Number.isFinite(RANKS[i].min) ? RANKS[i].min : Math.min(score, next.min - 5000);
+    const pct = Math.max(4, Math.min(100, ((score - from) / (next.min - from)) * 100));
+    $("rank-bar").style.width = pct + "%";
+    $("rank-next").textContent = `Next: ${next.title.replace(/^\S+\s/, "")} at ${fmt(next.min)}`;
+  }
+
+  /* ---------- ticker ---------- */
+  function renderTicker(events) {
+    const items = [];
+    for (const e of events.slice(0, 10)) {
+      const st = status(e), rep = (e.offense || 1) > 1 ? ` · repeat offender ×${e.offense}` : "";
+      if (st === "wanted") items.push(`🎯 ${e.name} is on the run · ¥ ${fmt(e.bounty)} on their head · ${left(e.deadline, true)}${rep}`);
+      else if (st === "eliminated") items.push(`🔫 ${e.name} eliminated ${ago(e.eliminated_at || e.at)}${rep}`);
+      else if (st === "mercy") items.push(`🙏 ${e.name} begged for mercy ${ago(e.mercy_at || e.at)}`);
+      else if (st === "ghost") items.push(`👻 ${e.name} vanished (account deleted)`);
+      else if (st === "pardoned") items.push(`🕊️ ${e.name} was pardoned`);
+    }
+    if (!items.length) items.push("No unfollowers yet", "Everyone is behaving");
+    if (DATA.followers != null) items.push(`${fmt(DATA.followers)} followers still alive`);
+    items.push("Hajime is watching");
+    const track = $("ticker");
+    track.textContent = "";
+    for (let round = 0; round < 2; round++) {                // duplicated for a seamless loop
+      for (const t of items) {
+        track.append(el("span", null, t), el("span", "sep", "◆"));
+      }
+    }
+    track.style.setProperty("--ticker-time", Math.max(25, items.join(" ").length * 0.22) + "s");
+  }
+
+  /* ---------- most wanted poster ---------- */
+  function renderPoster(events) {
+    const withBounty = events.filter(e => e.bounty != null && status(e) !== "ghost");
+    let top = null;
+    for (const e of withBounty) if (!top || e.bounty > top.bounty) top = e;      // events are newest first
+    const photo = $("poster-photo");
+    photo.textContent = "";
+    const stamp = $("poster-stamp");
+    if (!top) {
+      photo.append(el("span", null, "?"));
+      $("poster-name").textContent = "???";
+      $("poster-amount").textContent = "¥ —";
+      $("poster-rep").hidden = true;
+      stamp.className = "stamp open";
+      stamp.textContent = "POSITION OPEN";
+      return;
+    }
+    if (top.avatar) {
+      const img = el("img");
+      img.src = top.avatar; img.alt = top.name;
+      photo.append(img);
+    } else photo.append(el("span", null, (top.name[0] || "?").toUpperCase()));
+    $("poster-name").textContent = top.name;
+    $("poster-amount").textContent = "¥ " + fmt(top.bounty);
+    const rep = $("poster-rep");
+    rep.hidden = !((top.offense || 1) > 1);
+    rep.textContent = `REPEAT OFFENDER ×${top.offense}`;
+    const st = status(top);
+    const label = { wanted: "AT LARGE", eliminated: "ELIMINATED", mercy: "SPARED", pardoned: "PARDONED" }[st] || "WANTED";
+    stamp.className = "stamp " + st;
+    stamp.textContent = label;
+  }
+
+  /* ---------- stats ---------- */
+  function renderStats(events) {
+    const kills = events.filter(isKill);
+    const within = days => kills.filter(e => Date.now() - new Date(e.at) <= days * DAY).length;
     $("c-day").textContent = within(1);
     $("c-week").textContent = within(7);
     $("c-month").textContent = within(30);
     $("c-year").textContent = within(365);
-
-    const list = $("list");
-    list.textContent = "";
-    if (!events.length) {
-      const li = document.createElement("li");
-      li.className = "empty";
-      li.textContent = "No targets yet. Everyone is still following… for now.";
-      list.append(li);
-    }
-    for (const e of events) {
-      const st = status(e);
-      const li = document.createElement("li");
-      li.className = st;
-      const pic = document.createElement(e.avatar ? "img" : "div");
-      if (e.avatar) { pic.src = e.avatar; pic.alt = ""; pic.loading = "lazy"; } else pic.className = "ph";
-      const name = document.createElement("a");
-      name.className = "name";
-      name.textContent = e.name;
-      name.href = "https://anilist.co/user/" + encodeURIComponent(e.name);
-      name.target = "_blank"; name.rel = "noopener";
-      name.style.color = "inherit";
-      const when = document.createElement("div");
-      when.className = "when";
-      const tag = document.createElement("em");
-      tag.textContent = STATES[st];
-      if (st === "wanted") {
-        const b = document.createElement("span");
-        b.className = "bounty";
-        b.textContent = "¥ " + fmt(e.bounty) + (e.veteran ? " ★" : "") + " · ";
-        const t = document.createElement("span");
-        t.className = "timer";
-        t.dataset.deadline = e.deadline;
-        t.textContent = left(e.deadline);
-        when.append(tag, b, t);
-      } else {
-        const at = st === "mercy" ? (e.mercy_at || e.spared_at) : (e.eliminated_at || e.at);
-        when.append(tag, document.createTextNode(ago(at)));
-      }
-      li.append(pic, name, when);
-      list.append(li);
-    }
-    $("alive").textContent = data.followers != null ? fmt(data.followers) : "?";
   }
 
+  /* ---------- targets list ---------- */
+  function renderList(events) {
+    const list = $("list");
+    list.textContent = "";
+    $("target-count").textContent = events.length ? `${events.length} on file` : "";
+    if (!events.length) {
+      list.append(el("li", "empty", "No targets yet. Everyone is still following… for now."));
+    }
+    const shown = showAll ? events : events.slice(0, LIST_LIMIT);
+    for (const e of shown) {
+      const st = status(e);
+      const li = el("li", st);
+      let pic;
+      if (e.avatar) { pic = el("img"); pic.src = e.avatar; pic.alt = ""; pic.loading = "lazy"; }
+      else pic = el("div", "ph");
+      const who = el("div", "who");
+      const name = el("a", "name", e.name);
+      name.href = "https://anilist.co/user/" + encodeURIComponent(e.name);
+      name.target = "_blank"; name.rel = "noopener";
+      who.append(name);
+      if ((e.offense || 1) > 1 && st !== "ghost") who.append(el("span", "chip rep", `REPEAT OFFENDER ×${e.offense}`));
+      if (st === "wanted" && e.veteran) who.append(el("span", "chip vet", "★ VETERAN"));
+      const when = el("div", "when");
+      when.append(el("em", null, STATES[st] || st.toUpperCase()));
+      if (st === "wanted") {
+        const t = el("span", "timer", left(e.deadline));
+        t.dataset.deadline = e.deadline;
+        when.append(el("span", "bounty", "¥ " + fmt(e.bounty) + " · "), t);
+      } else if (st === "ghost") {
+        when.append(document.createTextNode("account deleted · " + ago(e.ghost_at || e.at)));
+      } else {
+        const at = st === "mercy" ? (e.mercy_at || e.at) : st === "pardoned" ? (e.pardoned_at || e.at) : (e.eliminated_at || e.at);
+        when.append(document.createTextNode(ago(at)));
+      }
+      li.append(pic, who, when);
+      list.append(li);
+    }
+    const more = $("more");
+    more.hidden = showAll || events.length <= LIST_LIMIT;
+    more.textContent = `Show all (${events.length})`;
+  }
+
+  /* ---------- follower graph ---------- */
+  const NS = "http://www.w3.org/2000/svg";
+  const svgEl = (tag, attrs, cls) => {
+    const e = document.createElementNS(NS, tag);
+    for (const k in attrs) e.setAttribute(k, attrs[k]);
+    if (cls) e.setAttribute("class", cls);
+    return e;
+  };
+  const nice = x => { const p = Math.pow(10, Math.floor(Math.log10(x))); const f = x / p; return (f <= 1 ? 1 : f <= 2 ? 2 : f <= 5 ? 5 : 10) * p; };
+  const compact = v => v >= 1000 ? (v / 1000).toFixed(v % 1000 ? 1 : 0) + "K" : String(v);
+  const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const dayLabel = t => { const d = new Date(t); return MONTHS[d.getMonth()] + " " + d.getDate(); };
+  const timeLabel = t => { const d = new Date(t); return String(d.getHours()).padStart(2, "0") + ":" + String(d.getMinutes()).padStart(2, "0"); };
+  let chartState = null;
+
+  function seriesPoints() {
+    let pts = (DATA.history || []).map(([t, n]) => [Date.parse(t), n]).filter(p => Number.isFinite(p[0]));
+    if (DATA.followers != null && DATA.updated) {
+      const u = Date.parse(DATA.updated);
+      if (!pts.length || u > pts[pts.length - 1][0]) pts.push([u, DATA.followers]);
+    }
+    if (range) pts = pts.filter(p => p[0] >= Date.now() - range * DAY);
+    return pts;
+  }
+  function valueAt(pts, t) {
+    if (t <= pts[0][0]) return pts[0][1];
+    for (let i = 1; i < pts.length; i++) {
+      if (t <= pts[i][0]) {
+        const [t0, v0] = pts[i - 1], [t1, v1] = pts[i];
+        return v0 + (v1 - v0) * ((t - t0) / (t1 - t0 || 1));
+      }
+    }
+    return pts[pts.length - 1][1];
+  }
+
+  function renderChart() {
+    const box = $("chart"), svg = $("chart-svg"), tip = $("tip");
+    box.querySelectorAll(".msg").forEach(m => m.remove());
+    svg.textContent = "";
+    tip.hidden = true;
+    const W = Math.max(260, box.clientWidth), H = 190;
+    svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+    const pts = seriesPoints();
+    const elims = (DATA.events || []).filter(e => ["eliminated", "pardoned"].includes(status(e)) && (e.eliminated_at || e.at))
+      .map(e => ({ t: Date.parse(e.eliminated_at || e.at), name: e.name }));
+    renderTable(pts, elims);
+    if (pts.length < 2) {
+      chartState = null;
+      box.append(el("div", "msg", "Collecting data. The graph fills in as the robot scans (every 15 min)."));
+      $("chart").setAttribute("aria-label", "Followers over time: not enough data yet");
+      return;
+    }
+    const m = { l: 44, r: 14, t: 12, b: 26 };
+    const x0 = pts[0][0], x1 = pts[pts.length - 1][0];
+    let lo = Math.min(...pts.map(p => p[1])), hi = Math.max(...pts.map(p => p[1]));
+    const step = nice(Math.max(1, hi - lo) / 3);
+    lo = Math.floor(lo / step) * step; hi = Math.ceil(hi / step) * step;
+    if (hi === lo) hi = lo + step;
+    const X = t => m.l + (t - x0) / (x1 - x0 || 1) * (W - m.l - m.r);
+    const Y = v => m.t + (hi - v) / (hi - lo) * (H - m.t - m.b);
+    for (let v = lo; v <= hi + 1e-9; v += step) {
+      svg.append(svgEl("line", { x1: m.l, x2: W - m.r, y1: Y(v), y2: Y(v) }, "grid"));
+      const t = svgEl("text", { x: m.l - 8, y: Y(v) + 4, "text-anchor": "end" }, "tick");
+      t.textContent = compact(v);
+      svg.append(t);
+    }
+    const spanMs = x1 - x0, fmtX = spanMs < 2 * DAY ? timeLabel : dayLabel;
+    for (let i = 0; i <= 3; i++) {
+      const t = x0 + spanMs * i / 3;
+      const tx = svgEl("text", { x: X(t), y: H - 6, "text-anchor": i === 0 ? "start" : i === 3 ? "end" : "middle" }, "tick");
+      tx.textContent = fmtX(t);
+      svg.append(tx);
+    }
+    const line = pts.map((p, i) => (i ? "L" : "M") + X(p[0]).toFixed(1) + "," + Y(p[1]).toFixed(1)).join("");
+    const base = H - m.b;
+    svg.append(svgEl("path", { d: `M${X(x0).toFixed(1)},${base}` + line.replace(/^M/, "L") + `L${X(x1).toFixed(1)},${base}Z` }, "area"));
+    svg.append(svgEl("path", { d: line }, "ln"));
+    const shownElims = elims.filter(e => e.t >= x0 && e.t <= x1);
+    for (const e of shownElims) svg.append(svgEl("circle", { cx: X(e.t), cy: Y(valueAt(pts, e.t)), r: 4.5 }, "dot"));
+    const cross = svgEl("line", { y1: m.t, y2: base, visibility: "hidden" }, "cross");
+    const focus = svgEl("circle", { r: 5, visibility: "hidden" }, "focus");
+    svg.append(cross, focus);
+    chartState = { pts, X, Y, cross, focus, W, shownElims, idx: pts.length - 1 };
+    const last = pts[pts.length - 1][1], first = pts[0][1];
+    $("chart").setAttribute("aria-label",
+      `Followers over time: ${fmt(first)} to ${fmt(last)}, ${shownElims.length} elimination(s) in this range`);
+  }
+
+  function showPoint(i) {
+    const s = chartState;
+    if (!s) return;
+    i = Math.max(0, Math.min(s.pts.length - 1, i));
+    s.idx = i;
+    const [t, v] = s.pts[i];
+    const x = s.X(t), y = s.Y(v);
+    s.cross.setAttribute("x1", x); s.cross.setAttribute("x2", x); s.cross.setAttribute("visibility", "visible");
+    s.focus.setAttribute("cx", x); s.focus.setAttribute("cy", y); s.focus.setAttribute("visibility", "visible");
+    const prev = i > 0 ? s.pts[i - 1][0] : t - 3600000;
+    const near = s.shownElims.filter(e => e.t > prev && e.t <= t);
+    const tip = $("tip");
+    tip.textContent = "";
+    const d = new Date(t);
+    tip.append(el("div", "d", `${dayLabel(t)} ${d.getFullYear()} · ${timeLabel(t)}`));
+    const row = el("div");
+    row.append(el("span", "k"), el("strong", null, fmt(v)), document.createTextNode(" followers"));
+    tip.append(row);
+    for (const e of near.slice(0, 5)) tip.append(el("div", null, "🔫 " + e.name + " eliminated"));
+    tip.hidden = false;
+    const tw = tip.offsetWidth;
+    tip.style.left = Math.max(0, Math.min(s.W - tw, x + 12 + tw > s.W ? x - tw - 12 : x + 12)) + "px";
+  }
+  function hidePoint() {
+    if (!chartState) return;
+    chartState.cross.setAttribute("visibility", "hidden");
+    chartState.focus.setAttribute("visibility", "hidden");
+    $("tip").hidden = true;
+  }
+  $("chart").addEventListener("pointermove", ev => {
+    const s = chartState;
+    if (!s) return;
+    const r = $("chart").getBoundingClientRect();
+    const px = (ev.clientX - r.left) * (s.W / r.width);
+    let best = 0, bd = Infinity;
+    s.pts.forEach((p, i) => { const d = Math.abs(s.X(p[0]) - px); if (d < bd) { bd = d; best = i; } });
+    showPoint(best);
+  });
+  $("chart").addEventListener("pointerleave", hidePoint);
+  $("chart").addEventListener("focus", () => chartState && showPoint(chartState.idx));
+  $("chart").addEventListener("blur", hidePoint);
+  $("chart").addEventListener("keydown", ev => {
+    if (!chartState) return;
+    if (ev.key === "ArrowLeft") { showPoint(chartState.idx - 1); ev.preventDefault(); }
+    if (ev.key === "ArrowRight") { showPoint(chartState.idx + 1); ev.preventDefault(); }
+  });
+  document.querySelectorAll(".range button").forEach(b => b.addEventListener("click", () => {
+    range = Number(b.dataset.range);
+    document.querySelectorAll(".range button").forEach(o => o.setAttribute("aria-pressed", String(o === b)));
+    renderChart();
+  }));
+  if ("ResizeObserver" in window) {
+    let raf = 0;
+    new ResizeObserver(() => { cancelAnimationFrame(raf); raf = requestAnimationFrame(renderChart); }).observe($("chart"));
+  }
+
+  function renderTable(pts, elims) {
+    const body = $("hist-rows");
+    body.textContent = "";
+    const days = new Map();
+    for (const [t, v] of pts) days.set(new Date(t).toDateString(), { t, v, k: 0 });
+    for (const e of elims) { const d = days.get(new Date(e.t).toDateString()); if (d) d.k++; }
+    const rows = [...days.values()].reverse().slice(0, 60);
+    if (!rows.length) { const tr = el("tr"); tr.append(el("td", null, "No data yet"), el("td"), el("td")); body.append(tr); }
+    for (const r of rows) {
+      const tr = el("tr");
+      tr.append(el("td", null, `${dayLabel(r.t)} ${new Date(r.t).getFullYear()}`), el("td", null, fmt(r.v)), el("td", null, String(r.k)));
+      body.append(tr);
+    }
+  }
+
+  /* ---------- sound: a synthesized gunshot (no file needed) ---------- */
+  let soundOn = false, audio = null;
+  try { soundOn = localStorage.getItem("hajime-sound") === "on"; } catch (e) { /* storage blocked */ }
+  function getAudio() {
+    if (!audio) {
+      const C = window.AudioContext || window.webkitAudioContext;
+      if (!C) return null;
+      audio = new C();
+    }
+    return audio;
+  }
+  function gunshot(c) {
+    const t = c.currentTime, out = c.createGain();
+    out.gain.value = 0.55;
+    out.connect(c.destination);
+    const len = Math.floor(c.sampleRate * 0.7), buf = c.createBuffer(1, len, c.sampleRate), d = buf.getChannelData(0);
+    for (let i = 0; i < len; i++) d[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / len, 5);
+    const noise = c.createBufferSource(); noise.buffer = buf;
+    const lp = c.createBiquadFilter(); lp.type = "lowpass";
+    lp.frequency.setValueAtTime(7000, t); lp.frequency.exponentialRampToValueAtTime(260, t + 0.45);
+    const ng = c.createGain(); ng.gain.setValueAtTime(1, t); ng.gain.exponentialRampToValueAtTime(0.001, t + 0.7);
+    noise.connect(lp).connect(ng).connect(out);
+    const o = c.createOscillator(); o.type = "sine";
+    o.frequency.setValueAtTime(150, t); o.frequency.exponentialRampToValueAtTime(38, t + 0.28);
+    const og = c.createGain(); og.gain.setValueAtTime(1, t); og.gain.exponentialRampToValueAtTime(0.001, t + 0.32);
+    o.connect(og).connect(out);
+    noise.start(t); o.start(t); o.stop(t + 0.35);
+  }
+  function bang() {
+    if (!soundOn) return;
+    const c = getAudio();
+    if (!c) return;
+    if (c.state === "running") gunshot(c);
+    else c.resume().then(() => gunshot(c)).catch(() => {});
+  }
+  function paintSound() {
+    $("sound").setAttribute("aria-pressed", String(soundOn));
+    $("sound").textContent = soundOn ? "🔊 SOUND ON" : "🔇 SOUND OFF";
+  }
+  $("sound").addEventListener("click", () => {
+    soundOn = !soundOn;
+    try { localStorage.setItem("hajime-sound", soundOn ? "on" : "off"); } catch (e) { /* ignore */ }
+    paintSound();
+    bang();
+  });
+  document.addEventListener("pointerdown", () => { if (soundOn && audio && audio.state !== "running") audio.resume().catch(() => {}); }, { passive: true });
+  paintSound();
+
+  /* ---------- render everything ---------- */
+  function render(data) {
+    DATA = data || { events: [] };
+    const events = (DATA.events || []).slice().reverse();          // newest first
+    renderScore(DATA.score || 0);
+    renderTicker(events);
+    renderPoster(events);
+    renderStats(events);
+    renderList(events);
+    renderChart();
+    $("alive").textContent = DATA.followers != null ? fmt(DATA.followers) : "?";
+    $("meta").textContent = DATA.updated
+      ? `Last update ${ago(DATA.updated)} · scans every 15 min` + (DATA.hunting_since ? ` · hunting since ${dayLabel(Date.parse(DATA.hunting_since))}` : "")
+      : "First scan pending";
+  }
+
+  $("more").addEventListener("click", () => { showAll = true; renderList((DATA.events || []).slice().reverse()); });
   $("leave").addEventListener("click", () => {
     const w = $("warn");
     w.hidden = !w.hidden;
     $("leave").setAttribute("aria-expanded", String(!w.hidden));
-    dossier.classList.toggle("warning", !w.hidden);   // the warning takes the place of the counters and list
+    if (!w.hidden) { bang(); w.scrollIntoView({ behavior: "smooth", block: "nearest" }); }
   });
 
   // live countdowns for WANTED targets
@@ -263,12 +761,21 @@
     .catch(() => ({ events: [] }))
     .then(render);
 
-  const open = () => dossier.classList.add("open");
+  let opened = false;
+  const open = () => {
+    if (opened) return;
+    opened = true;
+    dossier.classList.add("open");
+    requestAnimationFrame(renderChart);       // the chart needs its real width once visible
+    bang();
+  };
   video.addEventListener("timeupdate", () => { if (video.currentTime >= SHOW_AT) open(); });
   video.addEventListener("ended", open);
   video.addEventListener("error", open, true);
   $("replay").addEventListener("click", () => {
+    opened = false;
     dossier.classList.remove("open");
+    dossier.scrollTop = 0;
     video.currentTime = 0;
     video.play().catch(() => {});
   });
