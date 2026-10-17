@@ -397,13 +397,13 @@
     { at: 1000, title: "🎯 BOUNTY HUNTER" },
     { at: 5000, title: "🐺 LONE WOLF" },
     { at: 10000, title: "🕳️ ABYSS WALKER" },
-    { at: 20000, title: "☠️ UNFOLLOWABLE" },
+    { at: 20000, title: "💀 GOD OF DEATH" },
   ];
   const STAYED = [                  // negative score: people can't bring themselves to leave
     { at: 1000, title: "💜 HARD TO LEAVE" },
     { at: 5000, title: "🧲 MAGNETIC" },
     { at: 10000, title: "👑 CULT LEADER" },
-    { at: 20000, title: "🌌 TRUE GOD" },
+    { at: 20000, title: "☀️ OMNIPOTENT" },
   ];
   const METER_MAX = 20000;
   function renderScore(score) {
@@ -424,7 +424,7 @@
     } else if (!next) {
       $("rank-next").textContent = score < 0
         ? "Max rank: they don't follow you, they worship you."
-        : "Max rank: nobody can follow you anymore.";
+        : "Max rank: unfollowable. Nobody survives following you.";
     } else {
       $("rank-next").textContent = `Next: ${next.title.replace(/^\S+\s/, "")} at ${sign}${fmt(next.at)}`;
     }
