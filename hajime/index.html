@@ -45,6 +45,9 @@
     transition: opacity 400ms ease, transform 400ms ease;
   }
   .dossier.open { opacity: 1; transform: none; pointer-events: auto; }
+  .dossier { overflow-y: auto; }
+  .dossier.warning .stats, .dossier.warning .list { display: none; }
+  .dossier.warning .warn { flex: 1; }
   .head { display: flex; justify-content: space-between; align-items: baseline; gap: 2cqw; flex-wrap: wrap; }
   h1 {
     margin: 0; font-family: var(--display); font-weight: 400; letter-spacing: 0.04em;
@@ -247,7 +250,7 @@
     const w = $("warn");
     w.hidden = !w.hidden;
     $("leave").setAttribute("aria-expanded", String(!w.hidden));
-    $("list").hidden = !w.hidden ? true : false;      // the warning takes the list's place while open
+    dossier.classList.toggle("warning", !w.hidden);   // the warning takes the place of the counters and list
   });
 
   // live countdowns for WANTED targets
