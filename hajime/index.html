@@ -77,16 +77,21 @@
 
   /* header */
   .head { display: flex; justify-content: space-between; align-items: flex-end; gap: 20px; flex-wrap: wrap; }
-  .score-card { min-width: 250px; display: grid; gap: 6px; text-align: right; }
+  .score-card { width: 330px; max-width: 100%; display: grid; grid-template-columns: minmax(0, 1fr); gap: 6px; text-align: right; }
   .score-top { display: flex; justify-content: flex-end; align-items: center; gap: 12px; }
   .score-top small { color: var(--muted); letter-spacing: 0.3em; font-size: 0.75rem; }
   .score-card b { font-family: var(--display); font-weight: 400; font-size: clamp(2.6rem, 6vw, 3.6rem); line-height: 1;
                   color: var(--gold); }
   .score-card.neg b { color: var(--accent); }
   .rank { font-weight: 700; letter-spacing: 0.12em; }
-  .bar { height: 6px; background: var(--grid); border-radius: 3px; overflow: hidden; }
-  .bar i { display: block; height: 100%; width: 0; background: var(--gold); border-radius: 3px; transition: width 600ms ease; }
-  .score-card.neg .bar i { background: var(--accent); }
+  /* two-sided meter: left = people stayed (mercy), right = people left forever (eliminated) */
+  .meter { position: relative; height: 8px; background: var(--grid); border-radius: 4px; overflow: hidden; }
+  .meter i { position: absolute; top: 0; bottom: 0; left: 50%; width: 0; background: var(--red);
+             border-radius: 0 4px 4px 0; transition: width 600ms ease; }
+  .meter.neg i { left: auto; right: 50%; background: var(--accent); border-radius: 4px 0 0 4px; }
+  .meter .mid { position: absolute; left: 50%; top: 0; bottom: 0; width: 2px; margin-left: -1px; background: var(--muted); }
+  .meter-labels { display: flex; justify-content: space-between; gap: 10px; font-size: 0.66rem; color: var(--muted);
+                  letter-spacing: 0.12em; }
   .next { font-size: 0.75rem; color: var(--muted); }
 
   /* top section */
@@ -233,7 +238,7 @@
   @media (prefers-reduced-motion: reduce) {
     .dossier, .dossier.open { transition: none; }
     .track { animation: none; flex-wrap: wrap; white-space: normal; }
-    .bar i { transition: none; }
+    .meter i { transition: none; }
   }
 </style>
 </head>
@@ -264,7 +269,8 @@
         </div>
         <b id="score">0</b>
         <div class="rank" id="rank">🔰 ROOKIE HUNTER</div>
-        <div class="bar" aria-hidden="true"><i id="rank-bar"></i></div>
+        <div class="meter" id="meter" aria-hidden="true"><i id="meter-fill"></i><span class="mid"></span></div>
+        <div class="meter-labels" aria-hidden="true"><span>💜 THEY STAYED</span><span>THEY LEFT FOREVER ☠️</span></div>
         <div class="next" id="rank-next"></div>
       </div>
     </header>
@@ -385,30 +391,43 @@
   const isKill = e => ["wanted", "eliminated", "pardoned"].includes(status(e));
 
   /* ---------- score + rank ---------- */
-  const RANKS = [
-    { min: -Infinity, title: "🤡 PUSHOVER" },
-    { min: -4999, title: "🕊️ TOO NICE" },
-    { min: 0, title: "🔰 ROOKIE HUNTER" },
-    { min: 3000, title: "🎯 BOUNTY HUNTER" },
-    { min: 10000, title: "🔫 EXECUTIONER" },
-    { min: 30000, title: "👑 DEMON LORD" },
+  // The score reads "backwards": + means people left forever (eliminated),
+  // − means people chose to stay (begged for mercy). Two ladders going out from 0.
+  const LEFT_FOREVER = [            // positive score: you are becoming unfollowable
+    { at: 1000, title: "🎯 BOUNTY HUNTER" },
+    { at: 5000, title: "🐺 LONE WOLF" },
+    { at: 10000, title: "🕳️ ABYSS WALKER" },
+    { at: 20000, title: "☠️ UNFOLLOWABLE" },
   ];
+  const STAYED = [                  // negative score: people can't bring themselves to leave
+    { at: 1000, title: "💜 HARD TO LEAVE" },
+    { at: 5000, title: "🧲 MAGNETIC" },
+    { at: 10000, title: "👑 CULT LEADER" },
+    { at: 20000, title: "💞 UNLEAVABLE" },
+  ];
+  const METER_MAX = 20000;
   function renderScore(score) {
     $("score").textContent = (score > 0 ? "+" : "") + fmt(score);
     $("score-box").classList.toggle("neg", score < 0);
-    let i = 0;
-    while (i + 1 < RANKS.length && score >= RANKS[i + 1].min) i++;
-    $("rank").textContent = RANKS[i].title;
-    const next = RANKS[i + 1];
-    if (!next) {
-      $("rank-bar").style.width = "100%";
-      $("rank-next").textContent = "Max rank reached. Fear him.";
-      return;
+    const ladder = score < 0 ? STAYED : LEFT_FOREVER;
+    const size = Math.abs(score);
+    let current = { at: 0, title: "🔰 ROOKIE HUNTER" }, next = null;
+    for (const r of ladder) { if (size >= r.at) current = r; else { next = r; break; } }
+    if (score === 0) next = null;
+    $("rank").textContent = current.title;
+    const fill = $("meter-fill");
+    fill.style.width = Math.min(50, (size / METER_MAX) * 50) + "%";
+    $("meter").classList.toggle("neg", score < 0);
+    const sign = score < 0 ? "−" : "+";
+    if (score === 0) {
+      $("rank-next").textContent = `+1,000 per elimination · −1,000 per mercy`;
+    } else if (!next) {
+      $("rank-next").textContent = score < 0
+        ? "Max rank: nobody can bring themselves to leave."
+        : "Max rank: nobody can follow you anymore.";
+    } else {
+      $("rank-next").textContent = `Next: ${next.title.replace(/^\S+\s/, "")} at ${sign}${fmt(next.at)}`;
     }
-    const from = Number.isFinite(RANKS[i].min) ? RANKS[i].min : Math.min(score, next.min - 5000);
-    const pct = Math.max(4, Math.min(100, ((score - from) / (next.min - from)) * 100));
-    $("rank-bar").style.width = pct + "%";
-    $("rank-next").textContent = `Next: ${next.title.replace(/^\S+\s/, "")} at ${fmt(next.min)}`;
   }
 
   /* ---------- ticker ---------- */
