@@ -403,7 +403,7 @@
     { at: 1000, title: "💜 HARD TO LEAVE" },
     { at: 5000, title: "🧲 MAGNETIC" },
     { at: 10000, title: "👑 CULT LEADER" },
-    { at: 20000, title: "💞 UNLEAVABLE" },
+    { at: 20000, title: "🌌 TRUE GOD" },
   ];
   const METER_MAX = 20000;
   function renderScore(score) {
@@ -423,7 +423,7 @@
       $("rank-next").textContent = `+1,000 per elimination · −1,000 per mercy`;
     } else if (!next) {
       $("rank-next").textContent = score < 0
-        ? "Max rank: nobody can bring themselves to leave."
+        ? "Max rank: they don't follow you, they worship you."
         : "Max rank: nobody can follow you anymore.";
     } else {
       $("rank-next").textContent = `Next: ${next.title.replace(/^\S+\s/, "")} at ${sign}${fmt(next.at)}`;
