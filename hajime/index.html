@@ -82,8 +82,27 @@
   .score.neg b { color: var(--accent); }
   .classified { font-size: 2.1cqw; color: var(--red); letter-spacing: 0.25em; text-transform: uppercase; }
   .empty { padding: 5cqw 1cqw; text-align: center; color: var(--muted); font-size: 2.8cqw; line-height: 1.6; }
-  .foot { display: flex; justify-content: space-between; align-items: center; gap: 2cqw; flex-wrap: wrap;
-          font-size: 2cqw; color: var(--muted); }
+  .verdict { display: flex; align-items: center; gap: 3cqw; border-top: 0.25cqw solid var(--line); padding-top: 2cqw; }
+  .alive { display: flex; align-items: center; gap: 1.4cqw; }
+  .alive b { font-family: var(--display); font-weight: 400; font-size: 7.5cqw; line-height: 1; color: #4ee38a;
+             font-variant-numeric: tabular-nums; }
+  .alive span { font-size: 1.8cqw; color: var(--muted); letter-spacing: 0.18em; line-height: 1.4; }
+  .choice { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 1.2cqw; align-items: flex-end; }
+  .ask { font-size: 2.1cqw; color: var(--text); letter-spacing: 0.08em; }
+  .btns { display: flex; gap: 1.2cqw; flex-wrap: wrap; justify-content: flex-end; }
+  .btn { font: 700 2.2cqw var(--mono); letter-spacing: 0.08em; text-transform: uppercase; text-decoration: none;
+         padding: 1.1cqw 2cqw; border: 0.25cqw solid; background: transparent; cursor: pointer; color: var(--text); }
+  .btn.stay { border-color: var(--accent); }
+  .btn.stay:hover, .btn.stay:focus-visible { background: var(--accent); outline: none; }
+  .btn.leave { border-color: var(--red); }
+  .btn.ghost { border-color: var(--line); color: var(--muted); }
+  .btn.ghost:hover, .btn.ghost:focus-visible { background: var(--line); color: var(--text); }
+  .warn { border: 0.25cqw solid var(--red); background: rgba(235, 40, 50, 0.08); padding: 1.6cqw 2.4cqw;
+          font-size: 2cqw; line-height: 1.5; }
+  .warn b { color: var(--red); letter-spacing: 0.12em; }
+  .warn ol { margin: 0.8cqw 0 0; padding-left: 3cqw; display: grid; gap: 0.4cqw; }
+  .warn em { font-style: normal; font-weight: 700; }
+  .warn .w { color: var(--gold); } .warn .r { color: var(--red); } .warn .m { color: var(--accent); }
   button {
     font: 700 2.4cqw var(--mono); color: var(--text); background: transparent; letter-spacing: 0.1em;
     border: 0.25cqw solid var(--red); padding: 1.2cqw 2.4cqw; cursor: pointer; text-transform: uppercase;
@@ -114,9 +133,25 @@
       <div class="stat"><b id="c-year">–</b><small>1 year</small></div>
     </div>
     <ul class="list" id="list"><li class="empty">Loading targets…</li></ul>
-    <div class="foot">
-      <span id="meta">Scanning…</span>
-      <button type="button" id="replay">▶ Replay</button>
+    <div class="verdict">
+      <div class="alive"><b id="alive">–</b><span>FOLLOWERS<br>STILL ALIVE</span></div>
+      <div class="choice">
+        <div class="ask">Your move, follower. Choose wisely.</div>
+        <div class="btns">
+          <a class="btn stay" href="https://anilist.co/user/ThePhantasmAl/" target="_blank" rel="noopener">💜 Stay alive</a>
+          <button type="button" class="btn leave" id="leave" aria-expanded="false" aria-controls="warn">🔫 Unfollow…</button>
+          <button type="button" class="btn ghost" id="replay">▶ Replay</button>
+        </div>
+      </div>
+    </div>
+    <div class="warn" id="warn" hidden>
+      <b>⚠ IF YOU UNFOLLOW:</b>
+      <ol>
+        <li>Within 15 min, you become <em class="w">🎯 WANTED</em>: your name goes on this list, with a bounty on your head.</li>
+        <li>A timer starts: <em class="w">15 min</em> if you just followed, up to <em class="w">24 h</em> for the oldest followers.</li>
+        <li>When it hits zero: <em class="r">🔫 ELIMINATED</em>. I unfollow you back, for real, and your name stays crossed out here.</li>
+        <li>Your only way out: follow again before the timer ends and you'll be marked <em class="m">🙏 BEGGED FOR MERCY</em>. Forever.</li>
+      </ol>
     </div>
   </section>
 </div>
@@ -202,10 +237,15 @@
       li.append(pic, name, when);
       list.append(li);
     }
-    $("meta").textContent = data.updated
-      ? `${fmt(data.followers)} followers still alive · +1,000 per kill, −1,000 per mercy`
-      : "First scan pending";
+    $("alive").textContent = data.followers != null ? fmt(data.followers) : "?";
   }
+
+  $("leave").addEventListener("click", () => {
+    const w = $("warn");
+    w.hidden = !w.hidden;
+    $("leave").setAttribute("aria-expanded", String(!w.hidden));
+    $("list").hidden = !w.hidden ? true : false;      // the warning takes the list's place while open
+  });
 
   // live countdowns for WANTED targets
   setInterval(() => {
