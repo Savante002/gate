@@ -19,6 +19,7 @@
     --muted: #9c8aab;
     --red: #eb2832;
     --accent: #b03df9;
+    --gold: #f5b83d;
     --display: "Anton", Impact, "Arial Narrow Bold", sans-serif;
     --mono: "JetBrains Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
     color-scheme: dark;
@@ -66,9 +67,20 @@
           text-decoration: line-through; text-decoration-color: var(--red); text-decoration-thickness: 0.4cqw; }
   .when { font-size: 2cqw; color: var(--muted); text-align: right; white-space: nowrap; }
   .when em { display: inline; margin-right: 1.2cqw; font-style: normal; color: var(--red); letter-spacing: 0.12em; }
-  .spared .name { text-decoration: none; color: var(--accent); }
-  .spared img { filter: none; }
-  .spared .when em { color: var(--accent); }
+  .mercy .name { text-decoration: none; color: var(--accent); }
+  .mercy img { filter: none; }
+  .mercy .when em { color: var(--accent); }
+  .wanted .name { text-decoration: none; color: var(--gold); }
+  .wanted img { filter: sepia(0.6) contrast(1.1); outline: 0.3cqw solid var(--gold); }
+  .wanted .when em { color: var(--gold); display: block; margin: 0 0 0.3cqw; }
+  .wanted .bounty { color: var(--gold); font-weight: 700; }
+  .timer { font-variant-numeric: tabular-nums; }
+  .score { text-align: right; line-height: 1; }
+  .score small { display: block; font-size: 2cqw; color: var(--muted); letter-spacing: 0.25em; }
+  .score b { font-family: var(--display); font-weight: 400; font-size: 6.4cqw; color: var(--gold);
+             font-variant-numeric: tabular-nums; }
+  .score.neg b { color: var(--accent); }
+  .classified { font-size: 2.1cqw; color: var(--red); letter-spacing: 0.25em; text-transform: uppercase; }
   .empty { padding: 5cqw 1cqw; text-align: center; color: var(--muted); font-size: 2.8cqw; line-height: 1.6; }
   .foot { display: flex; justify-content: space-between; align-items: center; gap: 2cqw; flex-wrap: wrap;
           font-size: 2cqw; color: var(--muted); }
@@ -89,8 +101,11 @@
 
   <section class="dossier" id="dossier" aria-live="polite">
     <div class="head">
-      <h1>HAJIME'S <span>KILL LIST</span></h1>
-      <div class="classified">Classified · Unfollowers</div>
+      <div>
+        <h1>HAJIME'S <span>KILL LIST</span></h1>
+        <div class="classified">Classified · Unfollowers</div>
+      </div>
+      <div class="score" id="score-box"><small>SCORE</small><b id="score">0</b></div>
     </div>
     <div class="stats">
       <div class="stat"><b id="c-day">–</b><small>24 hours</small></div>
@@ -121,9 +136,26 @@
     return Math.round(s / 86400 / 30) + " months ago";
   }
 
+  const fmt = n => Number(n || 0).toLocaleString("en-US");
+  function left(iso) {
+    const s = Math.max(0, Math.round((new Date(iso) - Date.now()) / 1000));
+    if (s === 0) return "execution pending…";
+    const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60), sec = s % 60;
+    return "execution in " + (h ? h + "h " : "") + String(m).padStart(h ? 2 : 1, "0") + "m " + String(sec).padStart(2, "0") + "s";
+  }
+  const STATES = {
+    wanted: "🎯 WANTED",
+    eliminated: "🔫 ELIMINATED",
+    mercy: "🙏 BEGGED FOR MERCY",
+  };
+  const status = e => e.status || (e.spared ? "mercy" : "eliminated");   // older entries had no status
+
   function render(data) {
     const events = (data.events || []).slice().reverse();          // newest first
-    const kills = events.filter(e => !e.spared);
+    const score = data.score || 0;
+    $("score").textContent = (score > 0 ? "+" : "") + fmt(score);
+    $("score-box").classList.toggle("neg", score < 0);
+    const kills = events.filter(e => status(e) !== "mercy");
     const within = days => kills.filter(e => Date.now() - new Date(e.at) <= days * 86400000).length;
     $("c-day").textContent = within(1);
     $("c-week").textContent = within(7);
@@ -139,8 +171,9 @@
       list.append(li);
     }
     for (const e of events) {
+      const st = status(e);
       const li = document.createElement("li");
-      if (e.spared) li.className = "spared";
+      li.className = st;
       const pic = document.createElement(e.avatar ? "img" : "div");
       if (e.avatar) { pic.src = e.avatar; pic.alt = ""; pic.loading = "lazy"; } else pic.className = "ph";
       const name = document.createElement("a");
@@ -152,15 +185,32 @@
       const when = document.createElement("div");
       when.className = "when";
       const tag = document.createElement("em");
-      tag.textContent = e.spared ? "SPARED" : "ELIMINATED";
-      when.append(tag, document.createTextNode(ago(e.spared ? e.spared_at : e.at)));
+      tag.textContent = STATES[st];
+      if (st === "wanted") {
+        const b = document.createElement("span");
+        b.className = "bounty";
+        b.textContent = "¥ " + fmt(e.bounty) + (e.veteran ? " ★" : "") + " · ";
+        const t = document.createElement("span");
+        t.className = "timer";
+        t.dataset.deadline = e.deadline;
+        t.textContent = left(e.deadline);
+        when.append(tag, b, t);
+      } else {
+        const at = st === "mercy" ? (e.mercy_at || e.spared_at) : (e.eliminated_at || e.at);
+        when.append(tag, document.createTextNode(ago(at)));
+      }
       li.append(pic, name, when);
       list.append(li);
     }
     $("meta").textContent = data.updated
-      ? `Last scan ${ago(data.updated)} · ${data.followers} followers still alive`
+      ? `${fmt(data.followers)} followers still alive · +1,000 per kill, −1,000 per mercy`
       : "First scan pending";
   }
+
+  // live countdowns for WANTED targets
+  setInterval(() => {
+    document.querySelectorAll(".timer").forEach(t => { t.textContent = left(t.dataset.deadline); });
+  }, 1000);
 
   fetch("kill_list.json?t=" + Date.now(), { cache: "no-store" })
     .then(r => (r.ok ? r.json() : { events: [] }))
