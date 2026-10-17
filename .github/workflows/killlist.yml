@@ -1,0 +1,35 @@
+name: Hajime kill list
+
+on:
+  schedule:
+    - cron: "17 * * * *"      # every hour at :17
+  workflow_dispatch: {}       # "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: killlist
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check followers
+        run: python tools/killlist.py
+      - name: Save changes
+        run: |
+          git config user.name "hajime-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/followers_state.json hajime/kill_list.json
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+          else
+            git commit -m "Kill list update"
+            git push
+          fi
