@@ -265,6 +265,9 @@ def add_history(history, now, count):
 def main():
     now = now_utc()
     iso = now.isoformat()
+    print(f"ANILIST_TOKEN: {'set' if TOKEN else 'MISSING (nobody will really be unfollowed)'}"
+          f" | notifications: {'discord ' if DISCORD_WEBHOOK else ''}{'ntfy' if NTFY_TOPIC else ''}".rstrip()
+          + ("" if (DISCORD_WEBHOOK or NTFY_TOPIC) else "none"))
     try:
         current = fetch_followers()
     except (RuntimeError, NotFound) as e:
