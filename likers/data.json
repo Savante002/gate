@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-18T16:08:37+00:00",
+ "updated": "2026-10-18T16:50:09+00:00",
  "visitors": {
   "total": 1506,
   "today": 0
  },
  "likes": {
   "total": 28062,
-  "today": 2400
+  "today": 2373
  },
  "rules": {
   "like": 10,
@@ -85,8 +85,8 @@
     "id": 6486541,
     "name": "SenzanomeKun",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6486541-1uFnS6GUqsNZ.png",
-    "pts": 3575,
-    "likes": 266,
+    "pts": 3605,
+    "likes": 269,
     "replies": 1,
     "best": 2.5,
     "elim": false,
@@ -3497,8 +3497,8 @@
     "id": 6486541,
     "name": "SenzanomeKun",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6486541-1uFnS6GUqsNZ.png",
-    "pts": 2095,
-    "likes": 125,
+    "pts": 2125,
+    "likes": 128,
     "replies": 1,
     "best": 2.5,
     "elim": false,
@@ -4445,8 +4445,8 @@
     "id": 6486541,
     "name": "SenzanomeKun",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6486541-1uFnS6GUqsNZ.png",
-    "pts": 1970,
-    "likes": 114,
+    "pts": 2000,
+    "likes": 117,
     "replies": 1,
     "best": 2.5,
     "elim": false,
@@ -5258,17 +5258,6 @@
     "rank": 11
    },
    {
-    "id": 5742400,
-    "name": "uniqueanime",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5742400-FQuRbxXy73V3.png",
-    "pts": 540,
-    "likes": 29,
-    "replies": 0,
-    "best": 2.5,
-    "elim": false,
-    "rank": 12
-   },
-   {
     "id": 566251,
     "name": "Fireality",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b566251-HA7xU7Cko8kQ.png",
@@ -5277,7 +5266,7 @@
     "replies": 0,
     "best": 2.0,
     "elim": false,
-    "rank": 13
+    "rank": 12
    },
    {
     "id": 6502478,
@@ -5288,7 +5277,7 @@
     "replies": 0,
     "best": 2.0,
     "elim": false,
-    "rank": 14
+    "rank": 13
    },
    {
     "id": 821603,
@@ -5299,7 +5288,7 @@
     "replies": 0,
     "best": 2.0,
     "elim": false,
-    "rank": 15
+    "rank": 14
    },
    {
     "id": 262396,
@@ -5310,7 +5299,7 @@
     "replies": 0,
     "best": 2.0,
     "elim": false,
-    "rank": 16
+    "rank": 15
    },
    {
     "id": 6379897,
@@ -5321,7 +5310,7 @@
     "replies": 2,
     "best": 2.0,
     "elim": false,
-    "rank": 17
+    "rank": 16
    },
    {
     "id": 5775330,
@@ -5332,7 +5321,7 @@
     "replies": 1,
     "best": 1.5,
     "elim": false,
-    "rank": 18
+    "rank": 17
    },
    {
     "id": 5934008,
@@ -5343,7 +5332,7 @@
     "replies": 0,
     "best": 2.0,
     "elim": false,
-    "rank": 19
+    "rank": 18
    },
    {
     "id": 7560381,
@@ -5354,7 +5343,7 @@
     "replies": 1,
     "best": 1.5,
     "elim": false,
-    "rank": 20
+    "rank": 19
    },
    {
     "id": 765417,
@@ -5365,7 +5354,7 @@
     "replies": 0,
     "best": 2.0,
     "elim": false,
-    "rank": 21
+    "rank": 20
    },
    {
     "id": 5561175,
@@ -5376,7 +5365,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 22
+    "rank": 21
    },
    {
     "id": 8270098,
@@ -5387,18 +5376,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 23
-   },
-   {
-    "id": 422498,
-    "name": "mihhyunn",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b422498-BmFM40eAJFtA.png",
-    "pts": 90,
-    "likes": 4,
-    "replies": 2,
-    "best": 1.0,
-    "elim": false,
-    "rank": 24
+    "rank": 22
    },
    {
     "id": 5607221,
@@ -5409,7 +5387,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 25
+    "rank": 23
    },
    {
     "id": 5147312,
@@ -5420,7 +5398,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 26
+    "rank": 24
    },
    {
     "id": 5383956,
@@ -5431,7 +5409,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 27
+    "rank": 25
    },
    {
     "id": 8294783,
@@ -5442,7 +5420,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 28
+    "rank": 26
    },
    {
     "id": 6832595,
@@ -5453,7 +5431,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 29
+    "rank": 27
    },
    {
     "id": 7362652,
@@ -5464,7 +5442,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 30
+    "rank": 28
    },
    {
     "id": 7569689,
@@ -5475,7 +5453,18 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 31
+    "rank": 29
+   },
+   {
+    "id": 422498,
+    "name": "mihhyunn",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b422498-BmFM40eAJFtA.png",
+    "pts": 55,
+    "likes": 3,
+    "replies": 1,
+    "best": 1.0,
+    "elim": false,
+    "rank": 30
    },
    {
     "id": 8015665,
@@ -5486,7 +5475,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 32
+    "rank": 31
    },
    {
     "id": 7901604,
@@ -5497,7 +5486,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 33
+    "rank": 32
    },
    {
     "id": 6444890,
@@ -5508,7 +5497,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 34
+    "rank": 33
    },
    {
     "id": 5468370,
@@ -5519,12 +5508,23 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 35
+    "rank": 34
    },
    {
     "id": 7691047,
     "name": "lemonveil",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7691047-fH8aAjyJz0Qn.png",
+    "pts": 30,
+    "likes": 3,
+    "replies": 0,
+    "best": 1.0,
+    "elim": false,
+    "rank": 35
+   },
+   {
+    "id": 6486541,
+    "name": "SenzanomeKun",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6486541-1uFnS6GUqsNZ.png",
     "pts": 30,
     "likes": 3,
     "replies": 0,
