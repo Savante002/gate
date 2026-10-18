@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-18T04:52:56+00:00",
+ "updated": "2026-10-18T05:33:13+00:00",
  "visitors": {
   "total": 1506,
   "today": 0
  },
  "likes": {
   "total": 25921,
-  "today": 1356
+  "today": 1504
  },
  "rules": {
   "like": 10,
@@ -41,12 +41,23 @@
     "id": 5544747,
     "name": "nodo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5544747-JJYUYkeGfHrc.png",
-    "pts": 5220,
-    "likes": 247,
+    "pts": 6560,
+    "likes": 306,
     "replies": 0,
     "best": 3.0,
     "elim": false,
     "rank": 1
+   },
+   {
+    "id": 6670236,
+    "name": "NyuST",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6670236-0FORIAj1NoWa.png",
+    "pts": 4130,
+    "likes": 174,
+    "replies": 1,
+    "best": 3.0,
+    "elim": false,
+    "rank": 2
    },
    {
     "id": 5775330,
@@ -57,7 +68,7 @@
     "replies": 2,
     "best": 3.0,
     "elim": false,
-    "rank": 2
+    "rank": 3
    },
    {
     "id": 5561175,
@@ -68,7 +79,7 @@
     "replies": 0,
     "best": 3.0,
     "elim": false,
-    "rank": 3
+    "rank": 4
    },
    {
     "id": 6486541,
@@ -79,18 +90,18 @@
     "replies": 1,
     "best": 2.5,
     "elim": false,
-    "rank": 4
+    "rank": 5
    },
    {
     "id": 6832595,
     "name": "Bartosz112233",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6832595-lw7msccXsNBP.jpg",
-    "pts": 3315,
-    "likes": 247,
+    "pts": 3335,
+    "likes": 249,
     "replies": 0,
     "best": 3.0,
     "elim": false,
-    "rank": 5
+    "rank": 6
    },
    {
     "id": 7362652,
@@ -101,7 +112,7 @@
     "replies": 0,
     "best": 3.0,
     "elim": false,
-    "rank": 6
+    "rank": 7
    },
    {
     "id": 5896343,
@@ -112,7 +123,7 @@
     "replies": 1,
     "best": 3.0,
     "elim": false,
-    "rank": 7
+    "rank": 8
    },
    {
     "id": 5383956,
@@ -123,7 +134,7 @@
     "replies": 0,
     "best": 3.0,
     "elim": false,
-    "rank": 8
+    "rank": 9
    },
    {
     "id": 5742400,
@@ -134,7 +145,7 @@
     "replies": 1,
     "best": 2.5,
     "elim": false,
-    "rank": 9
+    "rank": 10
    },
    {
     "id": 7123926,
@@ -145,7 +156,7 @@
     "replies": 0,
     "best": 2.0,
     "elim": false,
-    "rank": 10
+    "rank": 11
    },
    {
     "id": 7017562,
@@ -156,7 +167,7 @@
     "replies": 0,
     "best": 2.5,
     "elim": false,
-    "rank": 11
+    "rank": 12
    },
    {
     "id": 5752386,
@@ -167,7 +178,7 @@
     "replies": 0,
     "best": 2.5,
     "elim": false,
-    "rank": 12
+    "rank": 13
    },
    {
     "id": 5600528,
@@ -176,17 +187,6 @@
     "pts": 2045,
     "likes": 155,
     "replies": 0,
-    "best": 2.5,
-    "elim": false,
-    "rank": 13
-   },
-   {
-    "id": 6670236,
-    "name": "NyuST",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6670236-0FORIAj1NoWa.png",
-    "pts": 1750,
-    "likes": 93,
-    "replies": 1,
     "best": 2.5,
     "elim": false,
     "rank": 14
@@ -547,8 +547,8 @@
     "id": 798574,
     "name": "AirBonsai",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b798574-KVypLhloz5u2.jpg",
-    "pts": 320,
-    "likes": 32,
+    "pts": 330,
+    "likes": 33,
     "replies": 0,
     "best": 1.0,
     "elim": false,
@@ -698,6 +698,17 @@
     "rank": 60
    },
    {
+    "id": 5147312,
+    "name": "lime",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5147312-I5hsIOv54hEX.png",
+    "pts": 215,
+    "likes": 21,
+    "replies": 0,
+    "best": 1.5,
+    "elim": false,
+    "rank": 61
+   },
+   {
     "id": 5463886,
     "name": "cesarrex",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5463886-FwJOQKqAJ9hw.png",
@@ -706,7 +717,7 @@
     "replies": 1,
     "best": 1.5,
     "elim": false,
-    "rank": 61
+    "rank": 62
    },
    {
     "id": 7560381,
@@ -717,7 +728,7 @@
     "replies": 1,
     "best": 1.5,
     "elim": false,
-    "rank": 62
+    "rank": 63
    },
    {
     "id": 6274808,
@@ -727,17 +738,6 @@
     "likes": 21,
     "replies": 0,
     "best": 1.0,
-    "elim": false,
-    "rank": 63
-   },
-   {
-    "id": 5147312,
-    "name": "lime",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5147312-I5hsIOv54hEX.png",
-    "pts": 205,
-    "likes": 20,
-    "replies": 0,
-    "best": 1.5,
     "elim": false,
     "rank": 64
    },
@@ -1204,6 +1204,17 @@
     "rank": 106
    },
    {
+    "id": 7569689,
+    "name": "limenavi",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7569689-tioLPkc6RcSp.png",
+    "pts": 55,
+    "likes": 5,
+    "replies": 0,
+    "best": 1.5,
+    "elim": false,
+    "rank": 107
+   },
+   {
     "id": 7105770,
     "name": "azer",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7105770-eCtFA5ejB21Z.png",
@@ -1212,7 +1223,7 @@
     "replies": 1,
     "best": 1.0,
     "elim": false,
-    "rank": 107
+    "rank": 108
    },
    {
     "id": 645534,
@@ -1223,7 +1234,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 108
+    "rank": 109
    },
    {
     "id": 503446,
@@ -1234,7 +1245,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 109
+    "rank": 110
    },
    {
     "id": 6882366,
@@ -1245,7 +1256,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 110
+    "rank": 111
    },
    {
     "id": 5961733,
@@ -1256,7 +1267,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 111
+    "rank": 112
    },
    {
     "id": 5882830,
@@ -1267,7 +1278,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 112
+    "rank": 113
    },
    {
     "id": 6472483,
@@ -1278,7 +1289,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 113
+    "rank": 114
    },
    {
     "id": 5973376,
@@ -1289,7 +1300,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 114
+    "rank": 115
    },
    {
     "id": 6994248,
@@ -1300,7 +1311,7 @@
     "replies": 1,
     "best": 1.0,
     "elim": false,
-    "rank": 115
+    "rank": 116
    },
    {
     "id": 6359896,
@@ -1311,7 +1322,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 116
+    "rank": 117
    },
    {
     "id": 7020233,
@@ -1322,7 +1333,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 117
+    "rank": 118
    },
    {
     "id": 6186980,
@@ -1333,7 +1344,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 118
+    "rank": 119
    },
    {
     "id": 6136981,
@@ -1344,7 +1355,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 119
+    "rank": 120
    },
    {
     "id": 5946935,
@@ -1355,7 +1366,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 120
+    "rank": 121
    },
    {
     "id": 7901604,
@@ -1366,7 +1377,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 121
+    "rank": 122
    },
    {
     "id": 7256411,
@@ -1377,7 +1388,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 122
+    "rank": 123
    },
    {
     "id": 913915,
@@ -1388,7 +1399,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 123
+    "rank": 124
    },
    {
     "id": 584611,
@@ -1399,7 +1410,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 124
+    "rank": 125
    },
    {
     "id": 5629733,
@@ -1410,7 +1421,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 125
+    "rank": 126
    },
    {
     "id": 637799,
@@ -1421,7 +1432,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 126
+    "rank": 127
    },
    {
     "id": 5382867,
@@ -1432,7 +1443,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 127
+    "rank": 128
    },
    {
     "id": 860776,
@@ -1443,7 +1454,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 128
+    "rank": 129
    },
    {
     "id": 7264076,
@@ -1454,7 +1465,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 129
+    "rank": 130
    },
    {
     "id": 5694541,
@@ -1465,7 +1476,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 130
+    "rank": 131
    },
    {
     "id": 983355,
@@ -1476,7 +1487,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 131
+    "rank": 132
    },
    {
     "id": 5594231,
@@ -1487,7 +1498,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 132
+    "rank": 133
    },
    {
     "id": 5491326,
@@ -1498,7 +1509,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 133
+    "rank": 134
    },
    {
     "id": 6505008,
@@ -1509,7 +1520,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 134
+    "rank": 135
    },
    {
     "id": 6980708,
@@ -1520,7 +1531,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 135
+    "rank": 136
    },
    {
     "id": 5106607,
@@ -1531,7 +1542,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 136
+    "rank": 137
    },
    {
     "id": 8121476,
@@ -1542,7 +1553,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 137
+    "rank": 138
    },
    {
     "id": 7736331,
@@ -1553,7 +1564,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 138
+    "rank": 139
    },
    {
     "id": 7043524,
@@ -1564,7 +1575,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 139
+    "rank": 140
    },
    {
     "id": 7347805,
@@ -1575,7 +1586,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 140
+    "rank": 141
    },
    {
     "id": 6523092,
@@ -1586,7 +1597,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 141
+    "rank": 142
    },
    {
     "id": 6538674,
@@ -1597,7 +1608,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 142
+    "rank": 143
    },
    {
     "id": 7689025,
@@ -1608,7 +1619,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 143
+    "rank": 144
    },
    {
     "id": 548005,
@@ -1619,7 +1630,7 @@
     "replies": 1,
     "best": 1.0,
     "elim": false,
-    "rank": 144
+    "rank": 145
    },
    {
     "id": 5452771,
@@ -1630,7 +1641,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 145
+    "rank": 146
    },
    {
     "id": 248723,
@@ -1641,7 +1652,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 146
+    "rank": 147
    },
    {
     "id": 413187,
@@ -1652,7 +1663,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 147
+    "rank": 148
    },
    {
     "id": 7763140,
@@ -1663,7 +1674,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 148
+    "rank": 149
    },
    {
     "id": 6502077,
@@ -1674,7 +1685,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 149
+    "rank": 150
    },
    {
     "id": 6728587,
@@ -1685,7 +1696,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 150
+    "rank": 151
    },
    {
     "id": 6447609,
@@ -1696,7 +1707,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 151
+    "rank": 152
    },
    {
     "id": 5283921,
@@ -1707,7 +1718,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 152
+    "rank": 153
    },
    {
     "id": 82904,
@@ -1718,7 +1729,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 153
+    "rank": 154
    },
    {
     "id": 7279259,
@@ -1729,7 +1740,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 154
+    "rank": 155
    },
    {
     "id": 6644084,
@@ -1740,7 +1751,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 155
+    "rank": 156
    },
    {
     "id": 5649688,
@@ -1751,7 +1762,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 156
+    "rank": 157
    },
    {
     "id": 658557,
@@ -1762,7 +1773,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 157
+    "rank": 158
    },
    {
     "id": 703497,
@@ -1773,7 +1784,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 158
+    "rank": 159
    },
    {
     "id": 7439250,
@@ -1784,7 +1795,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 159
+    "rank": 160
    },
    {
     "id": 336693,
@@ -1795,7 +1806,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 160
+    "rank": 161
    },
    {
     "id": 5769280,
@@ -1806,7 +1817,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 161
+    "rank": 162
    },
    {
     "id": 6287636,
@@ -1817,7 +1828,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 162
+    "rank": 163
    },
    {
     "id": 6159089,
@@ -1828,7 +1839,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 163
+    "rank": 164
    },
    {
     "id": 263505,
@@ -1839,7 +1850,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 164
+    "rank": 165
    },
    {
     "id": 5519347,
@@ -1850,7 +1861,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 165
+    "rank": 166
    },
    {
     "id": 5968349,
@@ -1861,7 +1872,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 166
+    "rank": 167
    },
    {
     "id": 6532509,
@@ -1872,7 +1883,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 167
+    "rank": 168
    },
    {
     "id": 6344144,
@@ -1883,7 +1894,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 168
+    "rank": 169
    },
    {
     "id": 6272966,
@@ -1894,7 +1905,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 169
+    "rank": 170
    },
    {
     "id": 7718408,
@@ -1905,7 +1916,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 170
+    "rank": 171
    },
    {
     "id": 875695,
@@ -1916,7 +1927,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 171
+    "rank": 172
    },
    {
     "id": 130018,
@@ -1927,7 +1938,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 172
+    "rank": 173
    },
    {
     "id": 5696482,
@@ -1938,7 +1949,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 173
+    "rank": 174
    },
    {
     "id": 597455,
@@ -1949,7 +1960,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 174
+    "rank": 175
    },
    {
     "id": 7191404,
@@ -1960,7 +1971,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 175
+    "rank": 176
    },
    {
     "id": 6909673,
@@ -1971,7 +1982,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 176
+    "rank": 177
    },
    {
     "id": 403321,
@@ -1982,7 +1993,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 177
+    "rank": 178
    },
    {
     "id": 346379,
@@ -1993,7 +2004,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 178
+    "rank": 179
    },
    {
     "id": 582744,
@@ -2004,7 +2015,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 179
+    "rank": 180
    },
    {
     "id": 6379897,
@@ -2015,7 +2026,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 180
+    "rank": 181
    },
    {
     "id": 7773497,
@@ -2026,7 +2037,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 181
+    "rank": 182
    },
    {
     "id": 6854858,
@@ -2037,7 +2048,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 182
+    "rank": 183
    },
    {
     "id": 6046696,
@@ -2048,7 +2059,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 183
+    "rank": 184
    },
    {
     "id": 6191722,
@@ -2059,7 +2070,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 184
+    "rank": 185
    },
    {
     "id": 7191044,
@@ -2070,7 +2081,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 185
+    "rank": 186
    },
    {
     "id": 6153017,
@@ -2081,7 +2092,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 186
+    "rank": 187
    },
    {
     "id": 6707491,
@@ -2092,7 +2103,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 187
+    "rank": 188
    },
    {
     "id": 6288249,
@@ -2103,7 +2114,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 188
+    "rank": 189
    },
    {
     "id": 126357,
@@ -2114,7 +2125,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 189
+    "rank": 190
    },
    {
     "id": 7427364,
@@ -2125,7 +2136,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 190
+    "rank": 191
    },
    {
     "id": 6292560,
@@ -2136,7 +2147,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 191
+    "rank": 192
    },
    {
     "id": 7532626,
@@ -2147,7 +2158,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 192
+    "rank": 193
    },
    {
     "id": 5884725,
@@ -2158,7 +2169,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 193
+    "rank": 194
    },
    {
     "id": 7514290,
@@ -2169,7 +2180,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 194
+    "rank": 195
    },
    {
     "id": 782466,
@@ -2180,7 +2191,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 195
+    "rank": 196
    },
    {
     "id": 285365,
@@ -2191,7 +2202,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 196
+    "rank": 197
    },
    {
     "id": 7602552,
@@ -2202,7 +2213,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 197
+    "rank": 198
    },
    {
     "id": 6595262,
@@ -2213,7 +2224,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 198
+    "rank": 199
    },
    {
     "id": 5834758,
@@ -2224,7 +2235,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 199
+    "rank": 200
    },
    {
     "id": 5409132,
@@ -2235,7 +2246,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 200
+    "rank": 201
    },
    {
     "id": 7025602,
@@ -2246,7 +2257,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 201
+    "rank": 202
    },
    {
     "id": 6509661,
@@ -2257,7 +2268,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 202
+    "rank": 203
    },
    {
     "id": 7221747,
@@ -2268,7 +2279,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 203
+    "rank": 204
    },
    {
     "id": 5137884,
@@ -2279,7 +2290,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 204
+    "rank": 205
    },
    {
     "id": 834191,
@@ -2290,7 +2301,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 205
+    "rank": 206
    },
    {
     "id": 7654702,
@@ -2301,7 +2312,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 206
+    "rank": 207
    },
    {
     "id": 559934,
@@ -2312,7 +2323,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 207
+    "rank": 208
    },
    {
     "id": 7770313,
@@ -2323,7 +2334,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 208
+    "rank": 209
    },
    {
     "id": 6841901,
@@ -2334,7 +2345,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 209
+    "rank": 210
    },
    {
     "id": 6098800,
@@ -2345,7 +2356,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 210
+    "rank": 211
    },
    {
     "id": 7412663,
@@ -2356,7 +2367,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 211
+    "rank": 212
    },
    {
     "id": 6759768,
@@ -2367,7 +2378,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 212
+    "rank": 213
    },
    {
     "id": 5591949,
@@ -2378,7 +2389,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 213
+    "rank": 214
    },
    {
     "id": 6881629,
@@ -2389,7 +2400,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 214
+    "rank": 215
    },
    {
     "id": 5832321,
@@ -2400,7 +2411,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 215
+    "rank": 216
    },
    {
     "id": 6595918,
@@ -2411,7 +2422,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 216
+    "rank": 217
    },
    {
     "id": 7020365,
@@ -2422,7 +2433,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 217
+    "rank": 218
    },
    {
     "id": 6025033,
@@ -2433,7 +2444,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 218
+    "rank": 219
    },
    {
     "id": 6230379,
@@ -2444,7 +2455,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 219
+    "rank": 220
    },
    {
     "id": 7187330,
@@ -2455,7 +2466,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 220
+    "rank": 221
    },
    {
     "id": 5314335,
@@ -2466,7 +2477,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 221
+    "rank": 222
    },
    {
     "id": 5450159,
@@ -2477,7 +2488,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 222
+    "rank": 223
    },
    {
     "id": 6903462,
@@ -2488,7 +2499,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 223
+    "rank": 224
    },
    {
     "id": 5805154,
@@ -2499,7 +2510,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 224
+    "rank": 225
    },
    {
     "id": 885909,
@@ -2510,7 +2521,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 225
+    "rank": 226
    },
    {
     "id": 7399450,
@@ -2521,7 +2532,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 226
+    "rank": 227
    },
    {
     "id": 6159318,
@@ -2532,7 +2543,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 227
+    "rank": 228
    },
    {
     "id": 813411,
@@ -2543,7 +2554,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 228
+    "rank": 229
    },
    {
     "id": 619968,
@@ -2554,7 +2565,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 229
+    "rank": 230
    },
    {
     "id": 6255430,
@@ -2565,23 +2576,12 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 230
+    "rank": 231
    },
    {
     "id": 7691047,
     "name": "lemonveil",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7691047-fH8aAjyJz0Qn.png",
-    "pts": 10,
-    "likes": 1,
-    "replies": 0,
-    "best": 1.0,
-    "elim": false,
-    "rank": 231
-   },
-   {
-    "id": 7569689,
-    "name": "limenavi",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7569689-tioLPkc6RcSp.png",
     "pts": 10,
     "likes": 1,
     "replies": 0,
@@ -3277,12 +3277,23 @@
     "id": 5544747,
     "name": "nodo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5544747-JJYUYkeGfHrc.png",
-    "pts": 5170,
-    "likes": 242,
+    "pts": 6510,
+    "likes": 301,
     "replies": 0,
     "best": 3.0,
     "elim": false,
     "rank": 1
+   },
+   {
+    "id": 6670236,
+    "name": "NyuST",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6670236-0FORIAj1NoWa.png",
+    "pts": 4120,
+    "likes": 173,
+    "replies": 1,
+    "best": 3.0,
+    "elim": false,
+    "rank": 2
    },
    {
     "id": 7362652,
@@ -3293,7 +3304,7 @@
     "replies": 0,
     "best": 3.0,
     "elim": false,
-    "rank": 2
+    "rank": 3
    },
    {
     "id": 5896343,
@@ -3304,7 +3315,7 @@
     "replies": 1,
     "best": 3.0,
     "elim": false,
-    "rank": 3
+    "rank": 4
    },
    {
     "id": 5775330,
@@ -3315,7 +3326,7 @@
     "replies": 1,
     "best": 3.0,
     "elim": false,
-    "rank": 4
+    "rank": 5
    },
    {
     "id": 6486541,
@@ -3326,7 +3337,7 @@
     "replies": 1,
     "best": 2.5,
     "elim": false,
-    "rank": 5
+    "rank": 6
    },
    {
     "id": 5742400,
@@ -3334,17 +3345,6 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5742400-FQuRbxXy73V3.png",
     "pts": 1760,
     "likes": 95,
-    "replies": 1,
-    "best": 2.5,
-    "elim": false,
-    "rank": 6
-   },
-   {
-    "id": 6670236,
-    "name": "NyuST",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6670236-0FORIAj1NoWa.png",
-    "pts": 1740,
-    "likes": 92,
     "replies": 1,
     "best": 2.5,
     "elim": false,
@@ -3365,8 +3365,8 @@
     "id": 6832595,
     "name": "Bartosz112233",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6832595-lw7msccXsNBP.jpg",
-    "pts": 1635,
-    "likes": 94,
+    "pts": 1655,
+    "likes": 96,
     "replies": 0,
     "best": 3.0,
     "elim": false,
@@ -3637,20 +3637,20 @@
     "rank": 33
    },
    {
-    "id": 5607221,
-    "name": "Andonis",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5607221-mfbiwOkjYnuh.png",
-    "pts": 85,
-    "likes": 8,
+    "id": 5147312,
+    "name": "lime",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5147312-I5hsIOv54hEX.png",
+    "pts": 95,
+    "likes": 9,
     "replies": 0,
     "best": 1.5,
     "elim": false,
     "rank": 34
    },
    {
-    "id": 5147312,
-    "name": "lime",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5147312-I5hsIOv54hEX.png",
+    "id": 5607221,
+    "name": "Andonis",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5607221-mfbiwOkjYnuh.png",
     "pts": 85,
     "likes": 8,
     "replies": 0,
@@ -3673,12 +3673,23 @@
     "id": 798574,
     "name": "AirBonsai",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b798574-KVypLhloz5u2.jpg",
-    "pts": 50,
-    "likes": 5,
+    "pts": 60,
+    "likes": 6,
     "replies": 0,
     "best": 1.0,
     "elim": false,
     "rank": 37
+   },
+   {
+    "id": 7569689,
+    "name": "limenavi",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7569689-tioLPkc6RcSp.png",
+    "pts": 55,
+    "likes": 5,
+    "replies": 0,
+    "best": 1.5,
+    "elim": false,
+    "rank": 38
    },
    {
     "id": 5672736,
@@ -3689,7 +3700,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 38
+    "rank": 39
    },
    {
     "id": 7123926,
@@ -3700,7 +3711,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 39
+    "rank": 40
    },
    {
     "id": 7901604,
@@ -3711,7 +3722,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 40
+    "rank": 41
    },
    {
     "id": 8129266,
@@ -3722,7 +3733,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 41
+    "rank": 42
    },
    {
     "id": 7043524,
@@ -3733,7 +3744,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 42
+    "rank": 43
    },
    {
     "id": 5269546,
@@ -3744,7 +3755,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 43
+    "rank": 44
    },
    {
     "id": 797877,
@@ -3755,7 +3766,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 44
+    "rank": 45
    },
    {
     "id": 6882133,
@@ -3766,7 +3777,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 45
+    "rank": 46
    },
    {
     "id": 162791,
@@ -3777,7 +3788,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 46
+    "rank": 47
    },
    {
     "id": 6159089,
@@ -3788,7 +3799,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 47
+    "rank": 48
    },
    {
     "id": 7191404,
@@ -3799,7 +3810,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 48
+    "rank": 49
    },
    {
     "id": 6341716,
@@ -3810,7 +3821,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 49
+    "rank": 50
    },
    {
     "id": 5150510,
@@ -3821,7 +3832,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 50
+    "rank": 51
    },
    {
     "id": 6130367,
@@ -3832,7 +3843,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 51
+    "rank": 52
    },
    {
     "id": 6958975,
@@ -3843,7 +3854,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 52
+    "rank": 53
    },
    {
     "id": 6230379,
@@ -3854,7 +3865,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 53
+    "rank": 54
    },
    {
     "id": 5450159,
@@ -3865,7 +3876,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 54
+    "rank": 55
    },
    {
     "id": 6505008,
@@ -3876,7 +3887,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 55
+    "rank": 56
    },
    {
     "id": 82904,
@@ -3887,23 +3898,12 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 56
+    "rank": 57
    },
    {
     "id": 7691047,
     "name": "lemonveil",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7691047-fH8aAjyJz0Qn.png",
-    "pts": 10,
-    "likes": 1,
-    "replies": 0,
-    "best": 1.0,
-    "elim": false,
-    "rank": 57
-   },
-   {
-    "id": 7569689,
-    "name": "limenavi",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7569689-tioLPkc6RcSp.png",
     "pts": 10,
     "likes": 1,
     "replies": 0,
@@ -4016,12 +4016,23 @@
     "id": 5544747,
     "name": "nodo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5544747-JJYUYkeGfHrc.png",
-    "pts": 5170,
-    "likes": 242,
+    "pts": 6510,
+    "likes": 301,
     "replies": 0,
     "best": 3.0,
     "elim": false,
     "rank": 1
+   },
+   {
+    "id": 6670236,
+    "name": "NyuST",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6670236-0FORIAj1NoWa.png",
+    "pts": 4120,
+    "likes": 173,
+    "replies": 1,
+    "best": 3.0,
+    "elim": false,
+    "rank": 2
    },
    {
     "id": 7362652,
@@ -4032,7 +4043,7 @@
     "replies": 0,
     "best": 3.0,
     "elim": false,
-    "rank": 2
+    "rank": 3
    },
    {
     "id": 5896343,
@@ -4043,7 +4054,7 @@
     "replies": 1,
     "best": 3.0,
     "elim": false,
-    "rank": 3
+    "rank": 4
    },
    {
     "id": 5775330,
@@ -4054,7 +4065,7 @@
     "replies": 1,
     "best": 3.0,
     "elim": false,
-    "rank": 4
+    "rank": 5
    },
    {
     "id": 6486541,
@@ -4062,17 +4073,6 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6486541-1uFnS6GUqsNZ.png",
     "pts": 1970,
     "likes": 114,
-    "replies": 1,
-    "best": 2.5,
-    "elim": false,
-    "rank": 5
-   },
-   {
-    "id": 6670236,
-    "name": "NyuST",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6670236-0FORIAj1NoWa.png",
-    "pts": 1740,
-    "likes": 92,
     "replies": 1,
     "best": 2.5,
     "elim": false,
@@ -4115,8 +4115,8 @@
     "id": 6832595,
     "name": "Bartosz112233",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6832595-lw7msccXsNBP.jpg",
-    "pts": 1360,
-    "likes": 67,
+    "pts": 1380,
+    "likes": 69,
     "replies": 0,
     "best": 3.0,
     "elim": false,
@@ -4354,6 +4354,17 @@
     "rank": 31
    },
    {
+    "id": 5147312,
+    "name": "lime",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5147312-I5hsIOv54hEX.png",
+    "pts": 75,
+    "likes": 7,
+    "replies": 0,
+    "best": 1.5,
+    "elim": false,
+    "rank": 32
+   },
+   {
     "id": 821603,
     "name": "chopperdontcry",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b821603-J2f0YconeV7o.png",
@@ -4362,7 +4373,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 32
+    "rank": 33
    },
    {
     "id": 772485,
@@ -4373,18 +4384,29 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 33
+    "rank": 34
    },
    {
-    "id": 5147312,
-    "name": "lime",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5147312-I5hsIOv54hEX.png",
-    "pts": 65,
-    "likes": 6,
+    "id": 7569689,
+    "name": "limenavi",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7569689-tioLPkc6RcSp.png",
+    "pts": 55,
+    "likes": 5,
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 34
+    "rank": 35
+   },
+   {
+    "id": 798574,
+    "name": "AirBonsai",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b798574-KVypLhloz5u2.jpg",
+    "pts": 50,
+    "likes": 5,
+    "replies": 0,
+    "best": 1.0,
+    "elim": false,
+    "rank": 36
    },
    {
     "id": 5672736,
@@ -4395,18 +4417,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 35
-   },
-   {
-    "id": 798574,
-    "name": "AirBonsai",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b798574-KVypLhloz5u2.jpg",
-    "pts": 40,
-    "likes": 4,
-    "replies": 0,
-    "best": 1.0,
-    "elim": false,
-    "rank": 36
+    "rank": 37
    },
    {
     "id": 7901604,
@@ -4417,7 +4428,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 37
+    "rank": 38
    },
    {
     "id": 8129266,
@@ -4428,7 +4439,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 38
+    "rank": 39
    },
    {
     "id": 7043524,
@@ -4439,7 +4450,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 39
+    "rank": 40
    },
    {
     "id": 6341716,
@@ -4450,7 +4461,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 40
+    "rank": 41
    },
    {
     "id": 6958975,
@@ -4461,7 +4472,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 41
+    "rank": 42
    },
    {
     "id": 82904,
@@ -4472,23 +4483,12 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 42
+    "rank": 43
    },
    {
     "id": 7691047,
     "name": "lemonveil",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7691047-fH8aAjyJz0Qn.png",
-    "pts": 10,
-    "likes": 1,
-    "replies": 0,
-    "best": 1.0,
-    "elim": false,
-    "rank": 43
-   },
-   {
-    "id": 7569689,
-    "name": "limenavi",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7569689-tioLPkc6RcSp.png",
     "pts": 10,
     "likes": 1,
     "replies": 0,
@@ -4546,12 +4546,23 @@
     "id": 5544747,
     "name": "nodo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5544747-JJYUYkeGfHrc.png",
-    "pts": 5170,
-    "likes": 242,
+    "pts": 6510,
+    "likes": 301,
     "replies": 0,
     "best": 3.0,
     "elim": false,
     "rank": 1
+   },
+   {
+    "id": 6670236,
+    "name": "NyuST",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6670236-0FORIAj1NoWa.png",
+    "pts": 4120,
+    "likes": 173,
+    "replies": 1,
+    "best": 3.0,
+    "elim": false,
+    "rank": 2
    },
    {
     "id": 7362652,
@@ -4562,7 +4573,7 @@
     "replies": 0,
     "best": 3.0,
     "elim": false,
-    "rank": 2
+    "rank": 3
    },
    {
     "id": 5896343,
@@ -4573,7 +4584,7 @@
     "replies": 1,
     "best": 3.0,
     "elim": false,
-    "rank": 3
+    "rank": 4
    },
    {
     "id": 5775330,
@@ -4583,17 +4594,6 @@
     "likes": 96,
     "replies": 1,
     "best": 3.0,
-    "elim": false,
-    "rank": 4
-   },
-   {
-    "id": 6670236,
-    "name": "NyuST",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6670236-0FORIAj1NoWa.png",
-    "pts": 1740,
-    "likes": 92,
-    "replies": 1,
-    "best": 2.5,
     "elim": false,
     "rank": 5
    },
@@ -4832,12 +4832,23 @@
     "id": 5147312,
     "name": "lime",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5147312-I5hsIOv54hEX.png",
+    "pts": 65,
+    "likes": 6,
+    "replies": 0,
+    "best": 1.5,
+    "elim": false,
+    "rank": 27
+   },
+   {
+    "id": 7569689,
+    "name": "limenavi",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7569689-tioLPkc6RcSp.png",
     "pts": 55,
     "likes": 5,
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 27
+    "rank": 28
    },
    {
     "id": 7901604,
@@ -4848,7 +4859,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 28
+    "rank": 29
    },
    {
     "id": 5383956,
@@ -4859,7 +4870,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 29
+    "rank": 30
    },
    {
     "id": 7043524,
@@ -4870,7 +4881,29 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 30
+    "rank": 31
+   },
+   {
+    "id": 6832595,
+    "name": "Bartosz112233",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6832595-lw7msccXsNBP.jpg",
+    "pts": 20,
+    "likes": 2,
+    "replies": 0,
+    "best": 1.0,
+    "elim": false,
+    "rank": 32
+   },
+   {
+    "id": 798574,
+    "name": "AirBonsai",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b798574-KVypLhloz5u2.jpg",
+    "pts": 10,
+    "likes": 1,
+    "replies": 0,
+    "best": 1.0,
+    "elim": false,
+    "rank": 33
    },
    {
     "id": 6958975,
@@ -4881,7 +4914,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 31
+    "rank": 34
    },
    {
     "id": 772485,
@@ -4892,7 +4925,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 32
+    "rank": 35
    },
    {
     "id": 82904,
@@ -4903,7 +4936,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 33
+    "rank": 36
    },
    {
     "id": 7691047,
@@ -4914,18 +4947,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 34
-   },
-   {
-    "id": 7569689,
-    "name": "limenavi",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7569689-tioLPkc6RcSp.png",
-    "pts": 10,
-    "likes": 1,
-    "replies": 0,
-    "best": 1.0,
-    "elim": false,
-    "rank": 35
+    "rank": 37
    },
    {
     "id": 5561175,
@@ -4936,7 +4958,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 36
+    "rank": 38
    },
    {
     "id": 162791,
@@ -4947,7 +4969,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 37
+    "rank": 39
    },
    {
     "id": 5839915,
@@ -4958,7 +4980,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 38
+    "rank": 40
    }
   ]
  }
