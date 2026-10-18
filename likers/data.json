@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-18T11:30:43+00:00",
+ "updated": "2026-10-18T11:58:44+00:00",
  "visitors": {
   "total": 1506,
   "today": 0
  },
  "likes": {
   "total": 27155,
-  "today": 2314
+  "today": 2383
  },
  "rules": {
   "like": 10,
@@ -41,8 +41,8 @@
     "id": 5544747,
     "name": "nodo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5544747-JJYUYkeGfHrc.png",
-    "pts": 25980,
-    "likes": 1029,
+    "pts": 27870,
+    "likes": 1092,
     "replies": 1,
     "best": 3.0,
     "elim": false,
@@ -940,6 +940,17 @@
     "rank": 82
    },
    {
+    "id": 8270098,
+    "name": "Hasitha2006",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8270098-KDqXIpRrqYDZ.png",
+    "pts": 110,
+    "likes": 10,
+    "replies": 0,
+    "best": 1.5,
+    "elim": false,
+    "rank": 83
+   },
+   {
     "id": 5533991,
     "name": "pandulce",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5533991-ZLKCsTL5Ylwx.png",
@@ -948,7 +959,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 83
+    "rank": 84
    },
    {
     "id": 771927,
@@ -959,7 +970,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 84
+    "rank": 85
    },
    {
     "id": 5598326,
@@ -970,7 +981,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 85
+    "rank": 86
    },
    {
     "id": 5839915,
@@ -981,7 +992,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 86
+    "rank": 87
    },
    {
     "id": 6598715,
@@ -992,7 +1003,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 87
+    "rank": 88
    },
    {
     "id": 5359208,
@@ -1003,7 +1014,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 88
+    "rank": 89
    },
    {
     "id": 5607221,
@@ -1014,7 +1025,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 89
+    "rank": 90
    },
    {
     "id": 5543267,
@@ -1025,7 +1036,7 @@
     "replies": 3,
     "best": 1.0,
     "elim": false,
-    "rank": 90
+    "rank": 91
    },
    {
     "id": 7143764,
@@ -1036,7 +1047,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 91
+    "rank": 92
    },
    {
     "id": 546977,
@@ -1047,7 +1058,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 92
+    "rank": 93
    },
    {
     "id": 334847,
@@ -1058,7 +1069,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 93
+    "rank": 94
    },
    {
     "id": 5881108,
@@ -1069,7 +1080,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 94
+    "rank": 95
    },
    {
     "id": 6241303,
@@ -1080,7 +1091,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 95
+    "rank": 96
    },
    {
     "id": 121735,
@@ -1091,7 +1102,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 96
+    "rank": 97
    },
    {
     "id": 5295148,
@@ -1102,7 +1113,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 97
+    "rank": 98
    },
    {
     "id": 6683592,
@@ -1113,7 +1124,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 98
+    "rank": 99
    },
    {
     "id": 6127638,
@@ -1124,7 +1135,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 99
+    "rank": 100
    },
    {
     "id": 6851704,
@@ -1135,7 +1146,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 100
+    "rank": 101
    },
    {
     "id": 5816555,
@@ -1146,7 +1157,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 101
+    "rank": 102
    },
    {
     "id": 689569,
@@ -1157,7 +1168,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 102
+    "rank": 103
    },
    {
     "id": 6845805,
@@ -1168,7 +1179,7 @@
     "replies": 1,
     "best": 1.0,
     "elim": false,
-    "rank": 103
+    "rank": 104
    },
    {
     "id": 6004042,
@@ -1179,7 +1190,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 104
+    "rank": 105
    },
    {
     "id": 129996,
@@ -1190,7 +1201,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 105
+    "rank": 106
    },
    {
     "id": 6958975,
@@ -1201,7 +1212,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 106
+    "rank": 107
    },
    {
     "id": 7097211,
@@ -1212,7 +1223,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 107
+    "rank": 108
    },
    {
     "id": 8129266,
@@ -1223,7 +1234,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 108
+    "rank": 109
    },
    {
     "id": 6848608,
@@ -1234,7 +1245,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 109
+    "rank": 110
    },
    {
     "id": 7569689,
@@ -1245,7 +1256,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 110
+    "rank": 111
    },
    {
     "id": 7105770,
@@ -1256,7 +1267,7 @@
     "replies": 1,
     "best": 1.0,
     "elim": false,
-    "rank": 111
+    "rank": 112
    },
    {
     "id": 8015665,
@@ -1267,7 +1278,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 112
+    "rank": 113
    },
    {
     "id": 645534,
@@ -1278,7 +1289,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 113
+    "rank": 114
    },
    {
     "id": 503446,
@@ -1289,7 +1300,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 114
+    "rank": 115
    },
    {
     "id": 6882366,
@@ -1300,7 +1311,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 115
+    "rank": 116
    },
    {
     "id": 5961733,
@@ -1311,7 +1322,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 116
+    "rank": 117
    },
    {
     "id": 5882830,
@@ -1322,7 +1333,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 117
+    "rank": 118
    },
    {
     "id": 6472483,
@@ -1333,7 +1344,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 118
+    "rank": 119
    },
    {
     "id": 5973376,
@@ -1344,7 +1355,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 119
+    "rank": 120
    },
    {
     "id": 6994248,
@@ -1355,7 +1366,7 @@
     "replies": 1,
     "best": 1.0,
     "elim": false,
-    "rank": 120
+    "rank": 121
    },
    {
     "id": 6359896,
@@ -1366,23 +1377,12 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 121
+    "rank": 122
    },
    {
     "id": 7020233,
     "name": "devilz36",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7020233-HQZzKtLYEzBm.png",
-    "pts": 40,
-    "likes": 4,
-    "replies": 0,
-    "best": 1.0,
-    "elim": false,
-    "rank": 122
-   },
-   {
-    "id": 8270098,
-    "name": "Hasitha2006",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8270098-KDqXIpRrqYDZ.png",
     "pts": 40,
     "likes": 4,
     "replies": 0,
@@ -3431,8 +3431,8 @@
     "id": 5544747,
     "name": "nodo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5544747-JJYUYkeGfHrc.png",
-    "pts": 25930,
-    "likes": 1024,
+    "pts": 27820,
+    "likes": 1087,
     "replies": 1,
     "best": 3.0,
     "elim": false,
@@ -3813,6 +3813,17 @@
     "rank": 35
    },
    {
+    "id": 8270098,
+    "name": "Hasitha2006",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8270098-KDqXIpRrqYDZ.png",
+    "pts": 110,
+    "likes": 10,
+    "replies": 0,
+    "best": 1.5,
+    "elim": false,
+    "rank": 36
+   },
+   {
     "id": 772485,
     "name": "KaiRuhl",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b772485-ETIstmvOOsNQ.jpg",
@@ -3821,7 +3832,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 36
+    "rank": 37
    },
    {
     "id": 5349472,
@@ -3832,7 +3843,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 37
+    "rank": 38
    },
    {
     "id": 5607221,
@@ -3843,7 +3854,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 38
+    "rank": 39
    },
    {
     "id": 689569,
@@ -3854,7 +3865,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 39
+    "rank": 40
    },
    {
     "id": 798574,
@@ -3865,7 +3876,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 40
+    "rank": 41
    },
    {
     "id": 7569689,
@@ -3876,7 +3887,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 41
+    "rank": 42
    },
    {
     "id": 5672736,
@@ -3887,7 +3898,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 42
+    "rank": 43
    },
    {
     "id": 8015665,
@@ -3898,7 +3909,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 43
+    "rank": 44
    },
    {
     "id": 7123926,
@@ -3906,17 +3917,6 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7123926-wVsCobWxjwTW.jpg",
     "pts": 50,
     "likes": 5,
-    "replies": 0,
-    "best": 1.0,
-    "elim": false,
-    "rank": 44
-   },
-   {
-    "id": 8270098,
-    "name": "Hasitha2006",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8270098-KDqXIpRrqYDZ.png",
-    "pts": 40,
-    "likes": 4,
     "replies": 0,
     "best": 1.0,
     "elim": false,
@@ -4346,8 +4346,8 @@
     "id": 5544747,
     "name": "nodo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5544747-JJYUYkeGfHrc.png",
-    "pts": 25930,
-    "likes": 1024,
+    "pts": 27820,
+    "likes": 1087,
     "replies": 1,
     "best": 3.0,
     "elim": false,
@@ -4695,6 +4695,17 @@
     "rank": 32
    },
    {
+    "id": 8270098,
+    "name": "Hasitha2006",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8270098-KDqXIpRrqYDZ.png",
+    "pts": 110,
+    "likes": 10,
+    "replies": 0,
+    "best": 1.5,
+    "elim": false,
+    "rank": 33
+   },
+   {
     "id": 5349472,
     "name": "lautyml",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5349472-m2YsrI1xmAVa.png",
@@ -4703,7 +4714,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 33
+    "rank": 34
    },
    {
     "id": 5147312,
@@ -4714,7 +4725,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 34
+    "rank": 35
    },
    {
     "id": 5607221,
@@ -4725,7 +4736,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 35
+    "rank": 36
    },
    {
     "id": 689569,
@@ -4736,7 +4747,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 36
+    "rank": 37
    },
    {
     "id": 772485,
@@ -4747,7 +4758,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 37
+    "rank": 38
    },
    {
     "id": 7569689,
@@ -4758,7 +4769,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 38
+    "rank": 39
    },
    {
     "id": 798574,
@@ -4769,7 +4780,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 39
+    "rank": 40
    },
    {
     "id": 5672736,
@@ -4780,7 +4791,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 40
+    "rank": 41
    },
    {
     "id": 8015665,
@@ -4788,17 +4799,6 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8015665-q64D1nc9eZAA.jpg",
     "pts": 50,
     "likes": 5,
-    "replies": 0,
-    "best": 1.0,
-    "elim": false,
-    "rank": 41
-   },
-   {
-    "id": 8270098,
-    "name": "Hasitha2006",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8270098-KDqXIpRrqYDZ.png",
-    "pts": 40,
-    "likes": 4,
     "replies": 0,
     "best": 1.0,
     "elim": false,
@@ -5063,8 +5063,8 @@
     "id": 5544747,
     "name": "nodo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5544747-JJYUYkeGfHrc.png",
-    "pts": 25930,
-    "likes": 1024,
+    "pts": 27820,
+    "likes": 1087,
     "replies": 1,
     "best": 3.0,
     "elim": false,
@@ -5291,6 +5291,17 @@
     "rank": 21
    },
    {
+    "id": 8270098,
+    "name": "Hasitha2006",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8270098-KDqXIpRrqYDZ.png",
+    "pts": 110,
+    "likes": 10,
+    "replies": 0,
+    "best": 1.5,
+    "elim": false,
+    "rank": 22
+   },
+   {
     "id": 422498,
     "name": "mihhyunn",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b422498-BmFM40eAJFtA.png",
@@ -5299,7 +5310,7 @@
     "replies": 2,
     "best": 1.0,
     "elim": false,
-    "rank": 22
+    "rank": 23
    },
    {
     "id": 5607221,
@@ -5310,7 +5321,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 23
+    "rank": 24
    },
    {
     "id": 5147312,
@@ -5321,7 +5332,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 24
+    "rank": 25
    },
    {
     "id": 5383956,
@@ -5332,7 +5343,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 25
+    "rank": 26
    },
    {
     "id": 689569,
@@ -5343,7 +5354,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 26
+    "rank": 27
    },
    {
     "id": 8294783,
@@ -5354,7 +5365,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 27
+    "rank": 28
    },
    {
     "id": 6832595,
@@ -5365,7 +5376,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 28
+    "rank": 29
    },
    {
     "id": 7569689,
@@ -5376,7 +5387,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 29
+    "rank": 30
    },
    {
     "id": 8015665,
@@ -5384,17 +5395,6 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8015665-q64D1nc9eZAA.jpg",
     "pts": 50,
     "likes": 5,
-    "replies": 0,
-    "best": 1.0,
-    "elim": false,
-    "rank": 30
-   },
-   {
-    "id": 8270098,
-    "name": "Hasitha2006",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8270098-KDqXIpRrqYDZ.png",
-    "pts": 40,
-    "likes": 4,
     "replies": 0,
     "best": 1.0,
     "elim": false,
