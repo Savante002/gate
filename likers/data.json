@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-18T20:05:50+00:00",
+ "updated": "2026-10-18T20:37:36+00:00",
  "visitors": {
   "total": 1506,
   "today": 0
  },
  "likes": {
-  "total": 28062,
-  "today": 2436
+  "total": 28192,
+  "today": 2435
  },
  "rules": {
   "like": 10,
@@ -951,6 +951,17 @@
     "rank": 83
    },
    {
+    "id": 7043524,
+    "name": "nyssy",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7043524-PKc7r7AqdZM7.png",
+    "pts": 120,
+    "likes": 12,
+    "replies": 0,
+    "best": 1.0,
+    "elim": false,
+    "rank": 84
+   },
+   {
     "id": 5349472,
     "name": "lautyml",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5349472-m2YsrI1xmAVa.png",
@@ -959,7 +970,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 84
+    "rank": 85
    },
    {
     "id": 8270098,
@@ -970,7 +981,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 85
+    "rank": 86
    },
    {
     "id": 5533991,
@@ -981,7 +992,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 86
+    "rank": 87
    },
    {
     "id": 771927,
@@ -992,7 +1003,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 87
+    "rank": 88
    },
    {
     "id": 5598326,
@@ -1003,7 +1014,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 88
+    "rank": 89
    },
    {
     "id": 5839915,
@@ -1014,7 +1025,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 89
+    "rank": 90
    },
    {
     "id": 6598715,
@@ -1022,17 +1033,6 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6598715-Cd97FFkgckfY.png",
     "pts": 100,
     "likes": 10,
-    "replies": 0,
-    "best": 1.0,
-    "elim": false,
-    "rank": 90
-   },
-   {
-    "id": 7043524,
-    "name": "nyssy",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7043524-PKc7r7AqdZM7.png",
-    "pts": 90,
-    "likes": 9,
     "replies": 0,
     "best": 1.0,
     "elim": false,
@@ -3857,6 +3857,17 @@
     "rank": 38
    },
    {
+    "id": 7043524,
+    "name": "nyssy",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7043524-PKc7r7AqdZM7.png",
+    "pts": 120,
+    "likes": 12,
+    "replies": 0,
+    "best": 1.0,
+    "elim": false,
+    "rank": 39
+   },
+   {
     "id": 5147312,
     "name": "lime",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5147312-I5hsIOv54hEX.png",
@@ -3865,7 +3876,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 39
+    "rank": 40
    },
    {
     "id": 8270098,
@@ -3876,7 +3887,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 40
+    "rank": 41
    },
    {
     "id": 772485,
@@ -3887,7 +3898,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 41
+    "rank": 42
    },
    {
     "id": 5349472,
@@ -3897,17 +3908,6 @@
     "likes": 9,
     "replies": 0,
     "best": 1.5,
-    "elim": false,
-    "rank": 42
-   },
-   {
-    "id": 7043524,
-    "name": "nyssy",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7043524-PKc7r7AqdZM7.png",
-    "pts": 90,
-    "likes": 9,
-    "replies": 0,
-    "best": 1.0,
     "elim": false,
     "rank": 43
    },
@@ -4794,6 +4794,17 @@
     "rank": 36
    },
    {
+    "id": 7043524,
+    "name": "nyssy",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7043524-PKc7r7AqdZM7.png",
+    "pts": 120,
+    "likes": 12,
+    "replies": 0,
+    "best": 1.0,
+    "elim": false,
+    "rank": 37
+   },
+   {
     "id": 8270098,
     "name": "Hasitha2006",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8270098-KDqXIpRrqYDZ.png",
@@ -4802,7 +4813,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 37
+    "rank": 38
    },
    {
     "id": 5349472,
@@ -4813,7 +4824,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 38
+    "rank": 39
    },
    {
     "id": 5147312,
@@ -4823,17 +4834,6 @@
     "likes": 9,
     "replies": 0,
     "best": 1.5,
-    "elim": false,
-    "rank": 39
-   },
-   {
-    "id": 7043524,
-    "name": "nyssy",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7043524-PKc7r7AqdZM7.png",
-    "pts": 90,
-    "likes": 9,
-    "replies": 0,
-    "best": 1.0,
     "elim": false,
     "rank": 40
    },
@@ -5236,17 +5236,6 @@
     "rank": 6
    },
    {
-    "id": 6990119,
-    "name": "XavierXD",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6990119-gDbnrzNZqo3J.jpg",
-    "pts": 1490,
-    "likes": 65,
-    "replies": 2,
-    "best": 3.0,
-    "elim": false,
-    "rank": 7
-   },
-   {
     "id": 7212367,
     "name": "seaweed",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7212367-uWg1dqguReW8.jpg",
@@ -5254,6 +5243,17 @@
     "likes": 73,
     "replies": 1,
     "best": 2.5,
+    "elim": false,
+    "rank": 7
+   },
+   {
+    "id": 6990119,
+    "name": "XavierXD",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6990119-gDbnrzNZqo3J.jpg",
+    "pts": 1435,
+    "likes": 62,
+    "replies": 1,
+    "best": 3.0,
     "elim": false,
     "rank": 8
    },
@@ -5423,6 +5423,17 @@
     "rank": 23
    },
    {
+    "id": 7043524,
+    "name": "nyssy",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7043524-PKc7r7AqdZM7.png",
+    "pts": 90,
+    "likes": 9,
+    "replies": 0,
+    "best": 1.0,
+    "elim": false,
+    "rank": 24
+   },
+   {
     "id": 5607221,
     "name": "Andonis",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5607221-mfbiwOkjYnuh.png",
@@ -5431,7 +5442,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 24
+    "rank": 25
    },
    {
     "id": 5147312,
@@ -5442,7 +5453,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 25
+    "rank": 26
    },
    {
     "id": 5383956,
@@ -5453,7 +5464,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 26
+    "rank": 27
    },
    {
     "id": 8294783,
@@ -5464,23 +5475,12 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 27
+    "rank": 28
    },
    {
     "id": 6832595,
     "name": "Bartosz112233",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6832595-lw7msccXsNBP.jpg",
-    "pts": 60,
-    "likes": 6,
-    "replies": 0,
-    "best": 1.0,
-    "elim": false,
-    "rank": 28
-   },
-   {
-    "id": 7043524,
-    "name": "nyssy",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7043524-PKc7r7AqdZM7.png",
     "pts": 60,
     "likes": 6,
     "replies": 0,
@@ -5577,17 +5577,6 @@
     "rank": 37
    },
    {
-    "id": 7691047,
-    "name": "lemonveil",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7691047-fH8aAjyJz0Qn.png",
-    "pts": 30,
-    "likes": 3,
-    "replies": 0,
-    "best": 1.0,
-    "elim": false,
-    "rank": 38
-   },
-   {
     "id": 6486541,
     "name": "SenzanomeKun",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6486541-1uFnS6GUqsNZ.png",
@@ -5596,7 +5585,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 39
+    "rank": 38
    },
    {
     "id": 5570287,
@@ -5607,7 +5596,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 40
+    "rank": 39
    },
    {
     "id": 5150510,
@@ -5618,7 +5607,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 41
+    "rank": 40
    },
    {
     "id": 8055661,
@@ -5629,12 +5618,23 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 42
+    "rank": 41
    },
    {
     "id": 801562,
     "name": "fracture",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b801562-9egcf8977Gs3.jpg",
+    "pts": 20,
+    "likes": 2,
+    "replies": 0,
+    "best": 1.0,
+    "elim": false,
+    "rank": 42
+   },
+   {
+    "id": 7691047,
+    "name": "lemonveil",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7691047-fH8aAjyJz0Qn.png",
     "pts": 20,
     "likes": 2,
     "replies": 0,
