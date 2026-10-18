@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-18T01:54:37+00:00",
+ "updated": "2026-10-18T02:33:40+00:00",
  "visitors": {
-  "total": 1505,
-  "today": 1
+  "total": 1506,
+  "today": 2
  },
  "likes": {
   "total": 25921,
-  "today": 814
+  "today": 818
  },
  "rules": {
   "like": 10,
@@ -588,6 +588,17 @@
     "rank": 50
    },
    {
+    "id": 8229841,
+    "name": "Lukkieo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8229841-Wa4HKCCEpqr5.jpg",
+    "pts": 260,
+    "likes": 21,
+    "replies": 0,
+    "best": 2.0,
+    "elim": false,
+    "rank": 51
+   },
+   {
     "id": 6160831,
     "name": "Lilys0609",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6160831-nxoNuQG00JeH.png",
@@ -596,7 +607,7 @@
     "replies": 0,
     "best": 2.0,
     "elim": false,
-    "rank": 51
+    "rank": 52
    },
    {
     "id": 6152327,
@@ -607,7 +618,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 52
+    "rank": 53
    },
    {
     "id": 7393990,
@@ -615,17 +626,6 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7393990-awShShTnlDKw.png",
     "pts": 225,
     "likes": 15,
-    "replies": 0,
-    "best": 2.0,
-    "elim": false,
-    "rank": 53
-   },
-   {
-    "id": 8229841,
-    "name": "Lukkieo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8229841-Wa4HKCCEpqr5.jpg",
-    "pts": 220,
-    "likes": 17,
     "replies": 0,
     "best": 2.0,
     "elim": false,
@@ -3398,8 +3398,8 @@
     "id": 8229841,
     "name": "Lukkieo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8229841-Wa4HKCCEpqr5.jpg",
-    "pts": 220,
-    "likes": 17,
+    "pts": 260,
+    "likes": 21,
     "replies": 0,
     "best": 2.0,
     "elim": false,
@@ -3439,17 +3439,6 @@
     "rank": 20
    },
    {
-    "id": 7560381,
-    "name": "meowfun",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7560381-1COUkuXbBUR4.jpg",
-    "pts": 190,
-    "likes": 17,
-    "replies": 0,
-    "best": 1.5,
-    "elim": false,
-    "rank": 21
-   },
-   {
     "id": 422498,
     "name": "mihhyunn",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b422498-BmFM40eAJFtA.png",
@@ -3458,7 +3447,7 @@
     "replies": 2,
     "best": 1.0,
     "elim": false,
-    "rank": 22
+    "rank": 21
    },
    {
     "id": 6644776,
@@ -3469,7 +3458,7 @@
     "replies": 1,
     "best": 1.5,
     "elim": false,
-    "rank": 23
+    "rank": 22
    },
    {
     "id": 5463886,
@@ -3480,7 +3469,7 @@
     "replies": 1,
     "best": 1.5,
     "elim": false,
-    "rank": 24
+    "rank": 23
    },
    {
     "id": 6742272,
@@ -3491,7 +3480,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 25
+    "rank": 24
    },
    {
     "id": 7796347,
@@ -3499,6 +3488,17 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7796347-KXLfStEqwe4M.jpg",
     "pts": 155,
     "likes": 13,
+    "replies": 0,
+    "best": 1.5,
+    "elim": false,
+    "rank": 25
+   },
+   {
+    "id": 7560381,
+    "name": "meowfun",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7560381-1COUkuXbBUR4.jpg",
+    "pts": 135,
+    "likes": 12,
     "replies": 0,
     "best": 1.5,
     "elim": false,
@@ -4038,8 +4038,8 @@
     "id": 8229841,
     "name": "Lukkieo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8229841-Wa4HKCCEpqr5.jpg",
-    "pts": 210,
-    "likes": 16,
+    "pts": 250,
+    "likes": 20,
     "replies": 0,
     "best": 2.0,
     "elim": false,
@@ -4414,8 +4414,8 @@
     "id": 8229841,
     "name": "Lukkieo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8229841-Wa4HKCCEpqr5.jpg",
-    "pts": 210,
-    "likes": 16,
+    "pts": 250,
+    "likes": 20,
     "replies": 0,
     "best": 2.0,
     "elim": false,
