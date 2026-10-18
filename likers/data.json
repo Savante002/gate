@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-18T22:31:15+00:00",
+ "updated": "2026-10-18T22:58:01+00:00",
  "visitors": {
   "total": 1506,
   "today": 0
  },
  "likes": {
   "total": 28192,
-  "today": 2569
+  "today": 2655
  },
  "rules": {
   "like": 10,
@@ -93,6 +93,17 @@
     "rank": 5
    },
    {
+    "id": 689569,
+    "name": "bbykazuya",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b689569-fOLDcpXOP3Vd.png",
+    "pts": 3565,
+    "likes": 179,
+    "replies": 0,
+    "best": 3.0,
+    "elim": false,
+    "rank": 6
+   },
+   {
     "id": 6832595,
     "name": "Bartosz112233",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6832595-lw7msccXsNBP.jpg",
@@ -101,7 +112,7 @@
     "replies": 0,
     "best": 3.0,
     "elim": false,
-    "rank": 6
+    "rank": 7
    },
    {
     "id": 7362652,
@@ -112,7 +123,7 @@
     "replies": 0,
     "best": 3.0,
     "elim": false,
-    "rank": 7
+    "rank": 8
    },
    {
     "id": 6990119,
@@ -123,7 +134,7 @@
     "replies": 2,
     "best": 3.0,
     "elim": false,
-    "rank": 8
+    "rank": 9
    },
    {
     "id": 5896343,
@@ -134,7 +145,7 @@
     "replies": 3,
     "best": 3.0,
     "elim": false,
-    "rank": 9
+    "rank": 10
    },
    {
     "id": 5383956,
@@ -145,7 +156,18 @@
     "replies": 0,
     "best": 3.0,
     "elim": false,
-    "rank": 10
+    "rank": 11
+   },
+   {
+    "id": 5841681,
+    "name": "Kuzanagy",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5841681-DPolXNSAMPiE.png",
+    "pts": 2775,
+    "likes": 168,
+    "replies": 0,
+    "best": 2.5,
+    "elim": false,
+    "rank": 12
    },
    {
     "id": 5742400,
@@ -156,18 +178,7 @@
     "replies": 1,
     "best": 2.5,
     "elim": false,
-    "rank": 11
-   },
-   {
-    "id": 5841681,
-    "name": "Kuzanagy",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5841681-DPolXNSAMPiE.png",
-    "pts": 2440,
-    "likes": 148,
-    "replies": 0,
-    "best": 2.5,
-    "elim": false,
-    "rank": 12
+    "rank": 13
    },
    {
     "id": 7123926,
@@ -178,7 +189,7 @@
     "replies": 0,
     "best": 2.0,
     "elim": false,
-    "rank": 13
+    "rank": 14
    },
    {
     "id": 7017562,
@@ -189,7 +200,7 @@
     "replies": 0,
     "best": 2.5,
     "elim": false,
-    "rank": 14
+    "rank": 15
    },
    {
     "id": 5752386,
@@ -200,7 +211,7 @@
     "replies": 0,
     "best": 2.5,
     "elim": false,
-    "rank": 15
+    "rank": 16
    },
    {
     "id": 5600528,
@@ -208,17 +219,6 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5600528-6b8WOFc6GYsm.jpg",
     "pts": 2045,
     "likes": 155,
-    "replies": 0,
-    "best": 2.5,
-    "elim": false,
-    "rank": 16
-   },
-   {
-    "id": 689569,
-    "name": "bbykazuya",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b689569-fOLDcpXOP3Vd.png",
-    "pts": 2045,
-    "likes": 114,
     "replies": 0,
     "best": 2.5,
     "elim": false,
@@ -577,6 +577,17 @@
     "rank": 49
    },
    {
+    "id": 5672736,
+    "name": "Astrea",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5672736-JDMcnzkqHlx6.png",
+    "pts": 340,
+    "likes": 34,
+    "replies": 0,
+    "best": 1.0,
+    "elim": false,
+    "rank": 50
+   },
+   {
     "id": 821603,
     "name": "chopperdontcry",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b821603-J2f0YconeV7o.png",
@@ -585,23 +596,12 @@
     "replies": 0,
     "best": 2.0,
     "elim": false,
-    "rank": 50
+    "rank": 51
    },
    {
     "id": 798574,
     "name": "AirBonsai",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b798574-KVypLhloz5u2.jpg",
-    "pts": 330,
-    "likes": 33,
-    "replies": 0,
-    "best": 1.0,
-    "elim": false,
-    "rank": 51
-   },
-   {
-    "id": 5672736,
-    "name": "Astrea",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5672736-JDMcnzkqHlx6.png",
     "pts": 330,
     "likes": 33,
     "replies": 0,
@@ -3461,6 +3461,17 @@
     "rank": 2
    },
    {
+    "id": 689569,
+    "name": "bbykazuya",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b689569-fOLDcpXOP3Vd.png",
+    "pts": 3565,
+    "likes": 179,
+    "replies": 0,
+    "best": 3.0,
+    "elim": false,
+    "rank": 3
+   },
+   {
     "id": 7362652,
     "name": "zestysalmonberry",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7362652-JVLZDWjO4KM9.png",
@@ -3469,7 +3480,7 @@
     "replies": 0,
     "best": 3.0,
     "elim": false,
-    "rank": 3
+    "rank": 4
    },
    {
     "id": 5896343,
@@ -3480,7 +3491,18 @@
     "replies": 3,
     "best": 3.0,
     "elim": false,
-    "rank": 4
+    "rank": 5
+   },
+   {
+    "id": 5841681,
+    "name": "Kuzanagy",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5841681-DPolXNSAMPiE.png",
+    "pts": 2775,
+    "likes": 168,
+    "replies": 0,
+    "best": 2.5,
+    "elim": false,
+    "rank": 6
    },
    {
     "id": 6990119,
@@ -3491,7 +3513,7 @@
     "replies": 2,
     "best": 3.0,
     "elim": false,
-    "rank": 5
+    "rank": 7
    },
    {
     "id": 5775330,
@@ -3502,18 +3524,7 @@
     "replies": 3,
     "best": 3.0,
     "elim": false,
-    "rank": 6
-   },
-   {
-    "id": 5841681,
-    "name": "Kuzanagy",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5841681-DPolXNSAMPiE.png",
-    "pts": 2440,
-    "likes": 148,
-    "replies": 0,
-    "best": 2.5,
-    "elim": false,
-    "rank": 7
+    "rank": 8
    },
    {
     "id": 6486541,
@@ -3522,17 +3533,6 @@
     "pts": 2125,
     "likes": 128,
     "replies": 1,
-    "best": 2.5,
-    "elim": false,
-    "rank": 8
-   },
-   {
-    "id": 689569,
-    "name": "bbykazuya",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b689569-fOLDcpXOP3Vd.png",
-    "pts": 2045,
-    "likes": 114,
-    "replies": 0,
     "best": 2.5,
     "elim": false,
     "rank": 9
@@ -3945,20 +3945,20 @@
     "rank": 46
    },
    {
-    "id": 798574,
-    "name": "AirBonsai",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b798574-KVypLhloz5u2.jpg",
-    "pts": 60,
-    "likes": 6,
+    "id": 5672736,
+    "name": "Astrea",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5672736-JDMcnzkqHlx6.png",
+    "pts": 70,
+    "likes": 7,
     "replies": 0,
     "best": 1.0,
     "elim": false,
     "rank": 47
    },
    {
-    "id": 5672736,
-    "name": "Astrea",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5672736-JDMcnzkqHlx6.png",
+    "id": 798574,
+    "name": "AirBonsai",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b798574-KVypLhloz5u2.jpg",
     "pts": 60,
     "likes": 6,
     "replies": 0,
@@ -4431,6 +4431,17 @@
     "rank": 2
    },
    {
+    "id": 689569,
+    "name": "bbykazuya",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b689569-fOLDcpXOP3Vd.png",
+    "pts": 3565,
+    "likes": 179,
+    "replies": 0,
+    "best": 3.0,
+    "elim": false,
+    "rank": 3
+   },
+   {
     "id": 7362652,
     "name": "zestysalmonberry",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7362652-JVLZDWjO4KM9.png",
@@ -4439,7 +4450,7 @@
     "replies": 0,
     "best": 3.0,
     "elim": false,
-    "rank": 3
+    "rank": 4
    },
    {
     "id": 5896343,
@@ -4450,7 +4461,18 @@
     "replies": 3,
     "best": 3.0,
     "elim": false,
-    "rank": 4
+    "rank": 5
+   },
+   {
+    "id": 5841681,
+    "name": "Kuzanagy",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5841681-DPolXNSAMPiE.png",
+    "pts": 2775,
+    "likes": 168,
+    "replies": 0,
+    "best": 2.5,
+    "elim": false,
+    "rank": 6
    },
    {
     "id": 6990119,
@@ -4461,18 +4483,7 @@
     "replies": 2,
     "best": 3.0,
     "elim": false,
-    "rank": 5
-   },
-   {
-    "id": 5841681,
-    "name": "Kuzanagy",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5841681-DPolXNSAMPiE.png",
-    "pts": 2440,
-    "likes": 148,
-    "replies": 0,
-    "best": 2.5,
-    "elim": false,
-    "rank": 6
+    "rank": 7
    },
    {
     "id": 5775330,
@@ -4482,17 +4493,6 @@
     "likes": 103,
     "replies": 3,
     "best": 3.0,
-    "elim": false,
-    "rank": 7
-   },
-   {
-    "id": 689569,
-    "name": "bbykazuya",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b689569-fOLDcpXOP3Vd.png",
-    "pts": 2045,
-    "likes": 114,
-    "replies": 0,
-    "best": 2.5,
     "elim": false,
     "rank": 8
    },
@@ -4882,6 +4882,17 @@
     "rank": 43
    },
    {
+    "id": 5672736,
+    "name": "Astrea",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5672736-JDMcnzkqHlx6.png",
+    "pts": 70,
+    "likes": 7,
+    "replies": 0,
+    "best": 1.0,
+    "elim": false,
+    "rank": 44
+   },
+   {
     "id": 772485,
     "name": "KaiRuhl",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b772485-ETIstmvOOsNQ.jpg",
@@ -4889,17 +4900,6 @@
     "likes": 6,
     "replies": 0,
     "best": 1.5,
-    "elim": false,
-    "rank": 44
-   },
-   {
-    "id": 5672736,
-    "name": "Astrea",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5672736-JDMcnzkqHlx6.png",
-    "pts": 60,
-    "likes": 6,
-    "replies": 0,
-    "best": 1.0,
     "elim": false,
     "rank": 45
    },
@@ -5214,6 +5214,17 @@
     "rank": 2
    },
    {
+    "id": 689569,
+    "name": "bbykazuya",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b689569-fOLDcpXOP3Vd.png",
+    "pts": 3565,
+    "likes": 179,
+    "replies": 0,
+    "best": 3.0,
+    "elim": false,
+    "rank": 3
+   },
+   {
     "id": 5896343,
     "name": "SVCK",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5896343-NxcPUoPF3XmA.png",
@@ -5222,18 +5233,18 @@
     "replies": 2,
     "best": 3.0,
     "elim": false,
-    "rank": 3
+    "rank": 4
    },
    {
     "id": 5841681,
     "name": "Kuzanagy",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5841681-DPolXNSAMPiE.png",
-    "pts": 2440,
-    "likes": 148,
+    "pts": 2775,
+    "likes": 168,
     "replies": 0,
     "best": 2.5,
     "elim": false,
-    "rank": 4
+    "rank": 5
    },
    {
     "id": 6990119,
@@ -5243,17 +5254,6 @@
     "likes": 104,
     "replies": 1,
     "best": 3.0,
-    "elim": false,
-    "rank": 5
-   },
-   {
-    "id": 689569,
-    "name": "bbykazuya",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b689569-fOLDcpXOP3Vd.png",
-    "pts": 2045,
-    "likes": 114,
-    "replies": 0,
-    "best": 2.5,
     "elim": false,
     "rank": 6
    },
@@ -5621,6 +5621,17 @@
     "rank": 39
    },
    {
+    "id": 5672736,
+    "name": "Astrea",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5672736-JDMcnzkqHlx6.png",
+    "pts": 20,
+    "likes": 2,
+    "replies": 0,
+    "best": 1.0,
+    "elim": false,
+    "rank": 40
+   },
+   {
     "id": 5570287,
     "name": "avo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5570287-EQFUx7jnIHbP.png",
@@ -5629,7 +5640,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 40
+    "rank": 41
    },
    {
     "id": 5150510,
@@ -5640,7 +5651,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 41
+    "rank": 42
    },
    {
     "id": 8055661,
@@ -5651,7 +5662,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 42
+    "rank": 43
    },
    {
     "id": 801562,
@@ -5662,7 +5673,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 43
+    "rank": 44
    },
    {
     "id": 7691047,
@@ -5673,7 +5684,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 44
+    "rank": 45
    },
    {
     "id": 162791,
@@ -5684,7 +5695,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 45
+    "rank": 46
    },
    {
     "id": 7056117,
@@ -5695,7 +5706,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 46
+    "rank": 47
    },
    {
     "id": 798574,
@@ -5706,23 +5717,12 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 47
+    "rank": 48
    },
    {
     "id": 264462,
     "name": "artsyvisual",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b264462-qRARjKyFyzCZ.jpg",
-    "pts": 10,
-    "likes": 1,
-    "replies": 0,
-    "best": 1.0,
-    "elim": false,
-    "rank": 48
-   },
-   {
-    "id": 5672736,
-    "name": "Astrea",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5672736-JDMcnzkqHlx6.png",
     "pts": 10,
     "likes": 1,
     "replies": 0,
