@@ -56,14 +56,14 @@ VETERAN_BOUNTY = 500_000                # people already following before the fi
 HEARTBEAT_HOURS = 24                    # save at least once a day so GitHub keeps the schedule alive
 
 FOLLOWERS_Q = """
-query ($id: Int, $page: Int) {
+query ($id: Int!, $page: Int) {
   Page(page: $page, perPage: 50) {
     pageInfo { hasNextPage }
     followers(userId: $id, sort: ID) { id name avatar { medium } }
   }
 }"""
 FOLLOWING_Q = """
-query ($id: Int, $page: Int) {
+query ($id: Int!, $page: Int) {
   Page(page: $page, perPage: 50) {
     pageInfo { hasNextPage }
     following(userId: $id, sort: ID) { id name }
@@ -107,6 +107,8 @@ def gql(query, variables, auth=False, tries=4):
                 detail = e.read()[:300].decode("utf-8", "replace").replace("\n", " ")
             except Exception:
                 detail = ""
+            if e.code == 400:                     # bad query: retrying will not help
+                raise RuntimeError(f"HTTP 400: {detail}")
             print(f"HTTP {e.code}, retry {attempt + 1}: {detail}", file=sys.stderr)
             time.sleep(max(wait, 5 * (attempt + 1)))
         except (NotFound, RuntimeError):
