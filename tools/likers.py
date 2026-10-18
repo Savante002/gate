@@ -67,11 +67,11 @@ REPLY_POINTS = 25
 COMBO_GAP = 300                          # seconds between two likes to keep a streak alive
 COMBO_STEPS = [(50, 3.0), (25, 2.5), (10, 2.0), (5, 1.5), (1, 1.0)]
 KEEP_EVENTS_DAYS = 35                    # older events are only kept in the all-time totals
-MAX_NOTIF_PAGES = 1000                   # 50 per page (50,000 notifications) for the first history read
+MAX_NOTIF_PAGES = 100                    # AniList stops at 5,000 entries (100 pages of 50)
 PACE = 2.2                               # seconds between two AniList requests (stays under 30/min)
 RUN_BUDGET = 10 * 60                     # seconds a run may spend reading history; the rest waits for the next run
 TOTAL_SCAN_HOURS = 6                     # how often the lifetime "likes received" is recounted
-MAX_ACTIVITY_PAGES = 300
+MAX_ACTIVITY_PAGES = 100                 # AniList stops at 5,000 entries (100 pages of 50)
 
 LIKE_TYPES = {"ActivityLikeNotification", "ActivityReplyLikeNotification",
               "ThreadLikeNotification", "ThreadCommentLikeNotification"}
@@ -231,7 +231,13 @@ def read_history(state):
                 break
             page += 1
     except RuntimeError as e:
-        print(f"History: stopped at page {page} ({e}); continues next run")
+        if "Page depth" in str(e):
+            # AniList never pages past 5,000 entries: that is as far back as the history goes
+            print(f"History: reached AniList's 5,000-entry limit at page {page}; that's all it can give")
+            h["done"] = True
+            page += 1
+        else:
+            print(f"History: stopped at page {page} ({e}); continues next run")
     # new notifications push older ones down, so the next run restarts one page earlier (duplicates are skipped)
     h["page"] = max(1, page - 1)
     if page > MAX_NOTIF_PAGES:
@@ -329,8 +335,13 @@ def lifetime_likes(state):
         state["lifetime_likes"] = {"value": scan["total"], "at": now_ts()}
         print(f"Lifetime likes on activities: {scan['total']} ({scan['page']} page(s))")
     except Exception as e:
-        info["scan"] = scan
-        print(f"Lifetime likes: stopped at page {scan['page']} ({e}); continues next run")
+        if "Page depth" in str(e):
+            # AniList never pages past 5,000 activities: count what it can give
+            state["lifetime_likes"] = {"value": scan["total"], "at": now_ts()}
+            print(f"Lifetime likes on your newest 5,000 activities: {scan['total']}")
+        else:
+            info["scan"] = scan
+            print(f"Lifetime likes: stopped at page {scan['page']} ({e}); continues next run")
     return state["lifetime_likes"]["value"]
 
 
