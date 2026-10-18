@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-18T23:29:26+00:00",
+ "updated": "2026-10-18T23:55:28+00:00",
  "visitors": {
   "total": 1506,
   "today": 0
  },
  "likes": {
   "total": 28192,
-  "today": 2738
+  "today": 2740
  },
  "rules": {
   "like": 10,
@@ -41,8 +41,8 @@
     "id": 5544747,
     "name": "nodo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5544747-JJYUYkeGfHrc.png",
-    "pts": 34660,
-    "likes": 1348,
+    "pts": 34680,
+    "likes": 1350,
     "replies": 2,
     "best": 3.0,
     "elim": false,
@@ -3442,8 +3442,8 @@
     "id": 5544747,
     "name": "nodo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5544747-JJYUYkeGfHrc.png",
-    "pts": 34610,
-    "likes": 1343,
+    "pts": 34630,
+    "likes": 1345,
     "replies": 2,
     "best": 3.0,
     "elim": false,
@@ -4412,8 +4412,8 @@
     "id": 5544747,
     "name": "nodo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5544747-JJYUYkeGfHrc.png",
-    "pts": 34610,
-    "likes": 1343,
+    "pts": 34630,
+    "likes": 1345,
     "replies": 2,
     "best": 3.0,
     "elim": false,
@@ -5195,8 +5195,8 @@
     "id": 5544747,
     "name": "nodo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5544747-JJYUYkeGfHrc.png",
-    "pts": 34610,
-    "likes": 1343,
+    "pts": 34630,
+    "likes": 1345,
     "replies": 2,
     "best": 3.0,
     "elim": false,
