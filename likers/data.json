@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-18T13:49:21+00:00",
+ "updated": "2026-10-18T14:14:07+00:00",
  "visitors": {
   "total": 1506,
   "today": 0
  },
  "likes": {
-  "total": 27155,
-  "today": 2535
+  "total": 28062,
+  "today": 2568
  },
  "rules": {
   "like": 10,
@@ -41,8 +41,8 @@
     "id": 5544747,
     "name": "nodo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5544747-JJYUYkeGfHrc.png",
-    "pts": 33950,
-    "likes": 1309,
+    "pts": 34565,
+    "likes": 1341,
     "replies": 1,
     "best": 3.0,
     "elim": false,
@@ -63,9 +63,9 @@
     "id": 5775330,
     "name": "ULYSSE95",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5775330-P2iDwQO5XwDd.jpg",
-    "pts": 3955,
-    "likes": 253,
-    "replies": 2,
+    "pts": 4000,
+    "likes": 255,
+    "replies": 3,
     "best": 3.0,
     "elim": false,
     "rank": 3
@@ -3431,8 +3431,8 @@
     "id": 5544747,
     "name": "nodo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5544747-JJYUYkeGfHrc.png",
-    "pts": 33900,
-    "likes": 1304,
+    "pts": 34515,
+    "likes": 1336,
     "replies": 1,
     "best": 3.0,
     "elim": false,
@@ -3475,9 +3475,9 @@
     "id": 5775330,
     "name": "ULYSSE95",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5775330-P2iDwQO5XwDd.jpg",
-    "pts": 2385,
-    "likes": 104,
-    "replies": 1,
+    "pts": 2430,
+    "likes": 106,
+    "replies": 2,
     "best": 3.0,
     "elim": false,
     "rank": 5
@@ -4357,8 +4357,8 @@
     "id": 5544747,
     "name": "nodo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5544747-JJYUYkeGfHrc.png",
-    "pts": 33900,
-    "likes": 1304,
+    "pts": 34515,
+    "likes": 1336,
     "replies": 1,
     "best": 3.0,
     "elim": false,
@@ -4401,9 +4401,9 @@
     "id": 5775330,
     "name": "ULYSSE95",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5775330-P2iDwQO5XwDd.jpg",
-    "pts": 2355,
-    "likes": 101,
-    "replies": 1,
+    "pts": 2400,
+    "likes": 103,
+    "replies": 2,
     "best": 3.0,
     "elim": false,
     "rank": 5
@@ -5085,8 +5085,8 @@
     "id": 5544747,
     "name": "nodo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5544747-JJYUYkeGfHrc.png",
-    "pts": 33900,
-    "likes": 1304,
+    "pts": 34515,
+    "likes": 1336,
     "replies": 1,
     "best": 3.0,
     "elim": false,
@@ -5283,9 +5283,9 @@
     "id": 5775330,
     "name": "ULYSSE95",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5775330-P2iDwQO5XwDd.jpg",
-    "pts": 150,
-    "likes": 14,
-    "replies": 0,
+    "pts": 195,
+    "likes": 16,
+    "replies": 1,
     "best": 1.5,
     "elim": false,
     "rank": 19
@@ -5621,17 +5621,6 @@
     "rank": 49
    },
    {
-    "id": 7880178,
-    "name": "meowmysteryyy",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7880178-eLu7TWXwEDBc.png",
-    "pts": 10,
-    "likes": 1,
-    "replies": 0,
-    "best": 1.0,
-    "elim": false,
-    "rank": 50
-   },
-   {
     "id": 162824,
     "name": "NatTea",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b162824-RKutTefmun3y.png",
@@ -5640,7 +5629,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 51
+    "rank": 50
    },
    {
     "id": 162791,
@@ -5651,7 +5640,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 52
+    "rank": 51
    },
    {
     "id": 5359208,
@@ -5662,7 +5651,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 53
+    "rank": 52
    },
    {
     "id": 5839915,
@@ -5673,7 +5662,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 54
+    "rank": 53
    },
    {
     "id": 7411964,
@@ -5684,7 +5673,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 55
+    "rank": 54
    },
    {
     "id": 7709671,
@@ -5695,7 +5684,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 56
+    "rank": 55
    },
    {
     "id": 7587362,
@@ -5706,7 +5695,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 57
+    "rank": 56
    }
   ]
  }
