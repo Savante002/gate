@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T08:33:58+00:00",
+ "updated": "2026-10-18T09:03:25+00:00",
  "visitors": {
   "total": 1506,
   "today": 0
@@ -96,8 +96,8 @@
     "id": 6832595,
     "name": "Bartosz112233",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6832595-lw7msccXsNBP.jpg",
-    "pts": 3365,
-    "likes": 252,
+    "pts": 3375,
+    "likes": 253,
     "replies": 0,
     "best": 3.0,
     "elim": false,
@@ -291,6 +291,17 @@
     "rank": 23
    },
    {
+    "id": 765417,
+    "name": "murrkino",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b765417-KwSVjfHysNG6.png",
+    "pts": 1125,
+    "likes": 64,
+    "replies": 0,
+    "best": 2.5,
+    "elim": false,
+    "rank": 24
+   },
+   {
     "id": 563275,
     "name": "Vensito",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b563275-YODcfNODguTd.png",
@@ -299,7 +310,7 @@
     "replies": 0,
     "best": 2.0,
     "elim": false,
-    "rank": 24
+    "rank": 25
    },
    {
     "id": 6990119,
@@ -310,7 +321,7 @@
     "replies": 1,
     "best": 2.5,
     "elim": false,
-    "rank": 25
+    "rank": 26
    },
    {
     "id": 809685,
@@ -320,17 +331,6 @@
     "likes": 67,
     "replies": 0,
     "best": 2.0,
-    "elim": false,
-    "rank": 26
-   },
-   {
-    "id": 765417,
-    "name": "murrkino",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b765417-KwSVjfHysNG6.png",
-    "pts": 990,
-    "likes": 54,
-    "replies": 0,
-    "best": 2.5,
     "elim": false,
     "rank": 27
    },
@@ -437,8 +437,8 @@
     "id": 8294783,
     "name": "AmazingGuy1",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8294783-XDzgRmgf9560.png",
-    "pts": 525,
-    "likes": 38,
+    "pts": 565,
+    "likes": 42,
     "replies": 1,
     "best": 2.0,
     "elim": false,
@@ -984,6 +984,17 @@
     "rank": 86
    },
    {
+    "id": 5359208,
+    "name": "Sooji",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5359208-ixdA3HhV85Af.png",
+    "pts": 90,
+    "likes": 9,
+    "replies": 0,
+    "best": 1.0,
+    "elim": false,
+    "rank": 87
+   },
+   {
     "id": 5607221,
     "name": "Andonis",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5607221-mfbiwOkjYnuh.png",
@@ -992,7 +1003,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 87
+    "rank": 88
    },
    {
     "id": 5543267,
@@ -1003,23 +1014,12 @@
     "replies": 3,
     "best": 1.0,
     "elim": false,
-    "rank": 88
+    "rank": 89
    },
    {
     "id": 7143764,
     "name": "miez",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7143764-1Qsa50wEtzyy.png",
-    "pts": 80,
-    "likes": 8,
-    "replies": 0,
-    "best": 1.0,
-    "elim": false,
-    "rank": 89
-   },
-   {
-    "id": 5359208,
-    "name": "Sooji",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5359208-ixdA3HhV85Af.png",
     "pts": 80,
     "likes": 8,
     "replies": 0,
@@ -3450,22 +3450,22 @@
     "rank": 8
    },
    {
-    "id": 5383956,
-    "name": "Hazuyu",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5383956-j4EVFqHR4Oqj.png",
+    "id": 6832595,
+    "name": "Bartosz112233",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6832595-lw7msccXsNBP.jpg",
     "pts": 1695,
-    "likes": 94,
+    "likes": 100,
     "replies": 0,
     "best": 3.0,
     "elim": false,
     "rank": 9
    },
    {
-    "id": 6832595,
-    "name": "Bartosz112233",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6832595-lw7msccXsNBP.jpg",
-    "pts": 1685,
-    "likes": 99,
+    "id": 5383956,
+    "name": "Hazuyu",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5383956-j4EVFqHR4Oqj.png",
+    "pts": 1695,
+    "likes": 94,
     "replies": 0,
     "best": 3.0,
     "elim": false,
@@ -3519,8 +3519,8 @@
     "id": 765417,
     "name": "murrkino",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b765417-KwSVjfHysNG6.png",
-    "pts": 990,
-    "likes": 54,
+    "pts": 1125,
+    "likes": 64,
     "replies": 0,
     "best": 2.5,
     "elim": false,
@@ -3563,8 +3563,8 @@
     "id": 8294783,
     "name": "AmazingGuy1",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8294783-XDzgRmgf9560.png",
-    "pts": 525,
-    "likes": 38,
+    "pts": 565,
+    "likes": 42,
     "replies": 1,
     "best": 2.0,
     "elim": false,
@@ -4121,6 +4121,17 @@
     "rank": 69
    },
    {
+    "id": 5359208,
+    "name": "Sooji",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5359208-ixdA3HhV85Af.png",
+    "pts": 10,
+    "likes": 1,
+    "replies": 0,
+    "best": 1.0,
+    "elim": false,
+    "rank": 70
+   },
+   {
     "id": 6951812,
     "name": "SplitAnime",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6951812-qAFkJf0TEULb.png",
@@ -4129,7 +4140,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 70
+    "rank": 71
    },
    {
     "id": 5839915,
@@ -4140,7 +4151,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 71
+    "rank": 72
    },
    {
     "id": 6772226,
@@ -4151,7 +4162,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 72
+    "rank": 73
    },
    {
     "id": 868735,
@@ -4162,7 +4173,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 73
+    "rank": 74
    },
    {
     "id": 7709671,
@@ -4173,7 +4184,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 74
+    "rank": 75
    },
    {
     "id": 417569,
@@ -4184,7 +4195,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 75
+    "rank": 76
    },
    {
     "id": 7587362,
@@ -4195,7 +4206,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 76
+    "rank": 77
    }
   ],
   "week": [
@@ -4324,8 +4335,8 @@
     "id": 6832595,
     "name": "Bartosz112233",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6832595-lw7msccXsNBP.jpg",
-    "pts": 1410,
-    "likes": 72,
+    "pts": 1420,
+    "likes": 73,
     "replies": 0,
     "best": 3.0,
     "elim": false,
@@ -4357,8 +4368,8 @@
     "id": 765417,
     "name": "murrkino",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b765417-KwSVjfHysNG6.png",
-    "pts": 990,
-    "likes": 54,
+    "pts": 1125,
+    "likes": 64,
     "replies": 0,
     "best": 2.5,
     "elim": false,
@@ -4412,8 +4423,8 @@
     "id": 8294783,
     "name": "AmazingGuy1",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8294783-XDzgRmgf9560.png",
-    "pts": 390,
-    "likes": 27,
+    "pts": 430,
+    "likes": 31,
     "replies": 0,
     "best": 2.0,
     "elim": false,
@@ -4783,6 +4794,17 @@
     "rank": 53
    },
    {
+    "id": 5359208,
+    "name": "Sooji",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5359208-ixdA3HhV85Af.png",
+    "pts": 10,
+    "likes": 1,
+    "replies": 0,
+    "best": 1.0,
+    "elim": false,
+    "rank": 54
+   },
+   {
     "id": 6951812,
     "name": "SplitAnime",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6951812-qAFkJf0TEULb.png",
@@ -4791,7 +4813,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 54
+    "rank": 55
    },
    {
     "id": 5839915,
@@ -4802,7 +4824,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 55
+    "rank": 56
    },
    {
     "id": 7709671,
@@ -4813,7 +4835,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 56
+    "rank": 57
    },
    {
     "id": 7587362,
@@ -4824,7 +4846,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 57
+    "rank": 58
    }
   ],
   "day": [
@@ -4942,8 +4964,8 @@
     "id": 765417,
     "name": "murrkino",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b765417-KwSVjfHysNG6.png",
-    "pts": 990,
-    "likes": 54,
+    "pts": 1125,
+    "likes": 64,
     "replies": 0,
     "best": 2.5,
     "elim": false,
@@ -5038,17 +5060,6 @@
     "rank": 19
    },
    {
-    "id": 8055661,
-    "name": "ClarenceDin",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8055661-SCFZmqIv8QEn.png",
-    "pts": 155,
-    "likes": 12,
-    "replies": 0,
-    "best": 2.0,
-    "elim": false,
-    "rank": 20
-   },
-   {
     "id": 7411964,
     "name": "traxmeister",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7411964-9TGvryhWs9Ay.png",
@@ -5057,7 +5068,7 @@
     "replies": 0,
     "best": 2.0,
     "elim": false,
-    "rank": 21
+    "rank": 20
    },
    {
     "id": 7560381,
@@ -5068,18 +5079,7 @@
     "replies": 1,
     "best": 1.5,
     "elim": false,
-    "rank": 22
-   },
-   {
-    "id": 5463886,
-    "name": "cesarrex",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5463886-FwJOQKqAJ9hw.png",
-    "pts": 115,
-    "likes": 8,
-    "replies": 1,
-    "best": 1.5,
-    "elim": false,
-    "rank": 23
+    "rank": 21
    },
    {
     "id": 5349472,
@@ -5090,7 +5090,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 24
+    "rank": 22
    },
    {
     "id": 422498,
@@ -5101,7 +5101,7 @@
     "replies": 2,
     "best": 1.0,
     "elim": false,
-    "rank": 25
+    "rank": 23
    },
    {
     "id": 5607221,
@@ -5112,7 +5112,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 26
+    "rank": 24
    },
    {
     "id": 5147312,
@@ -5122,6 +5122,28 @@
     "likes": 8,
     "replies": 0,
     "best": 1.5,
+    "elim": false,
+    "rank": 25
+   },
+   {
+    "id": 8294783,
+    "name": "AmazingGuy1",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8294783-XDzgRmgf9560.png",
+    "pts": 60,
+    "likes": 6,
+    "replies": 0,
+    "best": 1.0,
+    "elim": false,
+    "rank": 26
+   },
+   {
+    "id": 6832595,
+    "name": "Bartosz112233",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6832595-lw7msccXsNBP.jpg",
+    "pts": 60,
+    "likes": 6,
+    "replies": 0,
+    "best": 1.0,
     "elim": false,
     "rank": 27
    },
@@ -5137,17 +5159,6 @@
     "rank": 28
    },
    {
-    "id": 6832595,
-    "name": "Bartosz112233",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6832595-lw7msccXsNBP.jpg",
-    "pts": 50,
-    "likes": 5,
-    "replies": 0,
-    "best": 1.0,
-    "elim": false,
-    "rank": 29
-   },
-   {
     "id": 8015665,
     "name": "Cinderdmeow",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8015665-q64D1nc9eZAA.jpg",
@@ -5156,7 +5167,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 30
+    "rank": 29
    },
    {
     "id": 8270098,
@@ -5167,7 +5178,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 31
+    "rank": 30
    },
    {
     "id": 7901604,
@@ -5178,7 +5189,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 32
+    "rank": 31
    },
    {
     "id": 5383956,
@@ -5189,7 +5200,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 33
+    "rank": 32
    },
    {
     "id": 7691047,
@@ -5200,7 +5211,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 34
+    "rank": 33
    },
    {
     "id": 7043524,
@@ -5211,18 +5222,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 35
-   },
-   {
-    "id": 8294783,
-    "name": "AmazingGuy1",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8294783-XDzgRmgf9560.png",
-    "pts": 20,
-    "likes": 2,
-    "replies": 0,
-    "best": 1.0,
-    "elim": false,
-    "rank": 36
+    "rank": 34
    },
    {
     "id": 5570287,
@@ -5233,12 +5233,34 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 37
+    "rank": 35
+   },
+   {
+    "id": 5463886,
+    "name": "cesarrex",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5463886-FwJOQKqAJ9hw.png",
+    "pts": 20,
+    "likes": 2,
+    "replies": 0,
+    "best": 1.0,
+    "elim": false,
+    "rank": 36
    },
    {
     "id": 5584631,
     "name": "cirruuss",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5584631-osLgGT5RTfgP.png",
+    "pts": 20,
+    "likes": 2,
+    "replies": 0,
+    "best": 1.0,
+    "elim": false,
+    "rank": 37
+   },
+   {
+    "id": 8055661,
+    "name": "ClarenceDin",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8055661-SCFZmqIv8QEn.png",
     "pts": 20,
     "likes": 2,
     "replies": 0,
@@ -5346,6 +5368,17 @@
     "rank": 47
    },
    {
+    "id": 5359208,
+    "name": "Sooji",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5359208-ixdA3HhV85Af.png",
+    "pts": 10,
+    "likes": 1,
+    "replies": 0,
+    "best": 1.0,
+    "elim": false,
+    "rank": 48
+   },
+   {
     "id": 5839915,
     "name": "SteveSS17",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5839915-gT9QlgLk4q62.png",
@@ -5354,7 +5387,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 48
+    "rank": 49
    },
    {
     "id": 7709671,
@@ -5365,7 +5398,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 49
+    "rank": 50
    },
    {
     "id": 7587362,
@@ -5376,7 +5409,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 50
+    "rank": 51
    }
   ]
  }
