@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hall of Likes · ThePhantasmAl</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=Overpass:wght@400;600;700;800&display=swap">
+<style>
+:root{--bg:#0b1622;--panel:#151f2e;--panel2:#1b2738;--line:#1c2940;--line2:#22314a;--border:rgba(176,61,249,.35);
+--text:#fff;--soft:#a9b8cc;--muted:#8ba0b8;--accent:#d08bff;--title:#c77dff;--gold:#f5c451;--silver:#c7d2de;--bronze:#d8925a;--dead:#6e7a8c}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:'Overpass',sans-serif}
+a{color:var(--accent);text-decoration:none}a:hover{color:#ead1ff}
+.wrap{max-width:860px;margin:0 auto;padding:32px 16px 48px}
+h1{font-family:'Chakra Petch',sans-serif;font-size:34px;letter-spacing:3px;color:var(--title);text-align:center;margin:0}
+.sub{text-align:center;color:var(--muted);font-size:13px;margin:6px 0 24px}
+.tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-bottom:22px}
+.tile{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:16px 20px}
+.tile .l{font-size:12px;font-weight:700;letter-spacing:1.5px;color:var(--muted)}
+.tile .n{font-family:'Chakra Petch',sans-serif;font-size:36px;font-weight:700;line-height:1.1}
+.tile .t{font-size:12px;font-weight:700;color:var(--accent)}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.tabs a{padding:10px 16px;border-radius:8px;background:var(--panel);border:1px solid var(--line2);color:var(--soft);font-weight:700;font-size:14px;min-height:44px;display:flex;align-items:center}
+.tabs a.on{background:#3d2960;border-color:var(--border);color:#fff}
+.box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:6px 0;overflow-x:auto}
+table{width:100%;border-collapse:collapse;min-width:520px}
+th{font-size:11px;letter-spacing:1px;color:var(--muted);text-align:right;padding:10px 14px;border-bottom:1px solid var(--line2)}
+th:nth-child(1),th:nth-child(2){text-align:left}
+td{padding:9px 14px;border-bottom:1px solid var(--line);text-align:right;font-size:14px;color:var(--soft)}
+tr:last-child td{border-bottom:0}
+td.r{text-align:left;font-family:'Chakra Petch',sans-serif;font-weight:700;color:var(--muted);width:46px}
+td.u{text-align:left}
+td.p{font-family:'Chakra Petch',sans-serif;font-weight:700;color:#fff}
+td.b{color:var(--accent);font-weight:700}
+.user{display:flex;align-items:center;gap:10px;color:#fff;font-weight:600}
+.user img,.user .ph{width:30px;height:30px;border-radius:50%;object-fit:cover;background:#2a3a52;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px}
+.user.dead{color:var(--dead)}
+.user.dead img{filter:grayscale(1);opacity:.6}
+.skull{width:15px;height:15px;flex-shrink:0}
+tr.top1 td.r{color:var(--gold)}tr.top2 td.r{color:var(--silver)}tr.top3 td.r{color:var(--bronze)}
+.empty{padding:40px;text-align:center;color:var(--muted)}
+.rules{margin-top:22px;background:var(--panel);border:1px solid var(--line2);border-radius:12px;padding:14px 18px;color:var(--soft);font-size:14px;line-height:1.6}
+.rules b{color:#fff}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.chips span{background:#33254f;color:var(--accent);border-radius:6px;padding:4px 10px;font-weight:700;font-size:13px}
+.legend{margin-top:10px;color:var(--muted);font-size:13px;display:flex;align-items:center;gap:6px}
+@media (max-width:560px){.tiles{grid-template-columns:1fr}h1{font-size:26px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>HALL OF LIKES</h1>
+  <div class="sub" id="updated">Loading…</div>
+  <div class="tiles">
+    <div class="tile"><div class="l">TOTAL VISITORS</div><div class="n" id="vis">—</div><div class="t" id="visT"></div></div>
+    <div class="tile"><div class="l">LIKES RECEIVED</div><div class="n" id="likes">—</div><div class="t" id="likesT"></div></div>
+  </div>
+  <nav class="tabs" aria-label="Leaderboard period">
+    <a href="#alltime" data-tab="alltime">All-time</a>
+    <a href="#month" data-tab="month">Last 30 days</a>
+    <a href="#week" data-tab="week">Last 7 days</a>
+    <a href="#day" data-tab="day">Last 24 hours</a>
+  </nav>
+  <div class="box" id="board"></div>
+  <div class="legend"><svg class="skull" viewBox="0 0 24 24" aria-hidden="true"><path fill="#e6e6ec" d="M12 2C6.5 2 3 5.6 3 10.2c0 2.6 1.2 4.6 3 5.8V20a1 1 0 0 0 1 1h2v-2h2v2h2v-2h2v2h2a1 1 0 0 0 1-1v-4c1.8-1.2 3-3.2 3-5.8C21 5.6 17.5 2 12 2zm-3.5 11a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm7 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/></svg> = eliminated on <a href="../hajime/">Hajime's kill list</a></div>
+  <div class="rules">
+    <b>How points work.</b> Every like is worth <b>10 points</b>. Replies, mentions and profile messages are worth <b>25 points</b>.
+    Likes from the same person less than 5 minutes apart build a <b>combo</b>, and the multiplier grows with the streak:
+    <div class="chips"><span>like 1-4 ×1</span><span>5+ ×1.5</span><span>10+ ×2</span><span>25+ ×2.5</span><span>50+ ×3</span></div>
+  </div>
+</div>
+<script>
+const SKULL = '<svg class="skull" viewBox="0 0 24 24" role="img" aria-label="eliminated"><path fill="#e6e6ec" d="M12 2C6.5 2 3 5.6 3 10.2c0 2.6 1.2 4.6 3 5.8V20a1 1 0 0 0 1 1h2v-2h2v2h2v-2h2v2h2a1 1 0 0 0 1-1v-4c1.8-1.2 3-3.2 3-5.8C21 5.6 17.5 2 12 2zm-3.5 11a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm7 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/></svg>';
+const nf = new Intl.NumberFormat("en-US");
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+let DATA = null;
+
+function row(r) {
+  const pic = r.avatar ? `<img src="${esc(r.avatar)}" alt="" loading="lazy">` : `<span class="ph">${esc((r.name || "?")[0].toUpperCase())}</span>`;
+  return `<tr class="${r.rank <= 3 ? "top" + r.rank : ""}">
+    <td class="r">${r.rank}</td>
+    <td class="u"><a class="user${r.elim ? " dead" : ""}" href="https://anilist.co/user/${encodeURIComponent(r.name)}/" target="_blank" rel="noopener">${pic}<span>${esc(r.name)}</span>${r.elim ? SKULL : ""}</a></td>
+    <td>${nf.format(r.likes)}</td><td>${nf.format(r.replies)}</td>
+    <td class="b">×${r.best}</td><td class="p">${nf.format(r.pts)}</td></tr>`;
+}
+
+function show() {
+  const tab = ["alltime", "month", "week", "day"].includes(location.hash.slice(1)) ? location.hash.slice(1) : "alltime";
+  document.querySelectorAll(".tabs a").forEach((a) => {
+    a.classList.toggle("on", a.dataset.tab === tab);
+    a.setAttribute("aria-current", a.dataset.tab === tab ? "page" : "false");
+  });
+  if (!DATA) return;
+  const rows = DATA.boards[tab] || [];
+  document.getElementById("board").innerHTML = rows.length
+    ? `<table><thead><tr><th>#</th><th>USER</th><th>LIKES</th><th>REPLIES</th><th>BEST</th><th>POINTS</th></tr></thead><tbody>${rows.map(row).join("")}</tbody></table>`
+    : `<div class="empty">Nobody here yet. Be the first!</div>`;
+}
+
+window.addEventListener("hashchange", show);
+show();
+fetch("data.json?t=" + Date.now()).then((r) => r.json()).then((d) => {
+  DATA = d;
+  const v = d.visitors || {}, l = d.likes || {};
+  document.getElementById("vis").textContent = v.total == null ? "—" : nf.format(v.total);
+  document.getElementById("visT").textContent = v.today == null ? "" : `+${nf.format(v.today)} today`;
+  document.getElementById("likes").textContent = l.total == null ? "—" : nf.format(l.total);
+  document.getElementById("likesT").textContent = `+${nf.format(l.today || 0)} today`;
+  document.getElementById("updated").textContent = "Updated " + new Date(d.updated).toLocaleString();
+  show();
+}).catch(() => { document.getElementById("updated").textContent = "Leaderboards not generated yet."; });
+</script>
+</body>
+</html>

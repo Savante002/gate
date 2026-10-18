@@ -1,0 +1,45 @@
+name: Hall of Likes
+
+on:
+  schedule:
+    - cron: "7,22,37,52 * * * *"   # every 15 min, offset from the kill list so their pushes don't collide
+  workflow_dispatch: {}            # "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: likers
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Pillow
+        run: pip install --quiet pillow
+      - name: Update leaderboards and images
+        env:
+          ANILIST_TOKEN: ${{ secrets.ANILIST_TOKEN }}                 # same secret as the kill list
+          VISITOR_COUNTER_URL: ${{ vars.VISITOR_COUNTER_URL }}        # your Cloudflare Worker address
+        run: python tools/likers.py
+      - name: Save changes
+        if: always()
+        run: |
+          git config user.name "hall-of-likes-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/likers_state.json likers/
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+            exit 0
+          fi
+          git commit -m "Hall of Likes update"
+          for i in 1 2 3 4 5; do
+            git pull --rebase --quiet && git push && exit 0
+            echo "push failed, retrying in 10 s"; sleep 10
+          done
+          exit 1

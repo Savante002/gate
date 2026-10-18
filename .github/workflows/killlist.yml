@@ -40,5 +40,10 @@ jobs:
             echo "nothing changed"
           else
             git commit -m "Kill list update"
-            git push
+            # the Hall of Likes robot also pushes to this repo: catch up with it before pushing
+            for i in 1 2 3 4 5; do
+              git pull --rebase --quiet && git push && exit 0
+              echo "push failed, retrying in 10 s"; sleep 10
+            done
+            exit 1
           fi
