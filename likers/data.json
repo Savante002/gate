@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-18T22:58:01+00:00",
+ "updated": "2026-10-18T23:29:26+00:00",
  "visitors": {
   "total": 1506,
   "today": 0
  },
  "likes": {
   "total": 28192,
-  "today": 2655
+  "today": 2738
  },
  "rules": {
   "like": 10,
@@ -41,12 +41,23 @@
     "id": 5544747,
     "name": "nodo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5544747-JJYUYkeGfHrc.png",
-    "pts": 34605,
-    "likes": 1345,
-    "replies": 1,
+    "pts": 34660,
+    "likes": 1348,
+    "replies": 2,
     "best": 3.0,
     "elim": false,
     "rank": 1
+   },
+   {
+    "id": 689569,
+    "name": "bbykazuya",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b689569-fOLDcpXOP3Vd.png",
+    "pts": 6235,
+    "likes": 268,
+    "replies": 0,
+    "best": 3.0,
+    "elim": false,
+    "rank": 2
    },
    {
     "id": 6670236,
@@ -57,7 +68,7 @@
     "replies": 1,
     "best": 3.0,
     "elim": false,
-    "rank": 2
+    "rank": 3
    },
    {
     "id": 5775330,
@@ -68,7 +79,7 @@
     "replies": 4,
     "best": 3.0,
     "elim": false,
-    "rank": 3
+    "rank": 4
    },
    {
     "id": 5561175,
@@ -79,7 +90,7 @@
     "replies": 0,
     "best": 3.0,
     "elim": false,
-    "rank": 4
+    "rank": 5
    },
    {
     "id": 6486541,
@@ -89,17 +100,6 @@
     "likes": 269,
     "replies": 1,
     "best": 2.5,
-    "elim": false,
-    "rank": 5
-   },
-   {
-    "id": 689569,
-    "name": "bbykazuya",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b689569-fOLDcpXOP3Vd.png",
-    "pts": 3565,
-    "likes": 179,
-    "replies": 0,
-    "best": 3.0,
     "elim": false,
     "rank": 6
    },
@@ -126,23 +126,23 @@
     "rank": 8
    },
    {
+    "id": 5896343,
+    "name": "SVCK",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5896343-NxcPUoPF3XmA.png",
+    "pts": 3260,
+    "likes": 134,
+    "replies": 3,
+    "best": 3.0,
+    "elim": false,
+    "rank": 9
+   },
+   {
     "id": 6990119,
     "name": "XavierXD",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6990119-gDbnrzNZqo3J.jpg",
     "pts": 3240,
     "likes": 168,
     "replies": 2,
-    "best": 3.0,
-    "elim": false,
-    "rank": 9
-   },
-   {
-    "id": 5896343,
-    "name": "SVCK",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5896343-NxcPUoPF3XmA.png",
-    "pts": 3240,
-    "likes": 132,
-    "replies": 3,
     "best": 3.0,
     "elim": false,
     "rank": 10
@@ -3442,12 +3442,23 @@
     "id": 5544747,
     "name": "nodo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5544747-JJYUYkeGfHrc.png",
-    "pts": 34555,
-    "likes": 1340,
-    "replies": 1,
+    "pts": 34610,
+    "likes": 1343,
+    "replies": 2,
     "best": 3.0,
     "elim": false,
     "rank": 1
+   },
+   {
+    "id": 689569,
+    "name": "bbykazuya",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b689569-fOLDcpXOP3Vd.png",
+    "pts": 6235,
+    "likes": 268,
+    "replies": 0,
+    "best": 3.0,
+    "elim": false,
+    "rank": 2
    },
    {
     "id": 6670236,
@@ -3456,17 +3467,6 @@
     "pts": 4120,
     "likes": 173,
     "replies": 1,
-    "best": 3.0,
-    "elim": false,
-    "rank": 2
-   },
-   {
-    "id": 689569,
-    "name": "bbykazuya",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b689569-fOLDcpXOP3Vd.png",
-    "pts": 3565,
-    "likes": 179,
-    "replies": 0,
     "best": 3.0,
     "elim": false,
     "rank": 3
@@ -3486,8 +3486,8 @@
     "id": 5896343,
     "name": "SVCK",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5896343-NxcPUoPF3XmA.png",
-    "pts": 3240,
-    "likes": 132,
+    "pts": 3260,
+    "likes": 134,
     "replies": 3,
     "best": 3.0,
     "elim": false,
@@ -4412,12 +4412,23 @@
     "id": 5544747,
     "name": "nodo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5544747-JJYUYkeGfHrc.png",
-    "pts": 34555,
-    "likes": 1340,
-    "replies": 1,
+    "pts": 34610,
+    "likes": 1343,
+    "replies": 2,
     "best": 3.0,
     "elim": false,
     "rank": 1
+   },
+   {
+    "id": 689569,
+    "name": "bbykazuya",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b689569-fOLDcpXOP3Vd.png",
+    "pts": 6235,
+    "likes": 268,
+    "replies": 0,
+    "best": 3.0,
+    "elim": false,
+    "rank": 2
    },
    {
     "id": 6670236,
@@ -4426,17 +4437,6 @@
     "pts": 4120,
     "likes": 173,
     "replies": 1,
-    "best": 3.0,
-    "elim": false,
-    "rank": 2
-   },
-   {
-    "id": 689569,
-    "name": "bbykazuya",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b689569-fOLDcpXOP3Vd.png",
-    "pts": 3565,
-    "likes": 179,
-    "replies": 0,
     "best": 3.0,
     "elim": false,
     "rank": 3
@@ -4456,8 +4456,8 @@
     "id": 5896343,
     "name": "SVCK",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5896343-NxcPUoPF3XmA.png",
-    "pts": 3105,
-    "likes": 122,
+    "pts": 3125,
+    "likes": 124,
     "replies": 3,
     "best": 3.0,
     "elim": false,
@@ -5195,12 +5195,23 @@
     "id": 5544747,
     "name": "nodo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5544747-JJYUYkeGfHrc.png",
-    "pts": 34555,
-    "likes": 1340,
-    "replies": 1,
+    "pts": 34610,
+    "likes": 1343,
+    "replies": 2,
     "best": 3.0,
     "elim": false,
     "rank": 1
+   },
+   {
+    "id": 689569,
+    "name": "bbykazuya",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b689569-fOLDcpXOP3Vd.png",
+    "pts": 6235,
+    "likes": 268,
+    "replies": 0,
+    "best": 3.0,
+    "elim": false,
+    "rank": 2
    },
    {
     "id": 6670236,
@@ -5211,25 +5222,14 @@
     "replies": 1,
     "best": 3.0,
     "elim": false,
-    "rank": 2
-   },
-   {
-    "id": 689569,
-    "name": "bbykazuya",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b689569-fOLDcpXOP3Vd.png",
-    "pts": 3565,
-    "likes": 179,
-    "replies": 0,
-    "best": 3.0,
-    "elim": false,
     "rank": 3
    },
    {
     "id": 5896343,
     "name": "SVCK",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5896343-NxcPUoPF3XmA.png",
-    "pts": 2960,
-    "likes": 112,
+    "pts": 2980,
+    "likes": 114,
     "replies": 2,
     "best": 3.0,
     "elim": false,
@@ -5261,8 +5261,8 @@
     "id": 8229841,
     "name": "Lukkieo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8229841-Wa4HKCCEpqr5.jpg",
-    "pts": 1840,
-    "likes": 103,
+    "pts": 1685,
+    "likes": 92,
     "replies": 0,
     "best": 2.5,
     "elim": false,
