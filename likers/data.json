@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-18T18:40:21+00:00",
+ "updated": "2026-10-18T19:09:57+00:00",
  "visitors": {
   "total": 1506,
   "today": 0
  },
  "likes": {
   "total": 28062,
-  "today": 2336
+  "today": 2347
  },
  "rules": {
   "like": 10,
@@ -929,6 +929,17 @@
     "rank": 81
    },
    {
+    "id": 417569,
+    "name": "yyagami",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b417569-rnLD0uFGYsqp.jpg",
+    "pts": 125,
+    "likes": 10,
+    "replies": 0,
+    "best": 1.5,
+    "elim": false,
+    "rank": 82
+   },
+   {
     "id": 6882133,
     "name": "HardDrama",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6882133-DH5QIBRN7SgA.png",
@@ -937,7 +948,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 82
+    "rank": 83
    },
    {
     "id": 5349472,
@@ -948,7 +959,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 83
+    "rank": 84
    },
    {
     "id": 8270098,
@@ -959,7 +970,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 84
+    "rank": 85
    },
    {
     "id": 5533991,
@@ -970,7 +981,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 85
+    "rank": 86
    },
    {
     "id": 771927,
@@ -981,7 +992,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 86
+    "rank": 87
    },
    {
     "id": 5598326,
@@ -992,7 +1003,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 87
+    "rank": 88
    },
    {
     "id": 5839915,
@@ -1003,7 +1014,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 88
+    "rank": 89
    },
    {
     "id": 6598715,
@@ -1014,7 +1025,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 89
+    "rank": 90
    },
    {
     "id": 5359208,
@@ -1025,7 +1036,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 90
+    "rank": 91
    },
    {
     "id": 5607221,
@@ -1036,7 +1047,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 91
+    "rank": 92
    },
    {
     "id": 5543267,
@@ -1047,7 +1058,7 @@
     "replies": 3,
     "best": 1.0,
     "elim": false,
-    "rank": 92
+    "rank": 93
    },
    {
     "id": 7143764,
@@ -1058,7 +1069,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 93
+    "rank": 94
    },
    {
     "id": 546977,
@@ -1069,7 +1080,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 94
+    "rank": 95
    },
    {
     "id": 334847,
@@ -1080,7 +1091,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 95
+    "rank": 96
    },
    {
     "id": 5881108,
@@ -1091,7 +1102,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 96
+    "rank": 97
    },
    {
     "id": 6241303,
@@ -1102,7 +1113,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 97
+    "rank": 98
    },
    {
     "id": 121735,
@@ -1113,7 +1124,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 98
+    "rank": 99
    },
    {
     "id": 5295148,
@@ -1124,7 +1135,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 99
+    "rank": 100
    },
    {
     "id": 6683592,
@@ -1135,7 +1146,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 100
+    "rank": 101
    },
    {
     "id": 6127638,
@@ -1146,7 +1157,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 101
+    "rank": 102
    },
    {
     "id": 6851704,
@@ -1157,7 +1168,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 102
+    "rank": 103
    },
    {
     "id": 5816555,
@@ -1168,7 +1179,18 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 103
+    "rank": 104
+   },
+   {
+    "id": 5834758,
+    "name": "Duece",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5834758-BThpwjkkHOUH.jpg",
+    "pts": 65,
+    "likes": 6,
+    "replies": 0,
+    "best": 1.5,
+    "elim": false,
+    "rank": 105
    },
    {
     "id": 6845805,
@@ -1179,7 +1201,7 @@
     "replies": 1,
     "best": 1.0,
     "elim": false,
-    "rank": 104
+    "rank": 106
    },
    {
     "id": 6004042,
@@ -1190,7 +1212,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 105
+    "rank": 107
    },
    {
     "id": 129996,
@@ -1201,7 +1223,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 106
+    "rank": 108
    },
    {
     "id": 6958975,
@@ -1212,7 +1234,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 107
+    "rank": 109
    },
    {
     "id": 7097211,
@@ -1223,7 +1245,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 108
+    "rank": 110
    },
    {
     "id": 8129266,
@@ -1234,7 +1256,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 109
+    "rank": 111
    },
    {
     "id": 6848608,
@@ -1245,7 +1267,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 110
+    "rank": 112
    },
    {
     "id": 7569689,
@@ -1256,7 +1278,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 111
+    "rank": 113
    },
    {
     "id": 7105770,
@@ -1267,7 +1289,7 @@
     "replies": 1,
     "best": 1.0,
     "elim": false,
-    "rank": 112
+    "rank": 114
    },
    {
     "id": 8015665,
@@ -1278,7 +1300,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 113
+    "rank": 115
    },
    {
     "id": 645534,
@@ -1289,7 +1311,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 114
+    "rank": 116
    },
    {
     "id": 503446,
@@ -1300,7 +1322,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 115
+    "rank": 117
    },
    {
     "id": 6882366,
@@ -1311,7 +1333,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 116
+    "rank": 118
    },
    {
     "id": 5961733,
@@ -1322,7 +1344,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 117
+    "rank": 119
    },
    {
     "id": 5882830,
@@ -1333,7 +1355,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 118
+    "rank": 120
    },
    {
     "id": 6472483,
@@ -1344,7 +1366,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 119
+    "rank": 121
    },
    {
     "id": 5973376,
@@ -1355,7 +1377,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 120
+    "rank": 122
    },
    {
     "id": 6994248,
@@ -1366,7 +1388,7 @@
     "replies": 1,
     "best": 1.0,
     "elim": false,
-    "rank": 121
+    "rank": 123
    },
    {
     "id": 6359896,
@@ -1377,7 +1399,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 122
+    "rank": 124
    },
    {
     "id": 7020233,
@@ -1388,7 +1410,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 123
+    "rank": 125
    },
    {
     "id": 6186980,
@@ -1399,7 +1421,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 124
+    "rank": 126
    },
    {
     "id": 6136981,
@@ -1410,7 +1432,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 125
+    "rank": 127
    },
    {
     "id": 5946935,
@@ -1421,7 +1443,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 126
+    "rank": 128
    },
    {
     "id": 7901604,
@@ -1432,7 +1454,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 127
+    "rank": 129
    },
    {
     "id": 6444890,
@@ -1443,7 +1465,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 128
+    "rank": 130
    },
    {
     "id": 7256411,
@@ -1454,7 +1476,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 129
+    "rank": 131
    },
    {
     "id": 5468370,
@@ -1465,7 +1487,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 130
+    "rank": 132
    },
    {
     "id": 913915,
@@ -1476,7 +1498,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 131
+    "rank": 133
    },
    {
     "id": 584611,
@@ -1487,7 +1509,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 132
+    "rank": 134
    },
    {
     "id": 5629733,
@@ -1498,7 +1520,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 133
+    "rank": 135
    },
    {
     "id": 637799,
@@ -1509,7 +1531,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 134
+    "rank": 136
    },
    {
     "id": 5382867,
@@ -1520,7 +1542,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 135
+    "rank": 137
    },
    {
     "id": 860776,
@@ -1531,7 +1553,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 136
+    "rank": 138
    },
    {
     "id": 7264076,
@@ -1542,7 +1564,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 137
+    "rank": 139
    },
    {
     "id": 5694541,
@@ -1553,7 +1575,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 138
+    "rank": 140
    },
    {
     "id": 983355,
@@ -1564,7 +1586,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 139
+    "rank": 141
    },
    {
     "id": 5594231,
@@ -1575,7 +1597,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 140
+    "rank": 142
    },
    {
     "id": 5491326,
@@ -1586,7 +1608,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 141
+    "rank": 143
    },
    {
     "id": 6505008,
@@ -1597,7 +1619,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 142
+    "rank": 144
    },
    {
     "id": 6980708,
@@ -1608,7 +1630,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 143
+    "rank": 145
    },
    {
     "id": 7691047,
@@ -1619,7 +1641,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 144
+    "rank": 146
    },
    {
     "id": 5106607,
@@ -1630,7 +1652,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 145
+    "rank": 147
    },
    {
     "id": 8121476,
@@ -1641,7 +1663,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 146
+    "rank": 148
    },
    {
     "id": 7736331,
@@ -1652,7 +1674,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 147
+    "rank": 149
    },
    {
     "id": 7043524,
@@ -1663,7 +1685,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 148
+    "rank": 150
    },
    {
     "id": 7347805,
@@ -1674,7 +1696,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 149
+    "rank": 151
    },
    {
     "id": 6523092,
@@ -1685,7 +1707,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 150
+    "rank": 152
    },
    {
     "id": 6538674,
@@ -1696,7 +1718,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 151
+    "rank": 153
    },
    {
     "id": 7689025,
@@ -1707,7 +1729,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 152
+    "rank": 154
    },
    {
     "id": 548005,
@@ -1718,7 +1740,7 @@
     "replies": 1,
     "best": 1.0,
     "elim": false,
-    "rank": 153
+    "rank": 155
    },
    {
     "id": 5452771,
@@ -1729,7 +1751,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 154
+    "rank": 156
    },
    {
     "id": 248723,
@@ -1740,7 +1762,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 155
+    "rank": 157
    },
    {
     "id": 413187,
@@ -1751,7 +1773,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 156
+    "rank": 158
    },
    {
     "id": 7763140,
@@ -1762,7 +1784,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 157
+    "rank": 159
    },
    {
     "id": 5570287,
@@ -1773,7 +1795,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 158
+    "rank": 160
    },
    {
     "id": 6502077,
@@ -1784,7 +1806,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 159
+    "rank": 161
    },
    {
     "id": 801562,
@@ -1795,7 +1817,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 160
+    "rank": 162
    },
    {
     "id": 6728587,
@@ -1806,7 +1828,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 161
+    "rank": 163
    },
    {
     "id": 6447609,
@@ -1817,7 +1839,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 162
+    "rank": 164
    },
    {
     "id": 5283921,
@@ -1828,7 +1850,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 163
+    "rank": 165
    },
    {
     "id": 82904,
@@ -1839,7 +1861,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 164
+    "rank": 166
    },
    {
     "id": 7279259,
@@ -1850,7 +1872,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 165
+    "rank": 167
    },
    {
     "id": 6644084,
@@ -1861,7 +1883,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 166
+    "rank": 168
    },
    {
     "id": 5649688,
@@ -1872,7 +1894,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 167
+    "rank": 169
    },
    {
     "id": 658557,
@@ -1883,7 +1905,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 168
+    "rank": 170
    },
    {
     "id": 703497,
@@ -1894,7 +1916,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 169
+    "rank": 171
    },
    {
     "id": 7439250,
@@ -1905,7 +1927,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 170
+    "rank": 172
    },
    {
     "id": 336693,
@@ -1916,7 +1938,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 171
+    "rank": 173
    },
    {
     "id": 5769280,
@@ -1927,7 +1949,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 172
+    "rank": 174
    },
    {
     "id": 6287636,
@@ -1938,7 +1960,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 173
+    "rank": 175
    },
    {
     "id": 6159089,
@@ -1949,7 +1971,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 174
+    "rank": 176
    },
    {
     "id": 263505,
@@ -1960,7 +1982,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 175
+    "rank": 177
    },
    {
     "id": 5519347,
@@ -1971,7 +1993,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 176
+    "rank": 178
    },
    {
     "id": 7056117,
@@ -1982,7 +2004,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 177
+    "rank": 179
    },
    {
     "id": 5968349,
@@ -1993,7 +2015,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 178
+    "rank": 180
    },
    {
     "id": 6532509,
@@ -2004,7 +2026,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 179
+    "rank": 181
    },
    {
     "id": 6344144,
@@ -2015,7 +2037,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 180
+    "rank": 182
    },
    {
     "id": 6272966,
@@ -2026,7 +2048,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 181
+    "rank": 183
    },
    {
     "id": 7718408,
@@ -2037,7 +2059,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 182
+    "rank": 184
    },
    {
     "id": 875695,
@@ -2048,7 +2070,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 183
+    "rank": 185
    },
    {
     "id": 130018,
@@ -2059,7 +2081,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 184
+    "rank": 186
    },
    {
     "id": 5696482,
@@ -2070,7 +2092,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 185
+    "rank": 187
    },
    {
     "id": 597455,
@@ -2081,7 +2103,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 186
+    "rank": 188
    },
    {
     "id": 7191404,
@@ -2092,7 +2114,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 187
+    "rank": 189
    },
    {
     "id": 264462,
@@ -2103,7 +2125,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 188
+    "rank": 190
    },
    {
     "id": 6909673,
@@ -2114,7 +2136,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 189
+    "rank": 191
    },
    {
     "id": 403321,
@@ -2125,7 +2147,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 190
+    "rank": 192
    },
    {
     "id": 346379,
@@ -2136,7 +2158,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 191
+    "rank": 193
    },
    {
     "id": 582744,
@@ -2147,7 +2169,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 192
+    "rank": 194
    },
    {
     "id": 7773497,
@@ -2158,7 +2180,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 193
+    "rank": 195
    },
    {
     "id": 6854858,
@@ -2169,7 +2191,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 194
+    "rank": 196
    },
    {
     "id": 6046696,
@@ -2180,7 +2202,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 195
+    "rank": 197
    },
    {
     "id": 6191722,
@@ -2191,7 +2213,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 196
+    "rank": 198
    },
    {
     "id": 7191044,
@@ -2202,7 +2224,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 197
+    "rank": 199
    },
    {
     "id": 6153017,
@@ -2213,7 +2235,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 198
+    "rank": 200
    },
    {
     "id": 6707491,
@@ -2224,7 +2246,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 199
+    "rank": 201
    },
    {
     "id": 6288249,
@@ -2235,7 +2257,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 200
+    "rank": 202
    },
    {
     "id": 126357,
@@ -2246,7 +2268,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 201
+    "rank": 203
    },
    {
     "id": 7427364,
@@ -2257,7 +2279,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 202
+    "rank": 204
    },
    {
     "id": 6292560,
@@ -2268,7 +2290,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 203
+    "rank": 205
    },
    {
     "id": 7532626,
@@ -2279,7 +2301,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 204
+    "rank": 206
    },
    {
     "id": 5884725,
@@ -2290,7 +2312,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 205
+    "rank": 207
    },
    {
     "id": 7514290,
@@ -2301,7 +2323,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 206
+    "rank": 208
    },
    {
     "id": 782466,
@@ -2312,7 +2334,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 207
+    "rank": 209
    },
    {
     "id": 285365,
@@ -2323,7 +2345,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 208
+    "rank": 210
    },
    {
     "id": 7602552,
@@ -2334,7 +2356,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 209
+    "rank": 211
    },
    {
     "id": 6595262,
@@ -2345,7 +2367,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 210
+    "rank": 212
    },
    {
     "id": 6473599,
@@ -2356,18 +2378,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 211
-   },
-   {
-    "id": 5834758,
-    "name": "Duece",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5834758-BThpwjkkHOUH.jpg",
-    "pts": 10,
-    "likes": 1,
-    "replies": 0,
-    "best": 1.0,
-    "elim": false,
-    "rank": 212
+    "rank": 213
    },
    {
     "id": 5409132,
@@ -2378,7 +2389,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 213
+    "rank": 214
    },
    {
     "id": 7025602,
@@ -2389,7 +2400,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 214
+    "rank": 215
    },
    {
     "id": 6509661,
@@ -2400,7 +2411,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 215
+    "rank": 216
    },
    {
     "id": 7221747,
@@ -2411,7 +2422,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 216
+    "rank": 217
    },
    {
     "id": 5137884,
@@ -2422,7 +2433,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 217
+    "rank": 218
    },
    {
     "id": 834191,
@@ -2433,7 +2444,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 218
+    "rank": 219
    },
    {
     "id": 7654702,
@@ -2444,7 +2455,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 219
+    "rank": 220
    },
    {
     "id": 559934,
@@ -2455,7 +2466,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 220
+    "rank": 221
    },
    {
     "id": 7770313,
@@ -2466,7 +2477,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 221
+    "rank": 222
    },
    {
     "id": 6841901,
@@ -2477,7 +2488,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 222
+    "rank": 223
    },
    {
     "id": 6098800,
@@ -2488,7 +2499,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 223
+    "rank": 224
    },
    {
     "id": 7412663,
@@ -2499,7 +2510,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 224
+    "rank": 225
    },
    {
     "id": 6759768,
@@ -2510,7 +2521,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 225
+    "rank": 226
    },
    {
     "id": 5591949,
@@ -2521,7 +2532,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 226
+    "rank": 227
    },
    {
     "id": 6881629,
@@ -2532,7 +2543,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 227
+    "rank": 228
    },
    {
     "id": 5832321,
@@ -2543,7 +2554,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 228
+    "rank": 229
    },
    {
     "id": 6595918,
@@ -2554,7 +2565,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 229
+    "rank": 230
    },
    {
     "id": 7020365,
@@ -2565,7 +2576,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 230
+    "rank": 231
    },
    {
     "id": 6025033,
@@ -2576,7 +2587,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 231
+    "rank": 232
    },
    {
     "id": 6230379,
@@ -2587,7 +2598,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 232
+    "rank": 233
    },
    {
     "id": 7187330,
@@ -2598,7 +2609,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 233
+    "rank": 234
    },
    {
     "id": 5314335,
@@ -2609,7 +2620,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 234
+    "rank": 235
    },
    {
     "id": 5450159,
@@ -2620,7 +2631,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 235
+    "rank": 236
    },
    {
     "id": 7302480,
@@ -2631,7 +2642,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 236
+    "rank": 237
    },
    {
     "id": 6903462,
@@ -2642,7 +2653,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 237
+    "rank": 238
    },
    {
     "id": 5805154,
@@ -2653,7 +2664,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 238
+    "rank": 239
    },
    {
     "id": 885909,
@@ -2664,7 +2675,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 239
+    "rank": 240
    },
    {
     "id": 7399450,
@@ -2675,7 +2686,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 240
+    "rank": 241
    },
    {
     "id": 6159318,
@@ -2686,7 +2697,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 241
+    "rank": 242
    },
    {
     "id": 813411,
@@ -2697,7 +2708,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 242
+    "rank": 243
    },
    {
     "id": 619968,
@@ -2708,7 +2719,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 243
+    "rank": 244
    },
    {
     "id": 6255430,
@@ -2719,7 +2730,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 244
+    "rank": 245
    },
    {
     "id": 5780908,
@@ -2730,7 +2741,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 245
+    "rank": 246
    },
    {
     "id": 7278777,
@@ -2741,7 +2752,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 246
+    "rank": 247
    },
    {
     "id": 6564068,
@@ -2752,7 +2763,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 247
+    "rank": 248
    },
    {
     "id": 6858404,
@@ -2763,7 +2774,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 248
+    "rank": 249
    },
    {
     "id": 7287794,
@@ -2774,7 +2785,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 249
+    "rank": 250
    },
    {
     "id": 7430005,
@@ -2785,7 +2796,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 250
+    "rank": 251
    },
    {
     "id": 6339262,
@@ -2796,7 +2807,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 251
+    "rank": 252
    },
    {
     "id": 7684385,
@@ -2807,7 +2818,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 252
+    "rank": 253
    },
    {
     "id": 6924179,
@@ -2818,7 +2829,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 253
+    "rank": 254
    },
    {
     "id": 5763296,
@@ -2829,7 +2840,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 254
+    "rank": 255
    },
    {
     "id": 5491720,
@@ -2840,7 +2851,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 255
+    "rank": 256
    },
    {
     "id": 6136817,
@@ -2851,7 +2862,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 256
+    "rank": 257
    },
    {
     "id": 591024,
@@ -2862,7 +2873,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 257
+    "rank": 258
    },
    {
     "id": 689939,
@@ -2873,7 +2884,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 258
+    "rank": 259
    },
    {
     "id": 955403,
@@ -2884,7 +2895,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 259
+    "rank": 260
    },
    {
     "id": 7223720,
@@ -2895,7 +2906,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 260
+    "rank": 261
    },
    {
     "id": 162824,
@@ -2906,7 +2917,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 261
+    "rank": 262
    },
    {
     "id": 6022799,
@@ -2917,7 +2928,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 262
+    "rank": 263
    },
    {
     "id": 6343812,
@@ -2928,7 +2939,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 263
+    "rank": 264
    },
    {
     "id": 945712,
@@ -2939,7 +2950,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 264
+    "rank": 265
    },
    {
     "id": 6529106,
@@ -2950,7 +2961,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 265
+    "rank": 266
    },
    {
     "id": 7622892,
@@ -2961,7 +2972,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 266
+    "rank": 267
    },
    {
     "id": 5259835,
@@ -2972,7 +2983,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 267
+    "rank": 268
    },
    {
     "id": 7795942,
@@ -2983,7 +2994,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 268
+    "rank": 269
    },
    {
     "id": 6809104,
@@ -2994,7 +3005,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 269
+    "rank": 270
    },
    {
     "id": 736028,
@@ -3005,7 +3016,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 270
+    "rank": 271
    },
    {
     "id": 6390692,
@@ -3016,7 +3027,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 271
+    "rank": 272
    },
    {
     "id": 122544,
@@ -3027,7 +3038,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 272
+    "rank": 273
    },
    {
     "id": 6852896,
@@ -3038,7 +3049,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 273
+    "rank": 274
    },
    {
     "id": 6882459,
@@ -3049,7 +3060,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 274
+    "rank": 275
    },
    {
     "id": 94538,
@@ -3060,7 +3071,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 275
+    "rank": 276
    },
    {
     "id": 5930257,
@@ -3071,7 +3082,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 276
+    "rank": 277
    },
    {
     "id": 7444038,
@@ -3082,7 +3093,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 277
+    "rank": 278
    },
    {
     "id": 7419231,
@@ -3093,7 +3104,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 278
+    "rank": 279
    },
    {
     "id": 6949098,
@@ -3104,7 +3115,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 279
+    "rank": 280
    },
    {
     "id": 5908352,
@@ -3115,7 +3126,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 280
+    "rank": 281
    },
    {
     "id": 367921,
@@ -3126,7 +3137,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 281
+    "rank": 282
    },
    {
     "id": 6152183,
@@ -3137,7 +3148,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 282
+    "rank": 283
    },
    {
     "id": 7454954,
@@ -3148,7 +3159,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 283
+    "rank": 284
    },
    {
     "id": 406399,
@@ -3159,7 +3170,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 284
+    "rank": 285
    },
    {
     "id": 7563240,
@@ -3170,7 +3181,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 285
+    "rank": 286
    },
    {
     "id": 6449135,
@@ -3181,7 +3192,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 286
+    "rank": 287
    },
    {
     "id": 529681,
@@ -3192,7 +3203,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 287
+    "rank": 288
    },
    {
     "id": 6951812,
@@ -3203,7 +3214,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 288
+    "rank": 289
    },
    {
     "id": 7728076,
@@ -3214,7 +3225,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 289
+    "rank": 290
    },
    {
     "id": 6306994,
@@ -3225,7 +3236,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 290
+    "rank": 291
    },
    {
     "id": 6772226,
@@ -3236,7 +3247,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 291
+    "rank": 292
    },
    {
     "id": 7381945,
@@ -3247,7 +3258,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 292
+    "rank": 293
    },
    {
     "id": 5126521,
@@ -3258,7 +3269,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 293
+    "rank": 294
    },
    {
     "id": 5750198,
@@ -3269,7 +3280,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 294
+    "rank": 295
    },
    {
     "id": 6833294,
@@ -3280,7 +3291,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 295
+    "rank": 296
    },
    {
     "id": 5172211,
@@ -3291,7 +3302,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 296
+    "rank": 297
    },
    {
     "id": 468451,
@@ -3302,7 +3313,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 297
+    "rank": 298
    },
    {
     "id": 868735,
@@ -3313,7 +3324,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 298
+    "rank": 299
    },
    {
     "id": 5588518,
@@ -3324,7 +3335,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 299
+    "rank": 300
    },
    {
     "id": 6316420,
@@ -3335,7 +3346,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 300
+    "rank": 301
    },
    {
     "id": 5156357,
@@ -3346,7 +3357,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 301
+    "rank": 302
    },
    {
     "id": 7590839,
@@ -3357,7 +3368,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 302
+    "rank": 303
    },
    {
     "id": 6142656,
@@ -3368,7 +3379,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 303
+    "rank": 304
    },
    {
     "id": 138829,
@@ -3379,7 +3390,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 304
+    "rank": 305
    },
    {
     "id": 635589,
@@ -3390,23 +3401,12 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 305
+    "rank": 306
    },
    {
     "id": 7709671,
     "name": "xshrumii",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7709671-XbDEJdLFN7Ug.jpg",
-    "pts": 10,
-    "likes": 1,
-    "replies": 0,
-    "best": 1.0,
-    "elim": false,
-    "rank": 306
-   },
-   {
-    "id": 417569,
-    "name": "yyagami",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b417569-rnLD0uFGYsqp.jpg",
     "pts": 10,
     "likes": 1,
     "replies": 0,
@@ -3846,6 +3846,17 @@
     "rank": 37
    },
    {
+    "id": 417569,
+    "name": "yyagami",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b417569-rnLD0uFGYsqp.jpg",
+    "pts": 125,
+    "likes": 10,
+    "replies": 0,
+    "best": 1.5,
+    "elim": false,
+    "rank": 38
+   },
+   {
     "id": 5147312,
     "name": "lime",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5147312-I5hsIOv54hEX.png",
@@ -3854,7 +3865,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 38
+    "rank": 39
    },
    {
     "id": 8270098,
@@ -3865,7 +3876,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 39
+    "rank": 40
    },
    {
     "id": 772485,
@@ -3876,7 +3887,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 40
+    "rank": 41
    },
    {
     "id": 5349472,
@@ -3887,7 +3898,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 41
+    "rank": 42
    },
    {
     "id": 5607221,
@@ -3898,7 +3909,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 42
+    "rank": 43
    },
    {
     "id": 798574,
@@ -3909,7 +3920,18 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 43
+    "rank": 44
+   },
+   {
+    "id": 5834758,
+    "name": "Duece",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5834758-BThpwjkkHOUH.jpg",
+    "pts": 55,
+    "likes": 5,
+    "replies": 0,
+    "best": 1.5,
+    "elim": false,
+    "rank": 45
    },
    {
     "id": 7569689,
@@ -3920,7 +3942,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 44
+    "rank": 46
    },
    {
     "id": 5672736,
@@ -3931,7 +3953,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 45
+    "rank": 47
    },
    {
     "id": 8015665,
@@ -3942,7 +3964,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 46
+    "rank": 48
    },
    {
     "id": 7123926,
@@ -3953,7 +3975,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 47
+    "rank": 49
    },
    {
     "id": 7901604,
@@ -3964,7 +3986,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 48
+    "rank": 50
    },
    {
     "id": 6444890,
@@ -3975,7 +3997,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 49
+    "rank": 51
    },
    {
     "id": 8129266,
@@ -3986,7 +4008,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 50
+    "rank": 52
    },
    {
     "id": 5468370,
@@ -3997,7 +4019,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 51
+    "rank": 53
    },
    {
     "id": 5150510,
@@ -4008,7 +4030,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 52
+    "rank": 54
    },
    {
     "id": 7691047,
@@ -4019,7 +4041,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 53
+    "rank": 55
    },
    {
     "id": 7043524,
@@ -4030,7 +4052,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 54
+    "rank": 56
    },
    {
     "id": 5570287,
@@ -4041,7 +4063,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 55
+    "rank": 57
    },
    {
     "id": 6341716,
@@ -4052,7 +4074,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 56
+    "rank": 58
    },
    {
     "id": 801562,
@@ -4063,7 +4085,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 57
+    "rank": 59
    },
    {
     "id": 5269546,
@@ -4074,7 +4096,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 58
+    "rank": 60
    },
    {
     "id": 797877,
@@ -4085,7 +4107,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 59
+    "rank": 61
    },
    {
     "id": 6882133,
@@ -4096,7 +4118,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 60
+    "rank": 62
    },
    {
     "id": 6159089,
@@ -4107,7 +4129,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 61
+    "rank": 63
    },
    {
     "id": 7056117,
@@ -4118,7 +4140,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 62
+    "rank": 64
    },
    {
     "id": 7191404,
@@ -4129,7 +4151,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 63
+    "rank": 65
    },
    {
     "id": 264462,
@@ -4140,7 +4162,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 64
+    "rank": 66
    },
    {
     "id": 6473599,
@@ -4151,7 +4173,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 65
+    "rank": 67
    },
    {
     "id": 6130367,
@@ -4162,7 +4184,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 66
+    "rank": 68
    },
    {
     "id": 6958975,
@@ -4173,7 +4195,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 67
+    "rank": 69
    },
    {
     "id": 6230379,
@@ -4184,7 +4206,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 68
+    "rank": 70
    },
    {
     "id": 5450159,
@@ -4195,7 +4217,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 69
+    "rank": 71
    },
    {
     "id": 7302480,
@@ -4206,7 +4228,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 70
+    "rank": 72
    },
    {
     "id": 6505008,
@@ -4217,7 +4239,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 71
+    "rank": 73
    },
    {
     "id": 82904,
@@ -4228,7 +4250,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 72
+    "rank": 74
    },
    {
     "id": 6858404,
@@ -4239,7 +4261,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 73
+    "rank": 75
    },
    {
     "id": 162824,
@@ -4250,7 +4272,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 74
+    "rank": 76
    },
    {
     "id": 6529106,
@@ -4261,7 +4283,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 75
+    "rank": 77
    },
    {
     "id": 7256411,
@@ -4272,7 +4294,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 76
+    "rank": 78
    },
    {
     "id": 5598326,
@@ -4283,7 +4305,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 77
+    "rank": 79
    },
    {
     "id": 162791,
@@ -4294,7 +4316,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 78
+    "rank": 80
    },
    {
     "id": 5359208,
@@ -4305,7 +4327,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 79
+    "rank": 81
    },
    {
     "id": 6951812,
@@ -4316,7 +4338,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 80
+    "rank": 82
    },
    {
     "id": 5839915,
@@ -4327,7 +4349,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 81
+    "rank": 83
    },
    {
     "id": 6772226,
@@ -4338,7 +4360,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 82
+    "rank": 84
    },
    {
     "id": 868735,
@@ -4349,7 +4371,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 83
+    "rank": 85
    },
    {
     "id": 7709671,
@@ -4360,18 +4382,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 84
-   },
-   {
-    "id": 417569,
-    "name": "yyagami",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b417569-rnLD0uFGYsqp.jpg",
-    "pts": 10,
-    "likes": 1,
-    "replies": 0,
-    "best": 1.0,
-    "elim": false,
-    "rank": 85
+    "rank": 86
    },
    {
     "id": 7587362,
@@ -4382,7 +4393,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 86
+    "rank": 87
    }
   ],
   "week": [
@@ -4772,6 +4783,17 @@
     "rank": 35
    },
    {
+    "id": 417569,
+    "name": "yyagami",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b417569-rnLD0uFGYsqp.jpg",
+    "pts": 115,
+    "likes": 9,
+    "replies": 0,
+    "best": 1.5,
+    "elim": false,
+    "rank": 36
+   },
+   {
     "id": 8270098,
     "name": "Hasitha2006",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8270098-KDqXIpRrqYDZ.png",
@@ -4780,7 +4802,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 36
+    "rank": 37
    },
    {
     "id": 5349472,
@@ -4791,7 +4813,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 37
+    "rank": 38
    },
    {
     "id": 5147312,
@@ -4802,7 +4824,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 38
+    "rank": 39
    },
    {
     "id": 5607221,
@@ -4813,7 +4835,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 39
+    "rank": 40
    },
    {
     "id": 772485,
@@ -4824,7 +4846,18 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 40
+    "rank": 41
+   },
+   {
+    "id": 5834758,
+    "name": "Duece",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5834758-BThpwjkkHOUH.jpg",
+    "pts": 55,
+    "likes": 5,
+    "replies": 0,
+    "best": 1.5,
+    "elim": false,
+    "rank": 42
    },
    {
     "id": 7569689,
@@ -4835,7 +4868,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 41
+    "rank": 43
    },
    {
     "id": 798574,
@@ -4846,7 +4879,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 42
+    "rank": 44
    },
    {
     "id": 5672736,
@@ -4857,7 +4890,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 43
+    "rank": 45
    },
    {
     "id": 8015665,
@@ -4868,7 +4901,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 44
+    "rank": 46
    },
    {
     "id": 7901604,
@@ -4879,7 +4912,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 45
+    "rank": 47
    },
    {
     "id": 6444890,
@@ -4890,7 +4923,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 46
+    "rank": 48
    },
    {
     "id": 5468370,
@@ -4901,7 +4934,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 47
+    "rank": 49
    },
    {
     "id": 7691047,
@@ -4912,7 +4945,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 48
+    "rank": 50
    },
    {
     "id": 8129266,
@@ -4923,7 +4956,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 49
+    "rank": 51
    },
    {
     "id": 7043524,
@@ -4934,7 +4967,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 50
+    "rank": 52
    },
    {
     "id": 5570287,
@@ -4945,7 +4978,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 51
+    "rank": 53
    },
    {
     "id": 6341716,
@@ -4956,7 +4989,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 52
+    "rank": 54
    },
    {
     "id": 5150510,
@@ -4967,7 +5000,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 53
+    "rank": 55
    },
    {
     "id": 801562,
@@ -4978,7 +5011,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 54
+    "rank": 56
    },
    {
     "id": 7056117,
@@ -4989,7 +5022,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 55
+    "rank": 57
    },
    {
     "id": 264462,
@@ -5000,7 +5033,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 56
+    "rank": 58
    },
    {
     "id": 6473599,
@@ -5011,7 +5044,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 57
+    "rank": 59
    },
    {
     "id": 6958975,
@@ -5022,7 +5055,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 58
+    "rank": 60
    },
    {
     "id": 7302480,
@@ -5033,7 +5066,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 59
+    "rank": 61
    },
    {
     "id": 82904,
@@ -5044,7 +5077,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 60
+    "rank": 62
    },
    {
     "id": 162824,
@@ -5055,7 +5088,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 61
+    "rank": 63
    },
    {
     "id": 7256411,
@@ -5066,7 +5099,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 62
+    "rank": 64
    },
    {
     "id": 162791,
@@ -5077,7 +5110,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 63
+    "rank": 65
    },
    {
     "id": 5359208,
@@ -5088,7 +5121,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 64
+    "rank": 66
    },
    {
     "id": 6951812,
@@ -5099,7 +5132,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 65
+    "rank": 67
    },
    {
     "id": 5839915,
@@ -5110,7 +5143,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 66
+    "rank": 68
    },
    {
     "id": 7709671,
@@ -5121,7 +5154,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 67
+    "rank": 69
    },
    {
     "id": 7587362,
@@ -5132,7 +5165,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 68
+    "rank": 70
    }
   ],
   "day": [
@@ -5324,17 +5357,6 @@
     "rank": 17
    },
    {
-    "id": 7560381,
-    "name": "meowfun",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7560381-1COUkuXbBUR4.jpg",
-    "pts": 140,
-    "likes": 10,
-    "replies": 1,
-    "best": 1.5,
-    "elim": false,
-    "rank": 18
-   },
-   {
     "id": 765417,
     "name": "murrkino",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b765417-KwSVjfHysNG6.png",
@@ -5343,12 +5365,23 @@
     "replies": 0,
     "best": 2.0,
     "elim": false,
-    "rank": 19
+    "rank": 18
    },
    {
     "id": 5561175,
     "name": "Raptorking69",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5561175-Fo5aqXRNV6N9.jpg",
+    "pts": 115,
+    "likes": 9,
+    "replies": 0,
+    "best": 1.5,
+    "elim": false,
+    "rank": 19
+   },
+   {
+    "id": 417569,
+    "name": "yyagami",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b417569-rnLD0uFGYsqp.jpg",
     "pts": 115,
     "likes": 9,
     "replies": 0,
@@ -5368,6 +5401,17 @@
     "rank": 21
    },
    {
+    "id": 7560381,
+    "name": "meowfun",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7560381-1COUkuXbBUR4.jpg",
+    "pts": 110,
+    "likes": 7,
+    "replies": 1,
+    "best": 1.5,
+    "elim": false,
+    "rank": 22
+   },
+   {
     "id": 5775330,
     "name": "ULYSSE95",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5775330-P2iDwQO5XwDd.jpg",
@@ -5376,7 +5420,7 @@
     "replies": 1,
     "best": 1.0,
     "elim": false,
-    "rank": 22
+    "rank": 23
    },
    {
     "id": 5607221,
@@ -5387,7 +5431,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 23
+    "rank": 24
    },
    {
     "id": 5147312,
@@ -5398,7 +5442,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 24
+    "rank": 25
    },
    {
     "id": 5383956,
@@ -5409,7 +5453,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 25
+    "rank": 26
    },
    {
     "id": 8294783,
@@ -5420,7 +5464,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 26
+    "rank": 27
    },
    {
     "id": 6832595,
@@ -5431,7 +5475,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 27
+    "rank": 28
    },
    {
     "id": 7362652,
@@ -5442,7 +5486,18 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 28
+    "rank": 29
+   },
+   {
+    "id": 5834758,
+    "name": "Duece",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5834758-BThpwjkkHOUH.jpg",
+    "pts": 55,
+    "likes": 5,
+    "replies": 0,
+    "best": 1.5,
+    "elim": false,
+    "rank": 30
    },
    {
     "id": 7569689,
@@ -5453,7 +5508,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 29
+    "rank": 31
    },
    {
     "id": 422498,
@@ -5464,7 +5519,7 @@
     "replies": 1,
     "best": 1.0,
     "elim": false,
-    "rank": 30
+    "rank": 32
    },
    {
     "id": 8015665,
@@ -5475,7 +5530,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 31
+    "rank": 33
    },
    {
     "id": 7901604,
@@ -5486,7 +5541,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 32
+    "rank": 34
    },
    {
     "id": 6444890,
@@ -5497,7 +5552,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 33
+    "rank": 35
    },
    {
     "id": 5468370,
@@ -5508,7 +5563,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 34
+    "rank": 36
    },
    {
     "id": 7691047,
@@ -5519,7 +5574,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 35
+    "rank": 37
    },
    {
     "id": 6486541,
@@ -5530,7 +5585,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 36
+    "rank": 38
    },
    {
     "id": 5570287,
@@ -5541,7 +5596,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 37
+    "rank": 39
    },
    {
     "id": 5150510,
@@ -5552,7 +5607,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 38
+    "rank": 40
    },
    {
     "id": 8055661,
@@ -5563,7 +5618,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 39
+    "rank": 41
    },
    {
     "id": 801562,
@@ -5574,7 +5629,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 40
+    "rank": 42
    },
    {
     "id": 7056117,
@@ -5585,7 +5640,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 41
+    "rank": 43
    },
    {
     "id": 798574,
@@ -5596,7 +5651,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 42
+    "rank": 44
    },
    {
     "id": 264462,
@@ -5607,7 +5662,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 43
+    "rank": 45
    },
    {
     "id": 6341716,
@@ -5618,7 +5673,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 44
+    "rank": 46
    },
    {
     "id": 6473599,
@@ -5629,7 +5684,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 45
+    "rank": 47
    },
    {
     "id": 6958975,
@@ -5640,7 +5695,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 46
+    "rank": 48
    },
    {
     "id": 7302480,
@@ -5651,7 +5706,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 47
+    "rank": 49
    },
    {
     "id": 772485,
@@ -5662,7 +5717,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 48
+    "rank": 50
    },
    {
     "id": 5349472,
@@ -5673,7 +5728,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 49
+    "rank": 51
    },
    {
     "id": 162824,
@@ -5684,7 +5739,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 50
+    "rank": 52
    },
    {
     "id": 162791,
@@ -5695,7 +5750,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 51
+    "rank": 53
    },
    {
     "id": 5359208,
@@ -5706,7 +5761,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 52
+    "rank": 54
    },
    {
     "id": 7709671,
@@ -5717,7 +5772,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 53
+    "rank": 55
    },
    {
     "id": 7587362,
@@ -5728,7 +5783,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 54
+    "rank": 56
    }
   ]
  }
