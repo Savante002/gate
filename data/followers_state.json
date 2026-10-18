@@ -1,0 +1,1453 @@
+{
+ "started": "2026-10-18T00:09:12+00:00",
+ "score": 0,
+ "offenses": {},
+ "followers": {
+  "12782": {
+   "name": "PrincessShi",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b12782-iauhBHycX0I5.png",
+   "since": null
+  },
+  "60272": {
+   "name": "RiftFontain",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b60272-I9E64hZhN4k5.png",
+   "since": null
+  },
+  "121735": {
+   "name": "1elf",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b121735-iUe3gFH5LXPD.png",
+   "since": null
+  },
+  "122525": {
+   "name": "Konaaa",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b122525-Kt5yo1zr14AL.png",
+   "since": null
+  },
+  "162509": {
+   "name": "qweaenr",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b162509-X5jJHJQgTOF7.png",
+   "since": null
+  },
+  "162791": {
+   "name": "ShinobuAnime",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b162791-Ppbf54pjhmxQ.png",
+   "since": null
+  },
+  "170053": {
+   "name": "teruterubozu",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b170053-JzCcpsT6cm7Q.png",
+   "since": null
+  },
+  "182619": {
+   "name": "kazumamon",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b182619-PKCLcKjx5uJc.png",
+   "since": null
+  },
+  "197242": {
+   "name": "TrafalgarSP",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b197242-3ft8dMvc5e01.jpg",
+   "since": null
+  },
+  "220257": {
+   "name": "Hikona",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b220257-kaSQKJGM3qZn.jpg",
+   "since": null
+  },
+  "248723": {
+   "name": "akumashi",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b248723-J7OGj4Om7FrS.jpg",
+   "since": null
+  },
+  "259781": {
+   "name": "AhnafMohsieu",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b259781-F1BU3yc3zm72.png",
+   "since": null
+  },
+  "262396": {
+   "name": "SkyeLotus",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b262396-cAVQS6uJ6nuW.png",
+   "since": null
+  },
+  "264462": {
+   "name": "artsyvisual",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b264462-qRARjKyFyzCZ.jpg",
+   "since": null
+  },
+  "299097": {
+   "name": "Animelovers112",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b299097-i2F7c3nkCHfu.jpg",
+   "since": null
+  },
+  "315343": {
+   "name": "Keronpachi",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b315343-yG6XI1tPsGp7.png",
+   "since": null
+  },
+  "334847": {
+   "name": "ZurgRush2198",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b334847-oOTudd1VPBWk.png",
+   "since": null
+  },
+  "346379": {
+   "name": "AznNikki",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b346379-obmCtrsPDkX8.png",
+   "since": null
+  },
+  "394014": {
+   "name": "AloofPolo",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b394014-9pzfLNJ5auR0.jpg",
+   "since": null
+  },
+  "411865": {
+   "name": "Alvesama",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b411865-oUGwHMRjE0K3.jpg",
+   "since": null
+  },
+  "422498": {
+   "name": "mihhyunn",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b422498-BmFM40eAJFtA.png",
+   "since": null
+  },
+  "454851": {
+   "name": "Possum37890",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b454851-UT7NmeDpwvgB.jpg",
+   "since": null
+  },
+  "466265": {
+   "name": "Seleucid",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b466265-rtRKXtSQ46mP.jpg",
+   "since": null
+  },
+  "501237": {
+   "name": "DatMeganeGrl",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b501237-vphWcF77wUVs.jpg",
+   "since": null
+  },
+  "510161": {
+   "name": "beastaking",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b510161-Lf2Pu5tbyKTE.png",
+   "since": null
+  },
+  "531208": {
+   "name": "DaceCold",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b531208-GNVQENPGjJX2.png",
+   "since": null
+  },
+  "546977": {
+   "name": "Zintalents",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b546977-lPo69UsWGaPW.png",
+   "since": null
+  },
+  "552665": {
+   "name": "Itsphoenix2k",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b552665-BbqP9wtgPnHZ.png",
+   "since": null
+  },
+  "563275": {
+   "name": "Vensito",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b563275-YODcfNODguTd.png",
+   "since": null
+  },
+  "566251": {
+   "name": "Fireality",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b566251-HA7xU7Cko8kQ.png",
+   "since": null
+  },
+  "568594": {
+   "name": "N00CHE",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b568594-GJPaFQm0k2i0.png",
+   "since": null
+  },
+  "584611": {
+   "name": "Yukina",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b584611-aeATIhiPIv5k.png",
+   "since": null
+  },
+  "589094": {
+   "name": "wtf",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b589094-US5J7uVk9pIL.png",
+   "since": null
+  },
+  "591024": {
+   "name": "Mooria",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b591024-atEPXJ7j8ztf.png",
+   "since": null
+  },
+  "592752": {
+   "name": "AlcoholicRaver",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b592752-dIqq5FzeCJdO.jpg",
+   "since": null
+  },
+  "617551": {
+   "name": "TohkaTron",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b617551-jOFYCNfys3gR.jpg",
+   "since": null
+  },
+  "633951": {
+   "name": "ABHID4C",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b633951-QUGGw0cZ4XCL.png",
+   "since": null
+  },
+  "637799": {
+   "name": "Belarri",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b637799-p7xlu2OnKhVx.png",
+   "since": null
+  },
+  "658557": {
+   "name": "oopFlames",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b658557-DnXz3TcJTPor.jpg",
+   "since": null
+  },
+  "669834": {
+   "name": "Vikyolin",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b669834-1tBs5EiNvtsJ.png",
+   "since": null
+  },
+  "670650": {
+   "name": "Mentor",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b670650-rWlY87f3yubB.png",
+   "since": null
+  },
+  "689939": {
+   "name": "MrTiptronic",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b689939-5n4gPQLG8aeJ.jpg",
+   "since": null
+  },
+  "771927": {
+   "name": "MiikoChan",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b771927-LOJaNdIlAE6P.png",
+   "since": null
+  },
+  "772485": {
+   "name": "KaiRuhl",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b772485-ETIstmvOOsNQ.jpg",
+   "since": null
+  },
+  "782466": {
+   "name": "Crexy",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b782466-qIw9y79OnoMq.jpg",
+   "since": null
+  },
+  "787694": {
+   "name": "MEGUMIN",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b787694-t1YKbs4Yzn2i.jpg",
+   "since": null
+  },
+  "795819": {
+   "name": "OtakuPhil",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b795819-qlqgKmbcsm7k.png",
+   "since": null
+  },
+  "797877": {
+   "name": "hannigram",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b797877-smDZqHOeQnvA.png",
+   "since": null
+  },
+  "798574": {
+   "name": "AirBonsai",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b798574-KVypLhloz5u2.jpg",
+   "since": null
+  },
+  "809685": {
+   "name": "Elfiee",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b809685-03bhUc22EWVG.png",
+   "since": null
+  },
+  "836201": {
+   "name": "Jlowmc",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b836201-rl8Jk0KaKC0u.png",
+   "since": null
+  },
+  "860776": {
+   "name": "Green444",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b860776-DLbLgNlp9Grd.jpg",
+   "since": null
+  },
+  "913915": {
+   "name": "TheRealVX",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b913915-BjjbrKz0U0hs.jpg",
+   "since": null
+  },
+  "945712": {
+   "name": "Nesquick0",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b945712-kb9NwtiBHBA2.png",
+   "since": null
+  },
+  "955850": {
+   "name": "dayyah",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b955850-k54S9caDRhDe.jpg",
+   "since": null
+  },
+  "956130": {
+   "name": "h4logen",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b956130-q8recJzQKdbP.png",
+   "since": null
+  },
+  "959769": {
+   "name": "Sakurajima",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b959769-6n0G3hci4dAj.png",
+   "since": null
+  },
+  "983355": {
+   "name": "Haruko",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b983355-D5WDu8HJ05AB.png",
+   "since": null
+  },
+  "5130199": {
+   "name": "Aiz",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5130199-jh5KffegMvbC.png",
+   "since": null
+  },
+  "5147312": {
+   "name": "lime",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5147312-I5hsIOv54hEX.png",
+   "since": null
+  },
+  "5150510": {
+   "name": "BlackWaterLily",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5150510-Cu8iKzRRXmss.png",
+   "since": null
+  },
+  "5155428": {
+   "name": "imwrdk",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5155428-HyXTEp1Y7zkW.png",
+   "since": null
+  },
+  "5156357": {
+   "name": "WhoIsRem",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5156357-91l1Ait9xd1H.png",
+   "since": null
+  },
+  "5160070": {
+   "name": "MBEITME",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5160070-2OuNVVBFZRas.jpg",
+   "since": null
+  },
+  "5170368": {
+   "name": "SlushSkull",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5170368-pXFDZWdL6u84.png",
+   "since": null
+  },
+  "5184670": {
+   "name": "ThighMasterMatt",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5184670-dICFvu9gMThF.png",
+   "since": null
+  },
+  "5204995": {
+   "name": "SamuraiGinpachi",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5204995-Y1tVNGMGXQvp.jpg",
+   "since": null
+  },
+  "5260708": {
+   "name": "4NG3Nv2",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5260708-RDnJ8ruFK3LQ.png",
+   "since": null
+  },
+  "5261100": {
+   "name": "Nabsfc",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5261100-MsvS7TRIIJOv.jpg",
+   "since": null
+  },
+  "5269546": {
+   "name": "GrangeR143",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5269546-dUWOTIxTUaFN.jpg",
+   "since": null
+  },
+  "5280620": {
+   "name": "qiyankaaa",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5280620-TBnUKcienkyp.png",
+   "since": null
+  },
+  "5298333": {
+   "name": "xBxM",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5298333-Rrn7eCSAhyff.png",
+   "since": null
+  },
+  "5310622": {
+   "name": "Mynameisbuck",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5310622-CdV0UJHyg7xn.jpg",
+   "since": null
+  },
+  "5349472": {
+   "name": "lautyml",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5349472-m2YsrI1xmAVa.png",
+   "since": null
+  },
+  "5359208": {
+   "name": "Sooji",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5359208-ixdA3HhV85Af.png",
+   "since": null
+  },
+  "5382867": {
+   "name": "DenisLoZoldyck",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5382867-LGZr2yPpCOeS.png",
+   "since": null
+  },
+  "5383956": {
+   "name": "Hazuyu",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5383956-j4EVFqHR4Oqj.png",
+   "since": null
+  },
+  "5384034": {
+   "name": "MoriLucifer",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5384034-f5BWCjkVm2kH.png",
+   "since": null
+  },
+  "5409132": {
+   "name": "earthtotess",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5409132-CV6rgKQlpqN7.png",
+   "since": null
+  },
+  "5450159": {
+   "name": "iWumpus",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5450159-IA7g90I7GdMw.jpg",
+   "since": null
+  },
+  "5452771": {
+   "name": "1Flash",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5452771-kbkNi2w9SiTa.jpg",
+   "since": null
+  },
+  "5463886": {
+   "name": "cesarrex",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5463886-FwJOQKqAJ9hw.png",
+   "since": null
+  },
+  "5465154": {
+   "name": "ELIWIZZ",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5465154-CxRfSdlSz5PG.jpg",
+   "since": null
+  },
+  "5491326": {
+   "name": "Joeytheduck",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5491326-ZRq4OPE6jl27.png",
+   "since": null
+  },
+  "5491720": {
+   "name": "MindFreak",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5491720-swoSlBUF3dev.png",
+   "since": null
+  },
+  "5533991": {
+   "name": "pandulce",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5533991-ZLKCsTL5Ylwx.png",
+   "since": null
+  },
+  "5542301": {
+   "name": "Nil69420",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5542301-tTAEKhN5FK2C.jpg",
+   "since": null
+  },
+  "5543267": {
+   "name": "JoJoStan",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5543267-hwAQVbFwQlRY.png",
+   "since": null
+  },
+  "5561175": {
+   "name": "Raptorking69",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5561175-Fo5aqXRNV6N9.jpg",
+   "since": null
+  },
+  "5562299": {
+   "name": "ReturnV7ch54",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5562299-5LXmVhHzb2kG.png",
+   "since": null
+  },
+  "5580191": {
+   "name": "YuseiTachibana",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5580191-4q2UCqDOkPez.png",
+   "since": null
+  },
+  "5584631": {
+   "name": "cirruuss",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5584631-osLgGT5RTfgP.png",
+   "since": null
+  },
+  "5594231": {
+   "name": "Itachi",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5594231-c8WJ289iAEJT.png",
+   "since": null
+  },
+  "5598326": {
+   "name": "SakuraMai24",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5598326-jwDEQdTka1Fk.jpg",
+   "since": null
+  },
+  "5600528": {
+   "name": "Tzstyle",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5600528-6b8WOFc6GYsm.jpg",
+   "since": null
+  },
+  "5612638": {
+   "name": "1c",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5612638-z5CezJB6FRSY.jpg",
+   "since": null
+  },
+  "5617006": {
+   "name": "001pratheekk",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5617006-j0DcbG6SjdJf.png",
+   "since": null
+  },
+  "5629733": {
+   "name": "Anymanga",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5629733-jv04TZIJwr7R.png",
+   "since": null
+  },
+  "5649688": {
+   "name": "Mello30000",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5649688-nMj4Eu5Y2Cy5.jpg",
+   "since": null
+  },
+  "5672736": {
+   "name": "Astrea",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5672736-JDMcnzkqHlx6.png",
+   "since": null
+  },
+  "5678223": {
+   "name": "fuwn",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5678223-uQiLfU2nYHbV.jpg",
+   "since": null
+  },
+  "5679467": {
+   "name": "Ruekico",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5679467-YW1iSSD8H7F2.png",
+   "since": null
+  },
+  "5683796": {
+   "name": "Nouvadi",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5683796-GIFjfLbaBvNn.png",
+   "since": null
+  },
+  "5694541": {
+   "name": "H0td0g",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5694541-vlnprBRt8iq7.jpg",
+   "since": null
+  },
+  "5709913": {
+   "name": "xMarcel1243",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5709913-HnUuF12QBsEV.jpg",
+   "since": null
+  },
+  "5729733": {
+   "name": "Ceeaz",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5729733-RTLT27aUkOkp.png",
+   "since": null
+  },
+  "5740976": {
+   "name": "HibikiTachibana",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5740976-2fPPsjIiYYPp.jpg",
+   "since": null
+  },
+  "5742400": {
+   "name": "uniqueanime",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5742400-FQuRbxXy73V3.png",
+   "since": null
+  },
+  "5752386": {
+   "name": "Surya",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5752386-AL8ePDqjeLky.png",
+   "since": null
+  },
+  "5757326": {
+   "name": "Aken0Simp",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5757326-QUFPRvpe9yMI.png",
+   "since": null
+  },
+  "5767394": {
+   "name": "DarkPaladin",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5767394-T9Wm5BEuOgag.png",
+   "since": null
+  },
+  "5769280": {
+   "name": "timetoad",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5769280-9XP0ZoJaWFVc.png",
+   "since": null
+  },
+  "5775330": {
+   "name": "ULYSSE95",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5775330-P2iDwQO5XwDd.jpg",
+   "since": null
+  },
+  "5780665": {
+   "name": "Mysteryyy",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5780665-N2Fsx43XTL9q.png",
+   "since": null
+  },
+  "5810071": {
+   "name": "mewhenbackpain",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5810071-nOYr2PBRxNvb.png",
+   "since": null
+  },
+  "5816555": {
+   "name": "ReWelp",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5816555-hBWWwSS3ekJE.png",
+   "since": null
+  },
+  "5832321": {
+   "name": "hadooky",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5832321-N9Z7hYZVSUvz.png",
+   "since": null
+  },
+  "5834758": {
+   "name": "Duece",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5834758-BThpwjkkHOUH.jpg",
+   "since": null
+  },
+  "5839915": {
+   "name": "SteveSS17",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5839915-gT9QlgLk4q62.png",
+   "since": null
+  },
+  "5881108": {
+   "name": "AnimeSpeedFan",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5881108-5cm2XvmJm3iK.png",
+   "since": null
+  },
+  "5884725": {
+   "name": "Christheotaku",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5884725-sKKvhir5bFay.jpg",
+   "since": null
+  },
+  "5896343": {
+   "name": "SVCK",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5896343-NxcPUoPF3XmA.png",
+   "since": null
+  },
+  "5908352": {
+   "name": "ReinerLeonhart",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5908352-f7hLKZ8kUaX0.png",
+   "since": null
+  },
+  "5917062": {
+   "name": "ysk",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5917062-gFUbDGL2koky.png",
+   "since": null
+  },
+  "5922380": {
+   "name": "DevooYeager",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5922380-nP0jjVlJBfFq.png",
+   "since": null
+  },
+  "5929911": {
+   "name": "ItzYoloo",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5929911-AoxvCUHtp484.png",
+   "since": null
+  },
+  "5934008": {
+   "name": "Pallet",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5934008-E5ekEWgyz4Ak.jpg",
+   "since": null
+  },
+  "5937178": {
+   "name": "mueshire",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5937178-4mlQcTRsvlP4.png",
+   "since": null
+  },
+  "5940738": {
+   "name": "xAi",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5940738-FqAzjiW0xZOY.png",
+   "since": null
+  },
+  "5953511": {
+   "name": "Kuuru",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5953511-X4s9Spry2tbh.png",
+   "since": null
+  },
+  "5961733": {
+   "name": "TearGrants",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5961733-zaGwTxPEARsP.png",
+   "since": null
+  },
+  "5964162": {
+   "name": "M4D4R4",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5964162-LtilttPEabds.jpg",
+   "since": null
+  },
+  "5973376": {
+   "name": "ye144",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5973376-HyqCgszoIvJ6.png",
+   "since": null
+  },
+  "5983071": {
+   "name": "Bitzel",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5983071-0Yc5iIurTHBl.png",
+   "since": null
+  },
+  "6004042": {
+   "name": "biggerballs",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6004042-g8VoafDQ1hZC.png",
+   "since": null
+  },
+  "6007207": {
+   "name": "aerglow",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6007207-v9TDM9LJydxM.png",
+   "since": null
+  },
+  "6009664": {
+   "name": "GodPraiser",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6009664-GZ0Sn1jVkORi.jpg",
+   "since": null
+  },
+  "6023479": {
+   "name": "RafsanKabir",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6023479-w1JOxthIQfLU.jpg",
+   "since": null
+  },
+  "6051878": {
+   "name": "Azotlikide",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6051878-jdMVyRdrbBUn.png",
+   "since": null
+  },
+  "6085133": {
+   "name": "RiaL23",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6085133-Js5SAZfnIRTD.jpg",
+   "since": null
+  },
+  "6086985": {
+   "name": "Hiirbaf",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6086985-vcRLZ8tH5UH8.png",
+   "since": null
+  },
+  "6090047": {
+   "name": "Gokanzu",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6090047-ucGdlIgaLdc2.jpg",
+   "since": null
+  },
+  "6097589": {
+   "name": "YuneiLara",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6097589-ezXEklth8ELO.jpg",
+   "since": null
+  },
+  "6117720": {
+   "name": "BotchGuy",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6117720-yfXcEK4zJd2D.png",
+   "since": null
+  },
+  "6118742": {
+   "name": "Xbaa",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6118742-BKFmYltRkNS5.png",
+   "since": null
+  },
+  "6130367": {
+   "name": "GINGAROUHOTEL",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6130367-5tbZjCstcWEt.png",
+   "since": null
+  },
+  "6133715": {
+   "name": "Yaechi",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6133715-QjKSFYUan0DI.png",
+   "since": null
+  },
+  "6136981": {
+   "name": "KYOUMAAA",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6136981-hmAMlRaY30aM.png",
+   "since": null
+  },
+  "6147476": {
+   "name": "looma",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6147476-vjcuS6TPFAQ8.png",
+   "since": null
+  },
+  "6152327": {
+   "name": "Trillix1",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6152327-rpWFy9ov4K74.jpg",
+   "since": null
+  },
+  "6159089": {
+   "name": "z1y",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6159089-AfjeLewOEiaM.png",
+   "since": null
+  },
+  "6159318": {
+   "name": "Kingofkills21",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6159318-pW7LICQVZb4f.png",
+   "since": null
+  },
+  "6193635": {
+   "name": "Reina22",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6193635-hKqyuw8CTd7g.png",
+   "since": null
+  },
+  "6203287": {
+   "name": "souljra",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6203287-pBd8jpojpBwP.jpg",
+   "since": null
+  },
+  "6241303": {
+   "name": "kiz",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6241303-7wmL4u3Nz3OS.png",
+   "since": null
+  },
+  "6255430": {
+   "name": "Laji",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6255430-CDDmISNhV5bp.png",
+   "since": null
+  },
+  "6267598": {
+   "name": "RipeMango",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6267598-R8gTgf8LXbgQ.png",
+   "since": null
+  },
+  "6274808": {
+   "name": "xyzKakashi",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6274808-wmXu0vRe0EVE.png",
+   "since": null
+  },
+  "6287636": {
+   "name": "ViaStar",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6287636-oEioeTlOPSge.png",
+   "since": null
+  },
+  "6292560": {
+   "name": "CGraham",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6292560-PYZsh9ddBEIQ.jpg",
+   "since": null
+  },
+  "6296772": {
+   "name": "ionelHeredia",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6296772-RGm1LndnIJXb.png",
+   "since": null
+  },
+  "6310156": {
+   "name": "Ramses13k16",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6310156-yuozFkmWmqkf.jpg",
+   "since": null
+  },
+  "6316649": {
+   "name": "CaydeRunner",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6316649-RSTjFq3XfW9r.png",
+   "since": null
+  },
+  "6318141": {
+   "name": "Glitzz",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6318141-3tRpqdUYAxh0.png",
+   "since": null
+  },
+  "6341716": {
+   "name": "AyFae",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6341716-V6EQLgJZwTf8.png",
+   "since": null
+  },
+  "6344144": {
+   "name": "Akeeeee",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6344144-Z4JtYAT9HceS.png",
+   "since": null
+  },
+  "6359896": {
+   "name": "danyav",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6359896-dmAo1u8Bdfqj.png",
+   "since": null
+  },
+  "6379897": {
+   "name": "BahenChod",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6379897-ugQsxJSMnzCB.png",
+   "since": null
+  },
+  "6428103": {
+   "name": "PPome",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6428103-6kYze3IP6BDO.png",
+   "since": null
+  },
+  "6436292": {
+   "name": "sola4alex",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6436292-OOA546vS9S0X.png",
+   "since": null
+  },
+  "6439709": {
+   "name": "ZeroMaximum",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6439709-K2FNPOe2B9XZ.png",
+   "since": null
+  },
+  "6444890": {
+   "name": "Nebbia",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6444890-CHd5MlRSvQia.png",
+   "since": null
+  },
+  "6447184": {
+   "name": "AmariHBNK",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6447184-sj451uKUt99E.jpg",
+   "since": null
+  },
+  "6472483": {
+   "name": "Toriko8",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6472483-gPdPmf4nBiDp.png",
+   "since": null
+  },
+  "6473599": {
+   "name": "Dudeiswearingcolors",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6473599-WXSrG3H1WWlN.png",
+   "since": null
+  },
+  "6486541": {
+   "name": "SenzanomeKun",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6486541-1uFnS6GUqsNZ.png",
+   "since": null
+  },
+  "6523092": {
+   "name": "snuggle",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6523092-zk7H2A2j8h0p.jpg",
+   "since": null
+  },
+  "6538674": {
+   "name": "Somenewgirl",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6538674-SGrxWxjLhVQw.jpg",
+   "since": null
+  },
+  "6547472": {
+   "name": "Marconaeus",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6547472-ewRKfZpCXSDX.jpg",
+   "since": null
+  },
+  "6551026": {
+   "name": "ArceuS64",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6551026-gsr1aRBmmXI1.jpg",
+   "since": null
+  },
+  "6559633": {
+   "name": "pr9ised",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6559633-vV76QtGWR3dD.png",
+   "since": null
+  },
+  "6568119": {
+   "name": "HellCat",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6568119-qZbc31DKGhS8.jpg",
+   "since": null
+  },
+  "6581386": {
+   "name": "jjajsjdjskdjd",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/default.png",
+   "since": null
+  },
+  "6593817": {
+   "name": "TheFool",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6593817-0A5m7l0SJli6.png",
+   "since": null
+  },
+  "6598715": {
+   "name": "winterpine",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6598715-Cd97FFkgckfY.png",
+   "since": null
+  },
+  "6601589": {
+   "name": "Vikugu",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6601589-UAYsCO3zOAac.png",
+   "since": null
+  },
+  "6601655": {
+   "name": "cookie1248x",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6601655-qgtwVL2nUjo2.jpg",
+   "since": null
+  },
+  "6616947": {
+   "name": "cat",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6616947-SKNu6dDTsl8C.png",
+   "since": null
+  },
+  "6628556": {
+   "name": "egg1",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6628556-HjVU0OjRqsPh.jpg",
+   "since": null
+  },
+  "6644220": {
+   "name": "NotLit",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6644220-b9PEvSzOBN3A.png",
+   "since": null
+  },
+  "6644776": {
+   "name": "speedc",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6644776-LfMdBHpZnpRs.png",
+   "since": null
+  },
+  "6650342": {
+   "name": "LostXAMV",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6650342-jPad5HIqNEdj.jpg",
+   "since": null
+  },
+  "6652441": {
+   "name": "RikeKoi",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6652441-hwFG9bBD2FT9.png",
+   "since": null
+  },
+  "6663501": {
+   "name": "MDYEASIN",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6663501-Rq4ZCCMRNYTn.png",
+   "since": null
+  },
+  "6669847": {
+   "name": "applepi1223",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6669847-Uo3Gd78NEVIy.jpg",
+   "since": null
+  },
+  "6683592": {
+   "name": "JoniPhantomhive",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6683592-s3f2rdPiceFm.png",
+   "since": null
+  },
+  "6690709": {
+   "name": "Sharoonnix",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6690709-0tMmGF4QbfoG.png",
+   "since": null
+  },
+  "6702226": {
+   "name": "AzeraKih",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6702226-96LraAQ6kye7.png",
+   "since": null
+  },
+  "6742272": {
+   "name": "01Hamer",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6742272-rQoGXWJhMe0Y.png",
+   "since": null
+  },
+  "6767031": {
+   "name": "Adamas002",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6767031-MmdYn0zFBHDL.jpg",
+   "since": null
+  },
+  "6790461": {
+   "name": "MysticBat",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6790461-VqCphmfbAarc.png",
+   "since": null
+  },
+  "6806574": {
+   "name": "GandalfTheGrey",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6806574-OCi6knQ60QqL.png",
+   "since": null
+  },
+  "6809104": {
+   "name": "Noctive",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6809104-FGIGECDTxQLq.png",
+   "since": null
+  },
+  "6810884": {
+   "name": "Satellita",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6810884-O66R6PkEJmtD.png",
+   "since": null
+  },
+  "6830169": {
+   "name": "ZzAhad1",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6830169-kxafqhhGWzMR.png",
+   "since": null
+  },
+  "6832595": {
+   "name": "Bartosz112233",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6832595-lw7msccXsNBP.jpg",
+   "since": null
+  },
+  "6835067": {
+   "name": "zoomgetsu",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6835067-It9wTsxNUVUi.jpg",
+   "since": null
+  },
+  "6837886": {
+   "name": "ZWizard",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6837886-jYNxbZmspoyg.png",
+   "since": null
+  },
+  "6843682": {
+   "name": "Thikasa",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6843682-8yhgmwoEEZ6y.png",
+   "since": null
+  },
+  "6845805": {
+   "name": "tylerjws",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6845805-rn0ayfdeUkdP.jpg",
+   "since": null
+  },
+  "6848608": {
+   "name": "zachory",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6848608-I9mr6seOgNZp.jpg",
+   "since": null
+  },
+  "6851704": {
+   "name": "Narrrer",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6851704-GhHbH47IfO27.png",
+   "since": null
+  },
+  "6851947": {
+   "name": "KuPhA",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6851947-yjrf7ds8C53f.jpg",
+   "since": null
+  },
+  "6858527": {
+   "name": "Oreeox",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6858527-OrQvzoU2XYV7.png",
+   "since": null
+  },
+  "6877307": {
+   "name": "Sakuraa19",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6877307-RDZ521pAtmVd.png",
+   "since": null
+  },
+  "6882133": {
+   "name": "HardDrama",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6882133-DH5QIBRN7SgA.png",
+   "since": null
+  },
+  "6882366": {
+   "name": "Scarlettross",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6882366-I1vy84vHNR7R.jpg",
+   "since": null
+  },
+  "6884422": {
+   "name": "dinuu9998",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6884422-D0sSb9wzVALQ.jpg",
+   "since": null
+  },
+  "6899364": {
+   "name": "Corndog11111",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6899364-tbXsabOTbpjI.png",
+   "since": null
+  },
+  "6900714": {
+   "name": "wutwha",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6900714-vv7p4B0Xokdm.jpg",
+   "since": null
+  },
+  "6903462": {
+   "name": "jeikobuuu",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6903462-ThIX2oyBtZoc.png",
+   "since": null
+  },
+  "6911556": {
+   "name": "Idontkazuma",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6911556-C2zA3X1b4fxu.jpg",
+   "since": null
+  },
+  "6914624": {
+   "name": "SpiritualAir",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6914624-6gQJec03kb0n.png",
+   "since": null
+  },
+  "6917855": {
+   "name": "Quirkyyy",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6917855-LxQ4FUH8xC7F.png",
+   "since": null
+  },
+  "6927001": {
+   "name": "thestarsystem",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6927001-dLOvqE6nWIT5.jpg",
+   "since": null
+  },
+  "6943729": {
+   "name": "Fergadizz",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/default.png",
+   "since": null
+  },
+  "6951812": {
+   "name": "SplitAnime",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6951812-qAFkJf0TEULb.png",
+   "since": null
+  },
+  "6958975": {
+   "name": "Hachmane",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6958975-lPr3Mxmbkzfa.png",
+   "since": null
+  },
+  "6972318": {
+   "name": "Khaled49",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6972318-kyUYAHeIkRmt.png",
+   "since": null
+  },
+  "6990119": {
+   "name": "XavierXD",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6990119-gDbnrzNZqo3J.jpg",
+   "since": null
+  },
+  "6990772": {
+   "name": "Eillenours",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/default.png",
+   "since": null
+  },
+  "6992772": {
+   "name": "FergaFish",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6992772-2mjpLLhF94KG.png",
+   "since": null
+  },
+  "6994248": {
+   "name": "adavis25",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6994248-AyIH9TuFCyk1.jpg",
+   "since": null
+  },
+  "7017562": {
+   "name": "yoissei",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7017562-poYfTPb5wzVd.png",
+   "since": null
+  },
+  "7024779": {
+   "name": "shayani",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7024779-0VRLK7fRcUHX.png",
+   "since": null
+  },
+  "7033578": {
+   "name": "Iamvonte",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7033578-bI5oHNXKempl.png",
+   "since": null
+  },
+  "7044196": {
+   "name": "SleepyDaGOAT",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7044196-w2wJrOAEL71K.png",
+   "since": null
+  },
+  "7056007": {
+   "name": "estre1a",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7056007-TMMM1CWiH44Z.png",
+   "since": null
+  },
+  "7077796": {
+   "name": "Andre3K",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7077796-S9BKYAR2Drqd.jpg",
+   "since": null
+  },
+  "7081682": {
+   "name": "SweetmelonBread",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7081682-x1PNKxICQpD3.png",
+   "since": null
+  },
+  "7083002": {
+   "name": "0bull",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7083002-boXLBk7Zsk0Z.png",
+   "since": null
+  },
+  "7097211": {
+   "name": "ManojTheWeeb",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7097211-yRJiphWt3aJ6.png",
+   "since": null
+  },
+  "7105770": {
+   "name": "azer",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7105770-eCtFA5ejB21Z.png",
+   "since": null
+  },
+  "7110651": {
+   "name": "sykesx",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7110651-WjxUjQBr8bZL.png",
+   "since": null
+  },
+  "7123926": {
+   "name": "SableMunroe",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7123926-wVsCobWxjwTW.jpg",
+   "since": null
+  },
+  "7143764": {
+   "name": "miez",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7143764-1Qsa50wEtzyy.png",
+   "since": null
+  },
+  "7160317": {
+   "name": "FrankiePie",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7160317-84LgGZquw0r7.png",
+   "since": null
+  },
+  "7187330": {
+   "name": "ijuju",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7187330-GBfVDIZ0ctdL.jpg",
+   "since": null
+  },
+  "7200255": {
+   "name": "bananamilkshakes",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7200255-hF3nS4jYqlFe.png",
+   "since": null
+  },
+  "7203508": {
+   "name": "Yenneferrr",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7203508-srY3YHqSctdl.jpg",
+   "since": null
+  },
+  "7203653": {
+   "name": "Damiann",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7203653-nkX2hPBBPrqv.jpg",
+   "since": null
+  },
+  "7212367": {
+   "name": "seaweed",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7212367-uWg1dqguReW8.jpg",
+   "since": null
+  },
+  "7218411": {
+   "name": "Danishwatches",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7218411-eYLE5JA3R45V.png",
+   "since": null
+  },
+  "7220925": {
+   "name": "CarroRebaixado",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7220925-ZFOmk3urrUzZ.png",
+   "since": null
+  },
+  "7256411": {
+   "name": "Pako05",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7256411-4R108WbbBL79.jpg",
+   "since": null
+  },
+  "7264076": {
+   "name": "Greenphorny",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7264076-D7zxQQyZN0g1.jpg",
+   "since": null
+  },
+  "7275683": {
+   "name": "warisr4ge",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7275683-BOrz3kbNNzZw.jpg",
+   "since": null
+  },
+  "7279259": {
+   "name": "LEVIADU",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7279259-PLSn5S6uBt0m.jpg",
+   "since": null
+  },
+  "7280562": {
+   "name": "ChicoJeeha",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7280562-skMAUjjBgtpz.png",
+   "since": null
+  },
+  "7329407": {
+   "name": "Boothroyd",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7329407-sTlo1YlnTvYW.jpg",
+   "since": null
+  },
+  "7340123": {
+   "name": "User007",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7340123-zzxvZjIfbgGr.png",
+   "since": null
+  },
+  "7350556": {
+   "name": "SpicyBear9009",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7350556-NLpKS3ABkv4V.jpg",
+   "since": null
+  },
+  "7362652": {
+   "name": "zestysalmonberry",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7362652-JVLZDWjO4KM9.png",
+   "since": null
+  },
+  "7373113": {
+   "name": "DevilUnion",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7373113-J1KSg3GXos5C.png",
+   "since": null
+  },
+  "7373391": {
+   "name": "Kiir",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7373391-QO0pA2jY4u90.jpg",
+   "since": null
+  },
+  "7382418": {
+   "name": "9nj",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7382418-7bk1Z5Hw6fPZ.jpg",
+   "since": null
+  },
+  "7401180": {
+   "name": "ModyTheOne",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7401180-1XnHXSAn6kkd.jpg",
+   "since": null
+  },
+  "7411964": {
+   "name": "traxmeister",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7411964-9TGvryhWs9Ay.png",
+   "since": null
+  },
+  "7431953": {
+   "name": "frogfest",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7431953-TSZAt7lngdmJ.png",
+   "since": null
+  },
+  "7448461": {
+   "name": "qbqt",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7448461-RmMx3Iy74BkN.png",
+   "since": null
+  },
+  "7487650": {
+   "name": "d3athsk1d",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7487650-UQebjATmhmYD.jpg",
+   "since": null
+  },
+  "7494339": {
+   "name": "sneakypenguin",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/default.png",
+   "since": null
+  },
+  "7548806": {
+   "name": "MarinKitagawaMyGoat",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7548806-fJAe9rKRjWgi.png",
+   "since": null
+  },
+  "7560381": {
+   "name": "meowfun",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7560381-1COUkuXbBUR4.jpg",
+   "since": null
+  },
+  "7563240": {
+   "name": "snowaxe",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7563240-1s4mkrKqKoE3.png",
+   "since": null
+  },
+  "7564618": {
+   "name": "WatcherOfSpring",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7564618-TBRUQ9O233vR.png",
+   "since": null
+  },
+  "7733741": {
+   "name": "Redkush01",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7733741-enO2qvlTm0Z0.png",
+   "since": null
+  },
+  "7773497": {
+   "name": "BambiFan74",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7773497-L3Tci5Prmj9M.jpg",
+   "since": null
+  },
+  "7901604": {
+   "name": "MrAnimeVeteran",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7901604-jiscocyO31Sk.jpg",
+   "since": null
+  },
+  "7910688": {
+   "name": "Mrmonkey333",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7910688-UJ5FCBwLdxKy.png",
+   "since": null
+  },
+  "7941330": {
+   "name": "S0nnyB0y",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7941330-gpliMYJnBlHs.jpg",
+   "since": null
+  },
+  "8028778": {
+   "name": "KurosamaZero",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8028778-i0FsxqsdBGBT.jpg",
+   "since": null
+  },
+  "8040603": {
+   "name": "Lixol",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8040603-bTFZDDFSQdly.png",
+   "since": null
+  },
+  "8055661": {
+   "name": "ClarenceDin",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8055661-SCFZmqIv8QEn.png",
+   "since": null
+  },
+  "8121476": {
+   "name": "Msin",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8121476-JnIjpgojWpFT.png",
+   "since": null
+  },
+  "8129266": {
+   "name": "Nekna",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8129266-UMOZqZLDHIwc.png",
+   "since": null
+  },
+  "8239247": {
+   "name": "Jibakuma10",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8239247-LdWTZWUGCONy.jpg",
+   "since": null
+  },
+  "8294783": {
+   "name": "AmazingGuy1",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8294783-XDzgRmgf9560.png",
+   "since": null
+  },
+  "8300010": {
+   "name": "lntchl",
+   "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8300010-WlFHue4UUX00.jpg",
+   "since": null
+  }
+ },
+ "checked": "2026-10-18T00:09:12+00:00"
+}

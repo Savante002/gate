@@ -1,6 +1,3 @@
-run at 2026-10-18T00:07:46Z
-HTTP 400, retry 1: {"errors":[{"message":"Variable \"$id\" of type \"Int\" used in position expecting type \"Int!\".","status":400,"locations":[{"line":2,"column":8},{"line":5,"column":23}]}],"data":null}
-HTTP 400, retry 2: {"errors":[{"message":"Variable \"$id\" of type \"Int\" used in position expecting type \"Int!\".","status":400,"locations":[{"line":2,"column":8},{"line":5,"column":23}]}],"data":null}
-HTTP 400, retry 3: {"errors":[{"message":"Variable \"$id\" of type \"Int\" used in position expecting type \"Int!\".","status":400,"locations":[{"line":2,"column":8},{"line":5,"column":23}]}],"data":null}
-HTTP 400, retry 4: {"errors":[{"message":"Variable \"$id\" of type \"Int\" used in position expecting type \"Int!\".","status":400,"locations":[{"line":2,"column":8},{"line":5,"column":23}]}],"data":null}
-AniList unreachable (AniList unreachable); nothing changed
+run at 2026-10-18T00:09:12Z
+first scan: 289 veterans registered
+289 followers, score 0, 0 entries, saved=True
