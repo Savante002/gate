@@ -37,8 +37,24 @@ from datetime import datetime, timezone
 USER_ID = 5928981                       # ThePhantasmAl
 API = "https://graphql.anilist.co"
 TOKEN = os.environ.get("ANILIST_TOKEN", "").strip()
-COUNTER_URL = os.environ.get("VISITOR_COUNTER_URL", "").strip().rstrip("/")
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+def _counter_url():
+    """Worker address: VISITOR_COUNTER_URL variable, else the first line of data/visitor_counter_url.txt."""
+    url = os.environ.get("VISITOR_COUNTER_URL", "").strip()
+    if not url:
+        try:
+            with open(os.path.join(ROOT, "data", "visitor_counter_url.txt"), encoding="utf-8") as f:
+                url = f.readline().strip()
+        except OSError:
+            url = ""
+    if url and not url.startswith("http"):
+        url = "https://" + url
+    return url.rstrip("/").removesuffix("/hit.gif").removesuffix("/stats")
+
+
+COUNTER_URL = _counter_url()
 OUT_ROOT = os.environ.get("LIKERS_OUT", ROOT)          # tests write somewhere else
 STATE = os.path.join(OUT_ROOT, "data", "likers_state.json")
 DATA_OUT = os.path.join(OUT_ROOT, "likers", "data.json")
