@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-18T17:14:44+00:00",
+ "updated": "2026-10-18T17:44:56+00:00",
  "visitors": {
   "total": 1506,
   "today": 0
  },
  "likes": {
   "total": 28062,
-  "today": 2343
+  "today": 2336
  },
  "rules": {
   "like": 10,
@@ -324,6 +324,17 @@
     "rank": 26
    },
    {
+    "id": 566251,
+    "name": "Fireality",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b566251-HA7xU7Cko8kQ.png",
+    "pts": 1085,
+    "likes": 77,
+    "replies": 0,
+    "best": 2.0,
+    "elim": false,
+    "rank": 27
+   },
+   {
     "id": 5584631,
     "name": "cirruuss",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5584631-osLgGT5RTfgP.png",
@@ -331,17 +342,6 @@
     "likes": 71,
     "replies": 0,
     "best": 2.5,
-    "elim": false,
-    "rank": 27
-   },
-   {
-    "id": 566251,
-    "name": "Fireality",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b566251-HA7xU7Cko8kQ.png",
-    "pts": 1075,
-    "likes": 76,
-    "replies": 0,
-    "best": 2.0,
     "elim": false,
     "rank": 28
    },
@@ -709,6 +709,17 @@
     "rank": 61
    },
    {
+    "id": 6379897,
+    "name": "BahenChod",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6379897-ugQsxJSMnzCB.png",
+    "pts": 245,
+    "likes": 14,
+    "replies": 2,
+    "best": 2.0,
+    "elim": false,
+    "rank": 62
+   },
+   {
     "id": 5147312,
     "name": "lime",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5147312-I5hsIOv54hEX.png",
@@ -716,17 +727,6 @@
     "likes": 23,
     "replies": 0,
     "best": 1.5,
-    "elim": false,
-    "rank": 62
-   },
-   {
-    "id": 6379897,
-    "name": "BahenChod",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6379897-ugQsxJSMnzCB.png",
-    "pts": 235,
-    "likes": 13,
-    "replies": 2,
-    "best": 2.0,
     "elim": false,
     "rank": 63
    },
@@ -3692,22 +3692,22 @@
     "rank": 23
    },
    {
-    "id": 821603,
-    "name": "chopperdontcry",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b821603-J2f0YconeV7o.png",
-    "pts": 335,
-    "likes": 23,
+    "id": 566251,
+    "name": "Fireality",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b566251-HA7xU7Cko8kQ.png",
+    "pts": 345,
+    "likes": 21,
     "replies": 0,
     "best": 2.0,
     "elim": false,
     "rank": 24
    },
    {
-    "id": 566251,
-    "name": "Fireality",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b566251-HA7xU7Cko8kQ.png",
+    "id": 821603,
+    "name": "chopperdontcry",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b821603-J2f0YconeV7o.png",
     "pts": 335,
-    "likes": 20,
+    "likes": 23,
     "replies": 0,
     "best": 2.0,
     "elim": false,
@@ -3750,8 +3750,8 @@
     "id": 6379897,
     "name": "BahenChod",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6379897-ugQsxJSMnzCB.png",
-    "pts": 225,
-    "likes": 12,
+    "pts": 235,
+    "likes": 13,
     "replies": 2,
     "best": 2.0,
     "elim": false,
@@ -4643,8 +4643,8 @@
     "id": 566251,
     "name": "Fireality",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b566251-HA7xU7Cko8kQ.png",
-    "pts": 335,
-    "likes": 20,
+    "pts": 345,
+    "likes": 21,
     "replies": 0,
     "best": 2.0,
     "elim": false,
@@ -4687,8 +4687,8 @@
     "id": 6379897,
     "name": "BahenChod",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6379897-ugQsxJSMnzCB.png",
-    "pts": 225,
-    "likes": 12,
+    "pts": 235,
+    "likes": 13,
     "replies": 2,
     "best": 2.0,
     "elim": false,
@@ -5250,8 +5250,8 @@
     "id": 566251,
     "name": "Fireality",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b566251-HA7xU7Cko8kQ.png",
-    "pts": 335,
-    "likes": 20,
+    "pts": 345,
+    "likes": 21,
     "replies": 0,
     "best": 2.0,
     "elim": false,
@@ -5305,23 +5305,12 @@
     "id": 6379897,
     "name": "BahenChod",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6379897-ugQsxJSMnzCB.png",
-    "pts": 225,
-    "likes": 12,
+    "pts": 235,
+    "likes": 13,
     "replies": 2,
     "best": 2.0,
     "elim": false,
     "rank": 16
-   },
-   {
-    "id": 5775330,
-    "name": "ULYSSE95",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5775330-P2iDwQO5XwDd.jpg",
-    "pts": 195,
-    "likes": 16,
-    "replies": 1,
-    "best": 1.5,
-    "elim": false,
-    "rank": 17
    },
    {
     "id": 5934008,
@@ -5332,7 +5321,7 @@
     "replies": 0,
     "best": 2.0,
     "elim": false,
-    "rank": 18
+    "rank": 17
    },
    {
     "id": 7560381,
@@ -5343,7 +5332,7 @@
     "replies": 1,
     "best": 1.5,
     "elim": false,
-    "rank": 19
+    "rank": 18
    },
    {
     "id": 765417,
@@ -5354,7 +5343,7 @@
     "replies": 0,
     "best": 2.0,
     "elim": false,
-    "rank": 20
+    "rank": 19
    },
    {
     "id": 5561175,
@@ -5365,7 +5354,7 @@
     "replies": 0,
     "best": 1.5,
     "elim": false,
-    "rank": 21
+    "rank": 20
    },
    {
     "id": 8270098,
@@ -5375,6 +5364,17 @@
     "likes": 10,
     "replies": 0,
     "best": 1.5,
+    "elim": false,
+    "rank": 21
+   },
+   {
+    "id": 5775330,
+    "name": "ULYSSE95",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5775330-P2iDwQO5XwDd.jpg",
+    "pts": 95,
+    "likes": 7,
+    "replies": 1,
+    "best": 1.0,
     "elim": false,
     "rank": 22
    },
