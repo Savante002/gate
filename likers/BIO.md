@@ -4,7 +4,7 @@ Replace your flag counter block with this. Change `YOUR-WORKER` to your Cloudfla
 address (for example `phantasm-visitors.yourname.workers.dev`).
 
 ```
-~~~img1(https://YOUR-WORKER/hit.gif)~~~
+~~~img1(https://phantasm-visitors.kmy876zcnr.workers.dev/hit.gif)~~~
 
 ~~~[img700(https://savante002.github.io/gate/likers/img/header.png)](https://savante002.github.io/gate/likers/)~~~
 
