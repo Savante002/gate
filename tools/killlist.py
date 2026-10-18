@@ -103,7 +103,11 @@ def gql(query, variables, auth=False, tries=4):
             if e.code == 404:
                 raise NotFound()
             wait = int(e.headers.get("Retry-After", "0") or 0) if e.code == 429 else 0
-            print(f"HTTP {e.code}, retry {attempt + 1}", file=sys.stderr)
+            try:
+                detail = e.read()[:300].decode("utf-8", "replace").replace("\n", " ")
+            except Exception:
+                detail = ""
+            print(f"HTTP {e.code}, retry {attempt + 1}: {detail}", file=sys.stderr)
             time.sleep(max(wait, 5 * (attempt + 1)))
         except (NotFound, RuntimeError):
             raise

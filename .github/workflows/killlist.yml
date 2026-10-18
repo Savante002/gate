@@ -25,12 +25,17 @@ jobs:
           ANILIST_TOKEN: ${{ secrets.ANILIST_TOKEN }}       # set in Settings > Secrets > Actions
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}   # optional: Discord notifications
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}             # optional: phone notifications (ntfy app)
-        run: python tools/killlist.py
+        shell: bash
+        run: |
+          set -o pipefail
+          mkdir -p data
+          { echo "run at $(date -u +%FT%TZ)"; python tools/killlist.py; } 2>&1 | tee data/last_run.log
       - name: Save changes
+        if: always()
         run: |
           git config user.name "hajime-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/followers_state.json hajime/kill_list.json
+          git add data/ hajime/
           if git diff --cached --quiet; then
             echo "nothing changed"
           else
