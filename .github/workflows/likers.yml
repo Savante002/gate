@@ -26,7 +26,7 @@ jobs:
         env:
           ANILIST_TOKEN: ${{ secrets.ANILIST_TOKEN }}                 # same secret as the kill list
           VISITOR_COUNTER_URL: ${{ vars.VISITOR_COUNTER_URL }}        # your Cloudflare Worker address
-        run: python tools/likers.py
+        run: python -u tools/likers.py
       - name: Save changes
         if: always()
         run: |

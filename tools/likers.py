@@ -67,7 +67,9 @@ REPLY_POINTS = 25
 COMBO_GAP = 300                          # seconds between two likes to keep a streak alive
 COMBO_STEPS = [(50, 3.0), (25, 2.5), (10, 2.0), (5, 1.5), (1, 1.0)]
 KEEP_EVENTS_DAYS = 35                    # older events are only kept in the all-time totals
-MAX_NOTIF_PAGES = 1000                   # 50 per page (50,000 notifications); only the first run goes that deep
+MAX_NOTIF_PAGES = 1000                   # 50 per page (50,000 notifications) for the first history read
+PACE = 2.2                               # seconds between two AniList requests (stays under 30/min)
+RUN_BUDGET = 10 * 60                     # seconds a run may spend reading history; the rest waits for the next run
 TOTAL_SCAN_HOURS = 6                     # how often the lifetime "likes received" is recounted
 MAX_ACTIVITY_PAGES = 300
 
@@ -112,13 +114,27 @@ def now_ts():
     return int(override) if override else int(time.time())
 
 
-def gql(query, variables, auth=False, tries=4):
+_last_call = [0.0]
+STARTED = time.time()
+
+
+def out_of_time():
+    return time.time() - STARTED > RUN_BUDGET
+
+
+def gql(query, variables, auth=False, tries=6):
+    """One AniList request, spaced PACE seconds from the previous one.
+    429 (too many requests): waits what AniList asks (Retry-After, usually 60 s) and retries."""
     body = json.dumps({"query": query, "variables": variables}).encode()
     headers = {"Content-Type": "application/json", "Accept": "application/json",
-               "User-Agent": "ThePhantasmAl-likers/1.0"}
+               "User-Agent": "ThePhantasmAl-likers/1.1"}
     if auth:
         headers["Authorization"] = "Bearer " + TOKEN
     for attempt in range(tries):
+        gap = PACE - (time.time() - _last_call[0])
+        if gap > 0:
+            time.sleep(gap)
+        _last_call[0] = time.time()
         try:
             req = urllib.request.Request(API, data=body, headers=headers)
             with urllib.request.urlopen(req, timeout=30) as r:
@@ -127,15 +143,16 @@ def gql(query, variables, auth=False, tries=4):
                 raise RuntimeError(data["errors"])
             return data["data"]
         except urllib.error.HTTPError as e:
-            wait = int(e.headers.get("Retry-After", "0") or 0) if e.code == 429 else 0
             if e.code == 400:
                 raise RuntimeError(f"HTTP 400: {e.read()[:300]!r}")
-            print(f"HTTP {e.code}, retry {attempt + 1}", file=sys.stderr)
-            time.sleep(max(wait, 5 * (attempt + 1)))
+            wait = int(e.headers.get("Retry-After", "0") or 0) if e.code == 429 else 0
+            wait = max(wait, 61 if e.code == 429 else 5 * (attempt + 1))
+            print(f"HTTP {e.code}, waiting {wait}s (retry {attempt + 1}/{tries - 1})")
+            time.sleep(wait)
         except RuntimeError:
             raise
         except Exception as e:
-            print(f"error {e}, retry {attempt + 1}", file=sys.stderr)
+            print(f"error {e}, retry {attempt + 1}")
             time.sleep(5 * (attempt + 1))
     raise RuntimeError("AniList unreachable")
 
@@ -175,7 +192,61 @@ def fmt_mult(m):
 
 def new_state():
     return {"last_notif_id": 0, "users": {}, "events": [], "visitors": {"total": None, "today": None},
-            "lifetime_likes": {"value": None, "at": 0}}
+            "lifetime_likes": {"value": None, "at": 0},
+            "history": {"done": False, "page": 1, "top_id": None, "people": {}, "items": []}}
+
+
+def read_history(state):
+    """First time only: read the whole notification history, a slice per run.
+    Everything is kept aside until the end, then scored oldest first so old combos count.
+    Returns True once the history is complete."""
+    h = state["history"]
+    if h["done"]:
+        return True
+    seen = {it[0] for it in h["items"]}
+    page = h["page"]
+    try:
+        while page <= MAX_NOTIF_PAGES:
+            if out_of_time():
+                print(f"History: paused at page {page} ({len(h['items'])} notifications so far), "
+                      f"continues next run")
+                break
+            d = gql(NOTIF_Q, {"page": page, "types": NOTIF_ENUMS}, auth=True)["Page"]
+            for n in d["notifications"]:
+                if not n or "id" not in n:
+                    continue
+                if h["top_id"] is None:
+                    h["top_id"] = n["id"]                 # newest one when the history read began
+                if n["id"] > h["top_id"] or n["id"] in seen:
+                    continue                              # newer ones are read normally afterwards
+                seen.add(n["id"])
+                uid = n.get("userId")
+                info = n.get("user") or {}
+                h["people"][str(uid)] = [info.get("name"), (info.get("avatar") or {}).get("medium")]
+                h["items"].append([n["id"], n["__typename"], uid, n.get("createdAt")])
+            if page % 20 == 0:
+                print(f"History: page {page}, {len(h['items'])} notifications")
+            if not d["pageInfo"]["hasNextPage"]:
+                h["done"] = True
+                break
+            page += 1
+    except RuntimeError as e:
+        print(f"History: stopped at page {page} ({e}); continues next run")
+    # new notifications push older ones down, so the next run restarts one page earlier (duplicates are skipped)
+    h["page"] = max(1, page - 1)
+    if page > MAX_NOTIF_PAGES:
+        h["done"] = True
+    if not h["done"]:
+        return False
+    notifs = [{"id": i, "__typename": t, "userId": u, "createdAt": ts,
+               "user": {"name": (h["people"].get(str(u)) or [None])[0],
+                        "avatar": {"medium": (h["people"].get(str(u)) or [None, None])[1]}}}
+              for i, t, u, ts in h["items"]]
+    added = ingest(state, notifs)
+    state["last_notif_id"] = max(state["last_notif_id"], h["top_id"] or 0)
+    print(f"History complete: {len(notifs)} notifications, {added} scored")
+    state["history"] = {"done": True}
+    return True
 
 
 def fetch_new_notifications(last_id):
@@ -193,7 +264,6 @@ def fetch_new_notifications(last_id):
         if reached_old or not d["pageInfo"]["hasNextPage"]:
             break
         page += 1
-        time.sleep(1.0)
     return found
 
 
@@ -240,21 +310,27 @@ def ingest(state, notifs):
 def lifetime_likes(state):
     """Sum of likeCount on all my activities, recounted every TOTAL_SCAN_HOURS."""
     info = state["lifetime_likes"]
-    if info["value"] is not None and now_ts() - info["at"] < TOTAL_SCAN_HOURS * 3600:
-        return info["value"]
+    scan = info.get("scan")                               # a recount in progress: {page, total}
+    if scan is None:
+        if info["value"] is not None and now_ts() - info["at"] < TOTAL_SCAN_HOURS * 3600:
+            return info["value"]
+        scan = {"page": 1, "total": 0}
     try:
-        total, page = 0, 1
-        while page <= MAX_ACTIVITY_PAGES:
-            d = gql(ACTIVITY_Q, {"id": USER_ID, "page": page}, auth=bool(TOKEN))["Page"]
-            total += sum((a or {}).get("likeCount") or 0 for a in d["activities"])
+        while scan["page"] <= MAX_ACTIVITY_PAGES:
+            if out_of_time():
+                info["scan"] = scan
+                print(f"Lifetime likes: paused at page {scan['page']}, continues next run")
+                return info["value"]
+            d = gql(ACTIVITY_Q, {"id": USER_ID, "page": scan["page"]}, auth=bool(TOKEN))["Page"]
+            scan["total"] += sum((a or {}).get("likeCount") or 0 for a in d["activities"])
             if not d["pageInfo"]["hasNextPage"]:
                 break
-            page += 1
-            time.sleep(1.0)
-        state["lifetime_likes"] = {"value": total, "at": now_ts()}
-        print(f"Lifetime likes on activities: {total} ({page} page(s))")
+            scan["page"] += 1
+        state["lifetime_likes"] = {"value": scan["total"], "at": now_ts()}
+        print(f"Lifetime likes on activities: {scan['total']} ({scan['page']} page(s))")
     except Exception as e:
-        print(f"Could not recount lifetime likes ({e}); keeping the last value")
+        info["scan"] = scan
+        print(f"Lifetime likes: stopped at page {scan['page']} ({e}); continues next run")
     return state["lifetime_likes"]["value"]
 
 
@@ -625,13 +701,20 @@ def draw_legend():
 
 def main():
     state = load(STATE, None) or new_state()
+    if "history" not in state and state.get("last_notif_id", 0) > 0:
+        state["history"] = {"done": True}                 # saved by the first version, history already read
     for k, v in new_state().items():
         state.setdefault(k, v)
 
     if TOKEN:
-        notifs = fetch_new_notifications(state["last_notif_id"])
-        added = ingest(state, notifs)
-        print(f"{len(notifs)} new notification(s), {added} scored")
+        if read_history(state):
+            try:
+                notifs = fetch_new_notifications(state["last_notif_id"])
+                added = ingest(state, notifs)
+                print(f"{len(notifs)} new notification(s), {added} scored")
+            except RuntimeError as e:
+                print(f"Could not read new notifications ({e}); trying again next run")
+        save(STATE, state)                                # keep progress even if drawing fails
     else:
         print("No ANILIST_TOKEN: notifications not read (images redrawn from saved data)")
 
