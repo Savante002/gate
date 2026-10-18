@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T17:44:56+00:00",
+ "updated": "2026-10-18T18:07:00+00:00",
  "visitors": {
   "total": 1506,
   "today": 0
@@ -4099,17 +4099,6 @@
     "rank": 60
    },
    {
-    "id": 162791,
-    "name": "ShinobuAnime",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b162791-Ppbf54pjhmxQ.png",
-    "pts": 20,
-    "likes": 2,
-    "replies": 0,
-    "best": 1.0,
-    "elim": false,
-    "rank": 61
-   },
-   {
     "id": 6159089,
     "name": "z1y",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6159089-AfjeLewOEiaM.png",
@@ -4118,7 +4107,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 62
+    "rank": 61
    },
    {
     "id": 7056117,
@@ -4129,7 +4118,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 63
+    "rank": 62
    },
    {
     "id": 7191404,
@@ -4140,7 +4129,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 64
+    "rank": 63
    },
    {
     "id": 264462,
@@ -4151,7 +4140,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 65
+    "rank": 64
    },
    {
     "id": 6473599,
@@ -4162,7 +4151,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 66
+    "rank": 65
    },
    {
     "id": 6130367,
@@ -4173,7 +4162,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 67
+    "rank": 66
    },
    {
     "id": 6958975,
@@ -4184,7 +4173,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 68
+    "rank": 67
    },
    {
     "id": 6230379,
@@ -4195,7 +4184,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 69
+    "rank": 68
    },
    {
     "id": 5450159,
@@ -4206,7 +4195,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 70
+    "rank": 69
    },
    {
     "id": 7302480,
@@ -4217,7 +4206,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 71
+    "rank": 70
    },
    {
     "id": 6505008,
@@ -4228,7 +4217,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 72
+    "rank": 71
    },
    {
     "id": 82904,
@@ -4239,7 +4228,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 73
+    "rank": 72
    },
    {
     "id": 6858404,
@@ -4250,7 +4239,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 74
+    "rank": 73
    },
    {
     "id": 162824,
@@ -4261,7 +4250,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 75
+    "rank": 74
    },
    {
     "id": 6529106,
@@ -4272,7 +4261,7 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 76
+    "rank": 75
    },
    {
     "id": 7256411,
@@ -4283,12 +4272,23 @@
     "replies": 0,
     "best": 1.0,
     "elim": false,
-    "rank": 77
+    "rank": 76
    },
    {
     "id": 5598326,
     "name": "SakuraMai24",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5598326-jwDEQdTka1Fk.jpg",
+    "pts": 10,
+    "likes": 1,
+    "replies": 0,
+    "best": 1.0,
+    "elim": false,
+    "rank": 77
+   },
+   {
+    "id": 162791,
+    "name": "ShinobuAnime",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b162791-Ppbf54pjhmxQ.png",
     "pts": 10,
     "likes": 1,
     "replies": 0,
