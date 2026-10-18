@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-18T05:33:13+00:00",
+ "updated": "2026-10-18T06:01:38+00:00",
  "visitors": {
   "total": 1506,
   "today": 0
  },
  "likes": {
   "total": 25921,
-  "today": 1504
+  "today": 1602
  },
  "rules": {
   "like": 10,
@@ -41,8 +41,8 @@
     "id": 5544747,
     "name": "nodo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5544747-JJYUYkeGfHrc.png",
-    "pts": 6560,
-    "likes": 306,
+    "pts": 9040,
+    "likes": 403,
     "replies": 0,
     "best": 3.0,
     "elim": false,
@@ -96,8 +96,8 @@
     "id": 6832595,
     "name": "Bartosz112233",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6832595-lw7msccXsNBP.jpg",
-    "pts": 3335,
-    "likes": 249,
+    "pts": 3345,
+    "likes": 250,
     "replies": 0,
     "best": 3.0,
     "elim": false,
@@ -3277,8 +3277,8 @@
     "id": 5544747,
     "name": "nodo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5544747-JJYUYkeGfHrc.png",
-    "pts": 6510,
-    "likes": 301,
+    "pts": 8990,
+    "likes": 398,
     "replies": 0,
     "best": 3.0,
     "elim": false,
@@ -3365,8 +3365,8 @@
     "id": 6832595,
     "name": "Bartosz112233",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6832595-lw7msccXsNBP.jpg",
-    "pts": 1655,
-    "likes": 96,
+    "pts": 1665,
+    "likes": 97,
     "replies": 0,
     "best": 3.0,
     "elim": false,
@@ -4016,8 +4016,8 @@
     "id": 5544747,
     "name": "nodo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5544747-JJYUYkeGfHrc.png",
-    "pts": 6510,
-    "likes": 301,
+    "pts": 8990,
+    "likes": 398,
     "replies": 0,
     "best": 3.0,
     "elim": false,
@@ -4101,6 +4101,17 @@
     "rank": 8
    },
    {
+    "id": 6832595,
+    "name": "Bartosz112233",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6832595-lw7msccXsNBP.jpg",
+    "pts": 1390,
+    "likes": 70,
+    "replies": 0,
+    "best": 3.0,
+    "elim": false,
+    "rank": 9
+   },
+   {
     "id": 8229841,
     "name": "Lukkieo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b8229841-Wa4HKCCEpqr5.jpg",
@@ -4108,17 +4119,6 @@
     "likes": 80,
     "replies": 0,
     "best": 2.5,
-    "elim": false,
-    "rank": 9
-   },
-   {
-    "id": 6832595,
-    "name": "Bartosz112233",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6832595-lw7msccXsNBP.jpg",
-    "pts": 1380,
-    "likes": 69,
-    "replies": 0,
-    "best": 3.0,
     "elim": false,
     "rank": 10
    },
@@ -4546,8 +4546,8 @@
     "id": 5544747,
     "name": "nodo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5544747-JJYUYkeGfHrc.png",
-    "pts": 6510,
-    "likes": 301,
+    "pts": 8990,
+    "likes": 398,
     "replies": 0,
     "best": 3.0,
     "elim": false,
@@ -4862,9 +4862,9 @@
     "rank": 29
    },
    {
-    "id": 5383956,
-    "name": "Hazuyu",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5383956-j4EVFqHR4Oqj.png",
+    "id": 6832595,
+    "name": "Bartosz112233",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6832595-lw7msccXsNBP.jpg",
     "pts": 30,
     "likes": 3,
     "replies": 0,
@@ -4873,9 +4873,9 @@
     "rank": 30
    },
    {
-    "id": 7043524,
-    "name": "nyssy",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7043524-PKc7r7AqdZM7.png",
+    "id": 5383956,
+    "name": "Hazuyu",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b5383956-j4EVFqHR4Oqj.png",
     "pts": 30,
     "likes": 3,
     "replies": 0,
@@ -4884,11 +4884,11 @@
     "rank": 31
    },
    {
-    "id": 6832595,
-    "name": "Bartosz112233",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b6832595-lw7msccXsNBP.jpg",
-    "pts": 20,
-    "likes": 2,
+    "id": 7043524,
+    "name": "nyssy",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/user/avatar/medium/b7043524-PKc7r7AqdZM7.png",
+    "pts": 30,
+    "likes": 3,
     "replies": 0,
     "best": 1.0,
     "elim": false,
