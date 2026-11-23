@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Holy Trinity</title>
+<meta property="og:title" content="The Holy Trinity"><meta property="og:image" content="meme.gif">
+<style>
+:root{--acc:#b03df9}
+html,body{margin:0;height:100%;background:#07040d;overflow:hidden}
+body{display:flex;align-items:center;justify-content:center;
+ background:radial-gradient(ellipse at center,rgba(176,61,249,.22) 0%,#07040d 70%);cursor:pointer}
+img{width:100vw;height:100vh;object-fit:contain;display:block;
+ filter:drop-shadow(0 0 28px rgba(176,61,249,.45))}
+#hint{position:fixed;bottom:10px;left:0;right:0;text-align:center;font:600 13px system-ui,sans-serif;
+ color:rgba(230,215,255,.55);letter-spacing:.08em;pointer-events:none}
+</style></head><body>
+<img id="g" src="meme.gif" alt="The Holy Trinity">
+<div id="hint">↻ tap to replay</div>
+<script>
+document.body.onclick=function(){var g=document.getElementById('g');g.src='meme.gif?r='+Date.now();};
+</script>
+</body></html>
